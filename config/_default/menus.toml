@@ -9,28 +9,38 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Demo"
+  url = "#demo"
   weight = 20
+
+[[main]]
+  name = "Featured"
+  url = "#featured"
+  weight = 30
+
+[[main]]
+  name = "Hero"
+  url = "#posts"
+  weight = 40
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 30
+  weight = 50
 
 [[main]]
   name = "Publications"
   url = "#featured"
-  weight = 40
+  weight = 60
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
 #    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+#    url = "w3c-auth-id-2018/01-Day-1-Welcome-and-Procedural.pdf"
+#    weight = 80
