@@ -16,7 +16,7 @@ baseurl = "/"
 copyright = "[infominer](https://infominer.id) ⧉ [Creative Commons (CC0 1.0) Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) ⧉ Powered by [Academic](https://sourcethemes.com/academic/docs/) via [Hugo](https://gohugo.io/) and [Github Pages](https://infominer.id/gh-pages-starter-pack.html)."
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-132558656-1"
+googleAnalytics = "UA-132558656-2"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
