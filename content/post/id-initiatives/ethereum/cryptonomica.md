@@ -1,6 +1,6 @@
 ---
 title: Cryptonomica
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: id-initiatives/ethereum/cryptonomica/

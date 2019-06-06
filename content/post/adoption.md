@@ -1,6 +1,6 @@
 ---
 title: DID Adoption 
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: adoption/

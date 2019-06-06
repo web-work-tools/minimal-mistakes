@@ -1,6 +1,6 @@
 ---
 title: Sovrin Related Literature and Media
-layout: single
+type: single
 permalink: indy-ecosystem/literature/
 canonical_url: 'https://infominer.id/DIDecentralized/indy-ecosystem/literature/'
 redirect_from:

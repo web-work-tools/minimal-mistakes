@@ -1,6 +1,6 @@
 ---
 title: Decentralized Identity Foundation - DIF
-layout: single
+type: single
 permalink: organizations/identity-foundation/
 canonical_url: 'https://infominer.id/DIDecentralized/organizations/identity-foundation/'
 redirect_from:

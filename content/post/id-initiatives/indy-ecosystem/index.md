@@ -1,5 +1,5 @@
 ---
-layout: single
+type: single
 title: "Hyperledger Indy Resources" 
 description: "A growing collection of educational resources related to Hyperledger Indy, the Sovrin Foundation, and Evernym."
 header:

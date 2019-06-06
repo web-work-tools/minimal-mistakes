@@ -1,6 +1,6 @@
 ---
 title: Handshake
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: id-initiatives/handshake/

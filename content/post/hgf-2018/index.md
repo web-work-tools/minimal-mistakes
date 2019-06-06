@@ -1,6 +1,6 @@
 ---
 title: Hyperledger Global Forum-2018
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: hgf-2018/

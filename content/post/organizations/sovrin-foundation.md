@@ -1,6 +1,6 @@
 ---
 title: The Sovrin Foundation
-layout: single
+type: single
 classes: wide
 toc: false
 header: 

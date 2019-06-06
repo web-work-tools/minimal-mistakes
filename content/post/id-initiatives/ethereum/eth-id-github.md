@@ -1,6 +1,6 @@
 ---
 title: Ethereum Decentralized-Identity Github Repositories
-layout: single
+type: single
 permalink: ethereum/id-github/
 canonical_url: 'https://infominer.id/DIDecentralized/ethereum/id-github/'
 draft: true

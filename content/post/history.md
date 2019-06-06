@@ -1,5 +1,5 @@
 ---
-layout: single
+type: single
 title: "History Surrounding Self-Sovereign, Decentralized, Identity."
 description: "Starting with David Chaum in the 80s, PGP, the International Planetwork Conference, Agenda for Sustainable Development, GDPR, and Bitcoin to the Present."
 header:

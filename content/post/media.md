@@ -1,9 +1,10 @@
 ---
 title: SSI and DID Related Media
-layout: single
+type: single
 permalink: media/
 canonical_url: 'https://infominer.id/DIDecentralized/media/'
 redirect_from: media
+draft: true
 ---
 
 

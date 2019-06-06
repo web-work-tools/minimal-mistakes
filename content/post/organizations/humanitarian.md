@@ -1,6 +1,6 @@
 ---
 title: Humanitarian 
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: humanitarian/

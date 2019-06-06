@@ -1,6 +1,6 @@
 ---
 title:  DID Related Web Standards
-layout: single
+type: single
 permalink: standards/
 canonical_url: 'https://infominer.id/DIDecentralized/standards/'
 redirect_from: standards

@@ -1,6 +1,6 @@
 ---
 title:  SSI-Meetup
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: organizations/ssi-meetup/

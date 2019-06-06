@@ -1,6 +1,6 @@
 ---
 title: Women of Decentralized Identity
-layout: single
+type: single
 published: false
 ---
 

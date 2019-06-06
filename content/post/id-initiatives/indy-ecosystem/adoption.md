@@ -1,6 +1,6 @@
 ---
 title: Evernym-Sovrin-Indy Adoption
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: indy-ecosystem/adoption/

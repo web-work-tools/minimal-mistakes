@@ -1,6 +1,6 @@
 ---
 title: Decentralized Identity Initiatives
-layout: single
+type: single
 permalink: id-initiatives/
 canonical_url: 'https://infominer.id/DIDecentralized/id-initiatives/'
 redirect_from: 

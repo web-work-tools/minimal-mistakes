@@ -1,6 +1,6 @@
 ---
 title: State Sponsored Identity Initiatives
-layout: single
+type: single
 permalink: id-initiatives/state-sponsored/
 canonical_url: 'https://infominer.id/DIDecentralized/id-initiatives/state-sponsored/'
 redirect_from: 

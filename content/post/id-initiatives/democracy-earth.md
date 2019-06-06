@@ -1,6 +1,6 @@
 ---
 title: Democracy Earth
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: id-initiatives/democracy-earth/

@@ -6,10 +6,10 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Academic Kickstart"
-subtitle = ""
+title = "Identity Decentralized"
+subtitle = "Resources for Creating an Identity Layer for the Internet"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -22,11 +22,11 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  color = "#018f96"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
+#  gradient_start = "DarkGreen"
+#  gradient_end = "ForestGreen"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.

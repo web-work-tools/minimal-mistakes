@@ -1,6 +1,6 @@
 ---
 title: Ontology
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: id-initiatives/ontology/

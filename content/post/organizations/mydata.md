@@ -1,6 +1,6 @@
 ---
 title: MyData
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: organizations/mydata/

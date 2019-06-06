@@ -1,6 +1,6 @@
 ---
 title: Blockstack
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: id-initiatives/blockstack/

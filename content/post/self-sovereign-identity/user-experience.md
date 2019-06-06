@@ -1,6 +1,6 @@
 ---
 title: How would self-sovereign identity work for the user?
-layout: single
+type: single
 classes: wide
 toc: false
 permalink: self-sovereign-identity/user-experience/

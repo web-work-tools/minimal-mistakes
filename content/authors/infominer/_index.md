@@ -41,7 +41,7 @@ education:
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 social:
-- icon: # link
+- icon: link
   icon_pack: fas
   link: https://infominer.id
 - icon: btc
@@ -55,7 +55,7 @@ social:
   link: https://github.com/infominer33
 - icon: envelope
   icon_pack: fas
-  link: 'infominer@protonmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:infominer@protonmail.com'
 - icon: keybase
   icon_pack: fab
   link: https://keybase.io/infominer
