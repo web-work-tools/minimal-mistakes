@@ -47,7 +47,12 @@ subtitle = "Resources for Creating an Identity Layer for the Internet"
  css_class = ""
 +++
 
-Welcome to the **Academic Kickstart** template!
+Welcome to the **Future Home of [Decentralized-id.com](https://decentralized-id.com)**!!!!!!
+
+Please head over there, and expect a lot of changes in the immediate future.
+
+
+**[Decentralized-id.com]**
 
 Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 
