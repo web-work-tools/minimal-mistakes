@@ -191,15 +191,24 @@ I'm following the instructions for a gem based install from [Minimal-Mistakes Qu
 First change the Gemfile so it looks like so:
 
 ```
-source "https://rubygems.org"
-
+source 'https://rubygems.org'
+gem "jekyll"
 gem "minimal-mistakes-jekyll"
+
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "jekyll-feed"
+gem "jemoji"
+gem "jekyll-include-cache"
 ```
 
 Then, once saved, run the bundle command in the root directory of your project.
 
-`bundle`
-
+`bundle install`
+then
+`bundle update`
+then
 
 ### _config.yml
 
