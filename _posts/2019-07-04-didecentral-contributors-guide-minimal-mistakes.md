@@ -1,9 +1,8 @@
 ---
-title: "DIDecentral Contributors Guide: Minimal-Mistakes-Jekyll Gem-Based Deploy"
+title: "DIDecentral Contributors Guide: Minimal-Mistakes-Jekyll"
 ---
 
 I'm creating this resource while I do the initial setup for DIDecentral, the Organization, to have its own web-site, to accompany the website, [decentralized-id.com](https://decentralized-id.com), we are co-creating.
-
 
 This will make it easier for contributors to understand how this site works, or even for you to use this guide and create your own web-site!
 
@@ -21,7 +20,7 @@ Generally speaking, I'd like to use and get to know a variety of themes and [sta
 
 ### Pre-requisites
 
-You must have installed Git and the Ruby Bundler. 
+You must have installed Git and the [Ruby Bundler](https://bundler.io/).
 
 I'll also recommend using [VSCode](https://web-work.tools/content-creation/), because it's fully integrated with `git`, so that you don't have to worrying about learning [git commands](https://web-work.tools/command-line-git-ssh/), right away.
 
