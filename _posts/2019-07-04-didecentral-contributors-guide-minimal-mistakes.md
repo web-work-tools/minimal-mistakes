@@ -8,11 +8,15 @@ This will make it easier for contributors to understand how this site works, or 
 
 ## Why Minimal Mistakes?
 
-Generally speaking, I'd like to use and get to know a variety of themes and [static site generators](https://web-work.tools/static-site-generators/). However, I've tried out Minimal Mistakes to publish large websites and small web-sites. It really works. It works well. So for building public-domain educational resources, I love it's features. Much respect to it's creator, [Michael Rose](https://mademistakes.com/). I've used a few of his themes; they are well put together, and often ported to other SSGs besides Jekyll.
+Generally speaking, I'd like to use and get to know a variety of themes and [static site generators](https://web-work.tools/static-site-generators/). However, I've tried out Minimal Mistakes to publish large websites and small web-sites. It really works. It works well. So for building public-domain educational resources, it supports an incredible variety of functions, that basically always work. Much respect to it's creator, [Michael Rose](https://mademistakes.com/). I've used a few of his themes; they are well put together, often ported to other SSGs besides Jekyll, and really a class of their own when it comes to Jekyll themes.
 
 ## Getting Started
 
 * [Minimal-Mistakes Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+* [GitHub Pages Starter Pack](https://web-work.tools/github-pages-starter-pack)
+
+You shouldn't need the above for our imediate purposes, however you will likely find them useful at some point.
+
 * [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/)
 * [didecentral/decentralized-id.com](https://github.com/didecentral/decentralized-id.com)
 * [didecentral/didecentral.github.io](https://github.com/didecenral/didecentral.github.io)
@@ -20,17 +24,17 @@ Generally speaking, I'd like to use and get to know a variety of themes and [sta
 
 ### Pre-requisites
 
-You must have installed Git and the [Ruby Bundler](https://bundler.io/).
+You must have installed [Git](https://web-work.tools/command-line-git-ssh/),` and the [Ruby Bundler](https://bundler.io/).
 
-I'll also recommend using [VSCode](https://web-work.tools/content-creation/), because it's fully integrated with `git`, so that you don't have to worrying about learning [git commands](https://web-work.tools/command-line-git-ssh/), right away.
+I'll also recommend using [VSCode](https://web-work.tools/content-creation/), because it's fully integrated with `git`, so that you don't have to worrying about learning git commands.
 
-Also, I usually create a new repository on github, first. Then I clone it locally, again, avoiding the terminal. Meaning I can learn git in more depth, at my leisure.
+Also, I usually create a new repository on github, first. Then I clone it locally, again, avoiding the terminal. Meaning we can learn git in more depth, at our leisure.
 
 Later there will be more complete guides on all the things, but for now, this should get most of our early contributors started fairly simply, and Infominer (that's me:) is around to help if you get stuck with anything.
 
 ### [Site Structure](https://mmistakes.github.io/minimal-mistakes/docs/structure/)
 
-This will give you a high-level view of site-structure, and I've linked to each directory, in its home repository, for easy access.
+Before you get started, here is a high-level view of the site-structure.
 
 * [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/)
 
@@ -84,7 +88,7 @@ minimal-mistakes
 
 ### CSS - Stylesheets
 
-At the moment, I'm quite CSS agnostic. One thing at a time.. However, if you wanted to add a little style to the page, I might not complain. This is how the sytlesheets are named \ organized.
+At the moment, I'm quite CSS agnostic. One thing at a time.. However, if you wanted to add a little style to the page, the community might appreciate that. This is how the sytlesheets are named \ organized.
 
 * [mmistakes.github.io/minimal-mistakes/docs/stylesheets/](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/)
 The theme’s assets/css/main.css file is built from several SCSS partials located in _sass/ and is structured as follows:
@@ -173,7 +177,23 @@ git clone https://github.com/mmistakes/minimal-mistakes.git
 ![](https://imgur.com/m8HG3Dg.png)
 
 
-Then I copy over these files and directories to the folder that is linked to the github repository where I want to be able to publish it from:
+Then I copy over these files and directories to the folder that is linked to the github repository where I want to be able to publish it from.
+
+
+According to 
+```
+    .editorconfig
+    .gitattributes
+    .github
+    /docs
+    /test
+    CHANGELOG.md
+    minimal-mistakes-jekyll.gemspec
+    README.md
+    screenshot-layouts.png
+    screenshot.png
+```
+
 
 ![](https://imgur.com/FAXK5SK.png)
 
