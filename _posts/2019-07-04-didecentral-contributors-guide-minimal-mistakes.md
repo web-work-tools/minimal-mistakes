@@ -228,7 +228,4 @@ There are plenty of other configurations, however, most of it is straightforward
 
 First, if you are following very closely, a line must be removed from `_layouts/default.html`, as it references a feature that hasn't been included in the gem-based version, quite yet...
 
-```liquid
-{% raw %}{% include_cached skip-links.html %}{% endraw %}
-```
 
