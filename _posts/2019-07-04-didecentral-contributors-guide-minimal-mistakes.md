@@ -178,7 +178,7 @@ Then I copy over these files and directories to the folder that is linked to the
 
 ![](https://imgur.com/FAXK5SK.png)
 
-I might delete some of the layouts and includes. I'm pretty sure all I need is a `gem-file` and `_config.yml`. The Gem Install means that GitHub will use a Ruby Gem Package that contains everything needed to run the website. You only need the files that you want to customize or configure somehow. For me, I usually need to change the head, and footer, as well as the social share, but I also change the home layout.. well you see it's easier to just have them all to begin with, and later remove a few that I don't need.
+I might delete some of the layouts and includes, later. test push I'm pretty sure all I need is a `gem-file` and `_config.yml`. The Gem Install means that GitHub will use a Ruby Gem Package that contains everything needed to run the website. You only need the files that you want to customize or configure somehow. For me, I usually need to change the head, and footer, as well as the social share, but I also change the home layout.. well you see it's easier to just have them all to begin with, and later remove a few that I don't need.
 
 Since I don't know hardly anything about CSS, some contributors might want to work on that, and I will learn eventually, so I want those.
 
