@@ -14,17 +14,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DIDecentral Community Site"
+title                    : "DIDecentral"
 title_separator          : "-"
 name                     : "DIDecentral"
-description              : "A website where the contents of our discord server is published, and information on what we do, and how we do it."
+description              : "Community operations and social syndication archive for decentralized-id.com."
 url                      : "https://didecentral.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : didecentral/didecentral.github.io
 github: [metadata] #enables access to your github metadata
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : https://decentralized-id.com/images/DID.png
+masthead_title           : Community Site and Social Archive
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -106,9 +106,9 @@ analytics:
 # Site Author
 author:
   name             : "DIDecentral"
-  avatar           : /assets/images/did-square.jpg
-  bio              : "Open Source, Public Domain, Educational UnOrganization"
-  location         : "Curation Station"
+  avatar           : /assets/images/did-square.png
+  bio              : "Open Source, Public Domain, Educational Initiative"
+  location         : "Curating the Web"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
