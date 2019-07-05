@@ -24,7 +24,7 @@ repository               : didecentral/didecentral.github.io
 github: [metadata] #enables access to your github metadata
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : https://decentralized-id.com/images/DID.png
-masthead_title           : Community Site and Social Archive
+masthead_title           : For Decentralized, Sovereign Identification
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
