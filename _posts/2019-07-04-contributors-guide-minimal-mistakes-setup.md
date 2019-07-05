@@ -25,7 +25,7 @@ published: true
 last_modified_at: 2019-07-05T11:22:33-23:00
 ---
 
-I'm creating this resource while I do the initial setup so that DIDecentral, the Organization, has its own web-site. This will compliment [decentralized-id.com](https://decentralized-id.com), and support its co-creation.
+I'm creating this resource while I do the initial setup so that DIDecentral, the Organization, has a guide to how its websites work. This will compliment [decentralized-id.com](https://decentralized-id.com), and support its co-creation.
 
 This guide should make it easier for contributors to understand how this site works, or even for you to use this guide and create your own web-site!
 
