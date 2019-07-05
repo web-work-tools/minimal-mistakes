@@ -9,15 +9,10 @@ excerpt: >
 #  og_image: assets/img/minimal-mistakes-teaser.png
 #  caption: "Minimal Mistakes Setup and [Quick-Start](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)."
 tags: 
-  - Public-Domain
-  - Open-Source
-  - Jekyll
-  - CSS
   - Configuration
   - Minimal-Mistakes
   - GitHub-Pages
   - Web-Pub
-  - Web-Work
   - How-To
 toc_sticky: false
 classes: wide
