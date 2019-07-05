@@ -23,7 +23,7 @@ classes: wide
 #  - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: discord-archive-howto/
 categories: [Contributors-Guide]
-published: false
+published: true
 last_modified_at: 2019-07-05T11:22:33-23:00
 author: infominer
 ---
@@ -175,3 +175,5 @@ There's just one more problem is that these filenames are ridiculous. I have a b
 Regex to the rescue, once again!
 
 ## Jekyll Collections 
+
+**Coming Soon!!**
