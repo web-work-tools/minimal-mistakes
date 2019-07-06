@@ -1,7 +1,7 @@
 ---
 title: "DIDisco - Organizations"
 layout: collection
-permalink: /discolog/organizations/
+permalink: /didisco/organizations/
 collection: organizations
 entries_layout: grid
 classes: wide

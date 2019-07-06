@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+                                  
 # Site Settings
 locale                   : "en-US"
 title                    : "DIDecentral"
@@ -307,7 +307,6 @@ defaults:
       share: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "didnav"
       toc: true
   # _application
@@ -322,6 +321,7 @@ defaults:
         title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
+      disco: true
       header:
        image: #/images/Source-Crypto-banner.png
        teaser: # /images/source-crypto-gh-og.png
@@ -334,8 +334,8 @@ defaults:
       layout: single
       share: true
       related: true
+      disco: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
       header:
@@ -349,9 +349,9 @@ defaults:
     values:
       layout: single
       share: true
+      disco: true
       related: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
       header:
@@ -366,8 +366,8 @@ defaults:
       layout: single
       share: true
       related: true
+      disco: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
       header:
@@ -382,8 +382,8 @@ defaults:
       layout: single
       share: true
       related: true
+      disco: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
       header:
@@ -399,9 +399,9 @@ defaults:
       share: true
       related: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
+      disco: true
       header:
        image: #/images/Source-Crypto-banner.png
        teaser: # /images/source-crypto-gh-og.png
@@ -414,8 +414,8 @@ defaults:
       layout: single
       share: true
       related: true
+      disco: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
       header:
@@ -430,8 +430,8 @@ defaults:
       layout: single
       share: true
       related: true
+      disco: true
       sidebar:
-        title: "DID ⧉ Nav"
         nav: "didnav"
       classes: wide
       header:
