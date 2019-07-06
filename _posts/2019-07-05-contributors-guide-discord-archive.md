@@ -254,7 +254,9 @@ collections:
 
 You could add one for pages, as well, these save you from entering the same front-matter over and over.
 
-```
+
+
+```yaml
 # Defaults
 defaults:
   # _posts
@@ -268,6 +270,26 @@ defaults:
       comments: # true
       share: true
       related: true
+      header:
+       image: /assets/images/didecentral.png #the image at the top of the page
+       og_image: /assets/images/did-og.png #the image preview on twitter, discord, etc.
+      sidebar:
+        nav: "didnav"
+      toc: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      header:
+       image: /assets/images/didecentral.png
+       og_image: /assets/images/did-og.png
       sidebar:
         nav: "didnav"
       toc: true
@@ -284,6 +306,9 @@ defaults:
         nav: "didnav"
       classes: wide
       disco: true
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
   # _blockchain
   - scope:
       path: "_blockchain"
@@ -296,6 +321,9 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
     # _multi-media
   - scope:
       path: "_multi-media"
@@ -309,6 +337,8 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
     # _organizations
   - scope:
       path: "_organizations"
@@ -321,6 +351,9 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
     # _private-sector
   - scope:
       path: "_private-sector"
@@ -333,6 +366,9 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
     # _public-sector
   - scope:
       path: "_public-sector"
@@ -345,6 +381,10 @@ defaults:
         nav: "didnav"
       classes: wide
       disco: true
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _resources
   - scope:
       path: "_resources"
       type: resources
@@ -356,6 +396,9 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
     # _tech
   - scope:
       path: "_tech"
@@ -368,6 +411,9 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
 ```
 
 ### DiscordChatExporter Stylings

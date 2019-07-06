@@ -22,7 +22,7 @@ url                      : "https://didecentral.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : didecentral/didecentral.github.io
 github: [metadata] #enables access to your github metadata
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/images/did-og.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : https://decentralized-id.com/images/DID.png
 masthead_title           : For Decentralized Sovereign Identification Online
 # breadcrumbs            : false # true, false (default)
@@ -308,6 +308,7 @@ defaults:
       related: true
       header:
        image: /assets/images/didecentral.png
+       og_image: /assets/images/did-og.png
       sidebar:
         nav: "didnav"
       toc: true
@@ -324,6 +325,7 @@ defaults:
       related: true
       header:
        image: /assets/images/didecentral.png
+       og_image: /assets/images/did-og.png
       sidebar:
         nav: "didnav"
       toc: true
@@ -342,6 +344,7 @@ defaults:
       disco: true
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
   # _blockchain
@@ -358,6 +361,7 @@ defaults:
       classes: wide
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _multi-media
@@ -374,6 +378,7 @@ defaults:
       classes: wide
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _organizations
@@ -390,6 +395,7 @@ defaults:
       classes: wide
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _private-sector
@@ -406,6 +412,7 @@ defaults:
       classes: wide
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _public-sector
@@ -422,6 +429,7 @@ defaults:
       disco: true
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _resources
@@ -438,6 +446,7 @@ defaults:
       classes: wide
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _tech
@@ -454,5 +463,6 @@ defaults:
       classes: wide
       header:
        image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"

@@ -286,7 +286,7 @@ I will keep this page updated with whatever is the most recent configuration, wi
 
 ```yaml
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+                                  
 # Site Settings
 locale                   : "en-US"
 title                    : "DIDecentral"
@@ -299,8 +299,7 @@ repository               : didecentral/didecentral.github.io
 github: [metadata] #enables access to your github metadata
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : https://decentralized-id.com/images/DID.png
-masthead_title           : Community Site and Social Archive
-# breadcrumbs            : false # true, false (default)
+masthead_title           : For Decentralized Sovereign Identification Online
 words_per_minute         : 200
 ```
 I'm not set up for comments, yet. It's something I'll figure out, but lately I haven't had the time, and wasn't sucessful previously.
@@ -368,5 +367,221 @@ footer:
 
 ```
 
+### _config.yml - Frontmatter Defaults
+
+You can over-ride these defaults on a page-by-page basis.
+
+```yaml
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      header:
+       image: /assets/images/didecentral.png #the image at the top of the page
+       og_image: /assets/images/did-og.png #the image preview on twitter, discord, etc.
+      sidebar:
+        nav: "didnav"
+      toc: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      header:
+       image: /assets/images/didecentral.png
+       og_image: /assets/images/did-og.png
+      sidebar:
+        nav: "didnav"
+      toc: true
+  # _application
+  - scope:
+      path: "_application"
+      type: application
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      disco: true
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+  # _blockchain
+  - scope:
+      path: "_blockchain"
+      type: blockchain
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _multi-media
+  - scope:
+      path: "_multi-media"
+      type: "multi-media"
+    values:
+      layout: single
+      share: true
+      disco: true
+      related: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _organizations
+  - scope:
+      path: "_organizations"
+      type: organizations
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _private-sector
+  - scope:
+      path: "_private-sector"
+      type: "private-sector"
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _public-sector
+  - scope:
+      path: "_public-sector"
+      type: "public-sector"
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      disco: true
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _resources
+  - scope:
+      path: "_resources"
+      type: resources
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+    # _tech
+  - scope:
+      path: "_tech"
+      type: tech
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+       image: /assets/images/did-header.png
+       og_image: /assets/images/did-og.png
+```
+
+
+## Navigation
+
+[_data/navigation.yml](https://github.com/didecentral/didecentral.github.io/blob/master/_data/navigation.yml)
+
+Then if you look up there in the front-matter defaults, you'll see where the navigation is called as a part of the sidebar class.
+
+```yaml
+# main links
+main:
+  - title: "Decentralized-id.com"
+    url: https://decentralized-id.com
+  - title: "RWoT Papers Index"
+    url: https://didecentral.com/rwot-dir
+  - title: "Decentralized Web Histories"
+    url: https://sourcecrypto.pub/decentralized-web/
+  - title: "Static Sites for an IndieWeb"
+    url: https://web-work.tools/indieweb
+  
+
+# DID Nav
+
+didnav:
+  - title: Contributors Guides
+    children:
+      - title: "Minimal-Mistakes - Configuration"
+        url: /website-configuration/
+      - title: Discord Archive Walktrhu
+        url: /discord-archive-howto/
+  - title: DIDisco Archives
+    url: /didisco/
+    children:
+      - title: Resources
+        url: /didisco/resources/
+      - title: Multi-Media
+        url: /didisco/multi-media/
+      - title: Blockchain
+        url: /didisco/blockchain/
+      - title: Organizations
+        url: /didisco/organizations/
+      - title: Public Sector
+        url: /didisco/public-sector/
+      - title: Private Sector
+        url: /didisco/private-sector/
+      - title: Tech
+        url: /didisco/tech/
+      - title: Application
+        url: /didisco/application
+```
 
 ## To be continued....
+
+There are a number of tweaks that I make to minimal-mistakes sites. All will be explained :D
+
