@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -266,11 +266,38 @@ compress_html:
     envs: development
 
 
+collections:
+  application:
+    output: true
+    permalink: /discolog/:collection/:path/
+  blockchain:
+    output: true
+    permalink: /discolog/:collection/:path/
+  multi-media:
+    output: true
+    permalink: "/discolog/multi-media/:path/"
+  organizations:
+    output: true
+    permalink: /discolog/:collection/:path/
+  private-sector:
+    output: true
+    permalink: "/discolog/private-sector/:path/"
+  public-sector:
+    output: true
+    permalink: "/discolog/public-sector/:path/"
+  resources:
+    output: true
+    permalink: /discolog/:collection/:path/
+  tech:
+    output: true
+    permalink: /discolog/:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -279,3 +306,135 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        title: "⧉Info⧉"
+        nav: "didnav"
+      toc: true
+  # _application
+  - scope:
+      path: "_application"
+      type: application
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+  # _blockchain
+  - scope:
+      path: "_blockchain"
+      type: blockchain
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+    # _multi-media
+  - scope:
+      path: "_multi-media"
+      type: "multi-media"
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+    # _organizations
+  - scope:
+      path: "_organizations"
+      type: organizations
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+    # _private-sector
+  - scope:
+      path: "_private-sector"
+      type: "private-sector"
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+    # _public-sector
+  - scope:
+      path: "_public-sector"
+      type: "public-sector"
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+    # _resources
+  - scope:
+      path: "_resources"
+      type: resources
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+    # _tech
+  - scope:
+      path: "_tech"
+      type: tech
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      header:
+       image: #/images/Source-Crypto-banner.png
+       teaser: # /images/source-crypto-gh-og.png
+       caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"

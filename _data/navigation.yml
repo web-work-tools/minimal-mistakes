@@ -1,12 +1,40 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Decentralized-id.com"
+    url: https://decentralized-id.com
+  - title: "RWoT Papers Index"
+    url: https://didecentral.com/rwot-dir
+  - title: "Decentralized Web Histories"
+    url: https://sourcecrypto.pub/decentralized-web/
+  - title: "Static Sites for an IndieWeb"
+    url: https://web-work.tools/indieweb
+  
+
+# DID Nav
+
+didnav:
+  - title: Contributors Guides
+    children:
+      - title: "Minimal-Mistakes - Configuration"
+        url: /website-configuration/
+      - title: Discord Archive Walktrhu
+        url: /discord-archive-howto/
+  - title: DIDisco Archives
+    url: /didisco/
+    children:
+      - title: Resources
+        url: /didisco/resources/
+      - title: Multi-Media
+        url: /didisco/multi-media/
+      - title: Blockchain
+        url: /didisco/blockchain/
+      - title: Organizations
+        url: /didisco/organizations/
+      - title: Public Sector
+        url: /didisco/public-sector/
+      - title: Private Sector
+        url: /didisco/private-sector/
+      - title: Tech
+        url: /didisco/tech/
+      - title: Application
+        url: /didisco/application
