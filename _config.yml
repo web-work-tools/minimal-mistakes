@@ -269,28 +269,28 @@ compress_html:
 collections:
   application:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   blockchain:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   multi-media:
     output: true
-    permalink: "/discolog/multi-media/:path/"
+    permalink: "/didisco/multi-media/:path/"
   organizations:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   private-sector:
     output: true
-    permalink: "/discolog/private-sector/:path/"
+    permalink: "/didisco/private-sector/:path/"
   public-sector:
     output: true
-    permalink: "/discolog/public-sector/:path/"
+    permalink: "/didisco/public-sector/:path/"
   resources:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   tech:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
 
 
 # Defaults

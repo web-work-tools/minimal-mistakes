@@ -222,32 +222,32 @@ You can go look in our [_config.yml](https://github.com/didecentral/didecentral.
 
 These are named the same as our folders without the underscore. I explicitely define folders when the collection name has a dash, otherwise there are problems.
 
-```
+```yaml
 collections:
   application:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   blockchain:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   multi-media:
     output: true
-    permalink: "/discolog/multi-media/:path/"
+    permalink: "/didisco/multi-media/:path/"
   organizations:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   private-sector:
     output: true
-    permalink: "/discolog/private-sector/:path/"
+    permalink: "/didisco/private-sector/:path/"
   public-sector:
     output: true
-    permalink: "/discolog/public-sector/:path/"
+    permalink: "/didisco/public-sector/:path/"
   resources:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
   tech:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /didisco/:collection/:path/
 ```
 
 ### _config.yml - Frontmatter Defaults
