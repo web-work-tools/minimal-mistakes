@@ -521,7 +521,7 @@ share: true
 
 ### [application.md](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/application.md)
 
-![](https://imgur.com/dcPzi0J.png)
+![](https://imgur.com/7dACheO.png)
 
 This page is created by the following front matter, and the configuration settings we set up earlier.
 
@@ -539,7 +539,7 @@ share: true
 ---
 ```
 
-Soon we can make feature images for each channel, and a header image for each page so that grid view is a little more inviting.
+For now there are "placeholder" teaser and og_images. Soon we can make custom feature\header images for each page to make the site a bit more inviting.
 
 ### Collections Frontmatter - Categories
 
@@ -555,7 +555,9 @@ categories: ["specs", "web-tech"]
 
 ```
 
-As it stands I made a quick attempt. But I'm hoping to come up with a limited number of categories that will serve the posts, pages, and collections of this, and perhaps other, websites.
+As it stands I made a quick attempt. But I'm hoping we can come up with a limited number of categories that will serve the posts, pages, and collections of this, and perhaps other, websites.
+
+
 
 ## That's all for now
 
