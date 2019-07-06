@@ -14,8 +14,8 @@ tags:
   - GitHub-Pages
   - Web-Pub
   - How-To
-toc_sticky: false
-classes: wide
+toc_sticky: true
+#classes: wide
 #authors: 
 #  - "<a href='https://infominer.id'>Infominer</a>"
 #  - "<a href='https://www.caballerojuan.com'>JuanSC</a>"

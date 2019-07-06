@@ -16,7 +16,7 @@ tags:
   - Jekyll
   - Web-Pub
   - How-To
-toc_sticky: false
+toc_sticky: true
 #authors: 
 #  - "<a href='https://infominer.id'>Infominer</a>"
 #  - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
