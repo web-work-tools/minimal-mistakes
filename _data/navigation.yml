@@ -86,8 +86,69 @@ didnav:
         url: /didisco/multi-media/reports/
       - title: "Video"
         url: /didisco/multi-media/video/
-  - title: DIDisco - Specifications
-    url: /didisco/specs-cgs/
+  - title: DIDisco - Tech
+    url: /didisco/tech/
     children:
-      - title: "Assorted Media"
-        url: /didisco/specs-cgs/assorted-media/
+      - title: "Specs - General"
+        url: /didisco/tech/specs/specs-standards/
+      - title: "Specs - XDI"
+        url: /didisco/tech/specs/xdi/
+      - title: "Specs - WebAuthN"
+        url: /didisco/tech/specs/webauthn/
+      - title: "Specs - Verifiable Claims"
+        url: /didisco/tech/specs/verifiable-claims/
+      - title: "Specs - Uniresolver"
+        url: /didisco/tech/specs/uniresolver/
+      - title: "Specs - Open-ID"
+        url: /didisco/tech/specs/open-id/
+      - title: "Specs - Open-Creds"
+        url: /didisco/tech/specs/open-creds/
+      - title: "Specs - Oath"
+        url: /didisco/tech/specs/oath/
+      - title: "Specs - Oasis"
+        url: /didisco/tech/specs/oasis/
+      - title: "Specs - Linked Data"
+        url: /didisco/tech/specs/linked-data/
+      - title: "Specs - IndieAuth"
+        url: /didisco/tech/specs/indieauth/
+      - title: "Specs - Identity Hubs"
+        url: /didisco/tech/specs/identity-hubs/
+      - title: "Specs - Fido"
+        url: /didisco/tech/specs/fido/
+      - title: "Specs - DPKI"
+        url: /didisco/tech/specs/dpki/
+      - title: "Specs - Digital Verification CG"
+        url: /didisco/tech/specs/digital-verification-cg/
+      - title: "Specs - DIDAuth"
+        url: /didisco/tech/specs/did-auth/
+      - title: "Specs - DID"
+        url: /didisco/tech/specs/did/
+      - title: "Specs - Credentials"
+        url: /didisco/tech/specs/credentials/
+      - title: "Zero Knowledge Proof"
+        url: /didisco/tech/zkp/
+      - title: "Time Stamping"
+        url: /didisco/tech/time-stamp/
+      - title: "Semantic Web"
+        url: /didisco/tech/semantic-web/
+      - title: "Security"
+        url: /didisco/tech/security/
+      - title: "IPFS"
+        url: /didisco/tech/ipfs/
+      - title: "Internet Protocols"
+        url: /didisco/tech/internet-protocols/
+      - title: "Game Theory"
+        url: /didisco/tech/game-theory/
+      - title: "DNS"
+        url: /didisco/tech/dns/
+      - title: "Development"
+        url: /didisco/tech/development/
+      - title: "Decentralization"
+        url: /didisco/tech/decentralization/
+      - title: "Cryptography"
+        url: /didisco/tech/cryptography/
+      - title: "Crypto"
+        url: /didisco/tech/crypto/
+      - title: "Certificate Authorities"
+        url: /didisco/tech/certificate-authorities/
+
