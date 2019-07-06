@@ -373,3 +373,130 @@ defaults:
 
 ### DiscordChatExporter Stylings
 
+Since I removed the stylings, those pages aren't pretty to look at. There are a few steps to put the stylings back in, just for those exported html-files.
+
+Thanks to [gist-it.appspot.com](https://gist-it.appspot.com), you can see that I have added the stylings into this custom head include. The only thing I changed is that I commented out the body color (white), so that the stylings are made over our "dirt" theme background.
+
+<script src="https://gist-it.appspot.com/https://github.com/didecentral/didecentral.github.io/raw/master/_includes/head/custom.html"></script>
+
+
+In the [default layout](https://github.com/didecentral/didecentral.github.io/blob/master/_layouts/default.html) I've modified where it calls this custom include:
+
+```
+  <head>
+    {% include head.html %}
+    {% if page.disco %}
+      {% include head/custom.html %}
+    {% endif %}
+  </head>
+
+```
+
+Back in our frontmatter defaults for the didiscolog, you may remember this line:
+
+```
+      disco: true
+```
+
+That default setting is what triggers the default layout to include our custom stylings.
+
+## Collection Pages
+
+Besides each file generated for our collection, we require a page to list them all, a page for each individual collection, and eventually, pages that distinguish between the categories in each collection as well.
+
+### [_pages/didisco](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/)
+
+![](https://imgur.com/SaYlNP3.png)
+
+### [index.html](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/index.html)
+
+* 
+
+{% include figure image_path="https://imgur.com/sVXK1YW.png" alt="Index of DIDiscord Archive" caption="[didecentral.com/didisco/](https://didecentral.com/didisco/)" %}
+
+This is the code that creates the above page.
+
+```html
+---
+layout: archive
+title: "DIDecentral Social Archive"
+permalink: /didisco/
+author_profile: false
+header:
+  image: # /images/source-crypto-disco.png
+  teaser: #/images/SourceCrypto-DiscoLog-teaser.png
+  caption: #"[SourceCrypto Discord Chat](https://discord.gg/ahTuPMY)"
+sidebar:
+  nav: "didnav"
+classes: wide
+share: true
+
+---
+
+
+{% capture written_label %}'None'{% endcapture %}
+
+{% for collection in site.collections %}
+  {% unless collection.output == false or collection.label == "posts" %}
+    {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %}
+  {% endunless %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false or collection.label == "posts" %}
+      {% include archive-single.html %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+<section class="page__share">
+  <h2>Share or Edit this Page</h2>
+  {% if page.disco %}  
+    <p><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/edit/master/discolog/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></p>
+  {% else %}
+    <p><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/edit/master/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></p>
+  {% endif %}
+  {% if site.data.ui-text[site.locale].share_on_label %}
+    <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+
+  <a href="https://www.reddit.com/submit?url={{ page.url | relative_url }}&title={{ page.title }}" class="btn btn--reddit" title="{{ site.data.ui-text[site.locale].share_on_label }} Reddit"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+</section>
+
+```
+
+### [application.md](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/application.md)
+
+![](https://imgur.com/dcPzi0J.png)
+
+This page is created by the following front matter, and the configuration settings we set up earlier.
+
+```yaml
+---
+title: "DIDisco - Application"
+layout: collection
+permalink: "/didisco/application/"
+collection: application
+entries_layout: grid
+classes: wide
+sidebar:
+  nav: didnav 
+share: true
+---
+```
+
+Soon we can make feature images for each channel, and a header image for each page so that grid view is a little more inviting.
+
+## That's all for now
+
+I think that's all. You should be pretty well set up to duplicate or contribute to this archival process.
+
+I still have to set up navigation for each channel, and cover how that's done, over in the minimal mistakes setup.

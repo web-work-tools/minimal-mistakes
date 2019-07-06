@@ -10,5 +10,3 @@ sidebar:
 #: 9
 share: true
 ---
-
-Specific Blockchain Applications
