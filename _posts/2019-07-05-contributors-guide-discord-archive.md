@@ -24,19 +24,22 @@ classes: wide
 permalink: discord-archive-howto/
 categories: [Contributors-Guide]
 published: true
-last_modified_at: 2019-07-05T11:22:33-23:00
+last_modified_at: 2019-07-06T11:22:33-23:00
 author: infominer
 ---
 
-This is another guide, while I'm doing it, may as well record all of the steps, so others can re-produce.
+This is another guide, while I'm doing it, may as well record all of the steps, so others can re-produce and or improve upon these methods.
 
 I made a considerable effort to copy all of the links that are on the Decentralized-id.com website into our new [discord server](https://discord.gg/eYm2XvZ). The idea is the replicate what I already did for a much broader subject, in [SourceCrypto](https://sourcecrypto.pub/blog/research-index/.
 
-So now, lets see about publishing this archive.
+So now, lets see about publishing this archive. 
 
 
 ## Discord Chat Exporter
 
+This is what makes all of this a real joy. It would not be so simple for me to manually create these archives.
+
+* [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
 * [Tyrrrz/DiscordChatExporter/wiki](https://github.com/Tyrrrz/DiscordChatExporter/wiki)
   * [Windows Install](https://github.com/Tyrrrz/DiscordChatExporter/releases/latest)
   * [Mac Usage Instructions](https://github.com/Tyrrrz/DiscordChatExporter/wiki/macOS-usage-instructions)
@@ -47,7 +50,7 @@ So now, lets see about publishing this archive.
 
 ## Token and Channel IDs
 
-Your token id is private, and gives full control of your account. Be careful, don't lose it or hand it out.
+Your token id is private, and gives full control of your account. Be careful, don't hand it out, or publish it.
 
 [How to get Token and Channel IDs](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Obtaining-Token-and-Channel-IDs)
 
@@ -87,7 +90,8 @@ How to get DM Channel ID
 The command I ran looked something like this, and the app is now turning all the channels into complete webpages.:
 
 ```
-$ ./DiscordChatExporter.Cli.exe exportguild -t "Mzkljafsdo8#*(U300953u90P(UPJIORUE893V9FhHPbqBSVdI" -g 590057677523255296
+./DiscordChatExporter.Cli.exe exportguild -t "MzMxNDFSdddY0MDI0MzMyMjg4.XR9-pA.7i50GNyuDc5y8IB1oKg" -g 590057677523255296 -f HtmlLight
+
 Exporting channel [101]... 100.0 %
                            Completed ✓
 Exporting channel [aml-kyc]... 100.0 %
@@ -114,19 +118,19 @@ Exporting channel [blockcerts]... 100.0 %
 ....
 ```
 
-![](https://imgur.com/2sF9YVw.png)
+![](https://imgur.com/wunMbrQ.png)
 
 Above is an example html file produced by this process. Although you could also export to csv if you'd prefer to put your own stylings on it.
 
-Over on SourceCrypto, I was publishing them all as Collections. This is a jekyll feature that makes it simple to throw a group of documents together and have them navigable via gridview. Ultimately it's another way to organize content, but I found that more than 9 collections breaks the theme...
+I've been using the collections feature of Minimal-Mistakes-Jekyll to publish these records. It's a handy way of organizing information, as we'll see.
 
-So if we want to organize in more than 9 categories, and I think that we do... we'll have to use more than just the collections feature for our archive.
+I found that more than 9 collections breaks the theme, However, I'm realizing that I have categories also which can be used to further distinguish content within each collection.
 
 ## Editing with VSCode
 
-I'm not sure if I can get it to export by category.. so for now I just organize them by hand. I'll put that on my to-do list. I often procrastinate on learning new automation techniques, so I can better learn the things I'm studying now, and I enjoy the repetitive work.
+Currently it's only possible to export by category on the windows-app... so for now I just organize them by hand. Sorting all the channels by category is actually probably the most work out of any of it.
 
-So I made a folder called `didiscolog`, within it, created a folder for each category on the discord server, and placed that entire archive into our project directory. 
+I made a folder called `didisco`, within it, created a folder for each category on the discord server, and placed that entire archive into our project directory. 
 
 ![](https://imgur.com/p1VFUCS.png)
 
@@ -149,9 +153,29 @@ Each begins like any other html file.
 
 What we want is the just the body, and will use a bit of regex to add some frontmatter:
 
-![](https://imgur.com/Ku8UCHV.png)
+{% include figure image_path="https://imgur.com/Ku8UCHV.png" alt="Regex Search and Replace VSCode"%}
 
-I won't elaborate too much on that right now except to say that with a few lines of code I was able to give each file proper frontmatter.
+You can see I used this multiline search with regex:
+
+```
+<!Doct.*
+.*
+.*
+.*
+    .*DIDecentral - (.*)</title>
+```
+
+and replaced it with:
+
+```
+---
+title: "DIDisco - $1"
+---
+```
+
+Whenever you surround a regex query with (parenthesis) the text found within that parenthasis on each page can be called with `$1` and if there are more they simply are called `$2` and so forth.
+
+I won't elaborate too much on that right now, but you'll see that with a few lines of code I was able to give each file proper frontmatter.
 
 
 ```yaml    
@@ -161,16 +185,11 @@ title: "DIDisco - eula"
 ```
 
 
-I'm not sure what the best way to do this is, I just copy paste sections of those pages I want to remove, such as their custom css. Like many things I do, this system is clunky and works for me, for now.
+I'm not sure what the best way to do this is, I just copy paste sections of those pages I want to remove into the search box. All the pages produced by DiscordChatExporter are identical, and VSCode makes short work of extracting the body of these files..
 
-Probably if I use DiscordChatExporter to make csv rather than html, it will be easier to display.
+There's just one more problem is that these filenames are ridiculous. I have a [bulk file renamer](https://docs.xfce.org/xfce/thunar/bulk-renamer/start) that will take care of them.
 
-However, since every file created by the exporter is identical, even my clunky way of doing things isn't too much of a hassel.
-
-
-There's just one more problem is that these filenames are ridiculous. I have a bulk file renamer that will take care of them
-
-![](https://imgur.com/tRHiy0R.png)
+![](https://imgur.com/TcMYy4L.png)
 
 Regex to the rescue, once again!
 
