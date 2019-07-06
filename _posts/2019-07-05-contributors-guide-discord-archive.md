@@ -195,4 +195,181 @@ Regex to the rescue, once again!
 
 ## Jekyll Collections 
 
-**Coming Soon!!**
+Now I've sorted all of those files into their individual folders
+
+```
+/_application    # Applications -DIDisco
+/_public-sector  # Public Sector -DIDisco
+/_multi-media    # Multi-Media -DIDisco
+/_private-sector # Private Sector -DIDisco
+/_resources      # Resources -DIDisco
+/_blockchain     # Blockchain -DIDisco
+/_organizations  # Organizations -DIDisco
+/_tech           # Tech  -DIDisco
+/_data 
+/_pages
+/_posts
+/example-site
+/assets
+/_includes
+/.sass-cache
+/_sass
+/_layouts
+```
+
+### _config.yml - Collections
+
+You can go look in our [_config.yml](https://github.com/didecentral/didecentral.github.io/blob/master/_config.yml) to see where I've placed this down near the bottom, but it doesn't really matter.. as long as its indented properly.
+
+These are named the same as our folders without the underscore. I explicitely define folders when the collection name has a dash, otherwise there are problems.
+
+```
+collections:
+  application:
+    output: true
+    permalink: /discolog/:collection/:path/
+  blockchain:
+    output: true
+    permalink: /discolog/:collection/:path/
+  multi-media:
+    output: true
+    permalink: "/discolog/multi-media/:path/"
+  organizations:
+    output: true
+    permalink: /discolog/:collection/:path/
+  private-sector:
+    output: true
+    permalink: "/discolog/private-sector/:path/"
+  public-sector:
+    output: true
+    permalink: "/discolog/public-sector/:path/"
+  resources:
+    output: true
+    permalink: /discolog/:collection/:path/
+  tech:
+    output: true
+    permalink: /discolog/:collection/:path/
+```
+
+### _config.yml - Frontmatter Defaults
+
+You could add one for pages, as well, these save you from entering the same front-matter over and over.
+
+```
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar:
+        nav: "didnav"
+      toc: true
+  # _application
+  - scope:
+      path: "_application"
+      type: application
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        title: "DID ⧉ Nav"
+        nav: "didnav"
+      classes: wide
+      disco: true
+  # _blockchain
+  - scope:
+      path: "_blockchain"
+      type: blockchain
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+    # _multi-media
+  - scope:
+      path: "_multi-media"
+      type: "multi-media"
+    values:
+      layout: single
+      share: true
+      disco: true
+      related: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      header:
+    # _organizations
+  - scope:
+      path: "_organizations"
+      type: organizations
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+    # _private-sector
+  - scope:
+      path: "_private-sector"
+      type: "private-sector"
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+    # _public-sector
+  - scope:
+      path: "_public-sector"
+      type: "public-sector"
+    values:
+      layout: single
+      share: true
+      related: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+      disco: true
+  - scope:
+      path: "_resources"
+      type: resources
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+    # _tech
+  - scope:
+      path: "_tech"
+      type: tech
+    values:
+      layout: single
+      share: true
+      related: true
+      disco: true
+      sidebar:
+        nav: "didnav"
+      classes: wide
+```
+
+### DiscordChatExporter Stylings
+
