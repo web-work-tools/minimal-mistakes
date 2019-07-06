@@ -306,6 +306,24 @@ defaults:
       comments: # true
       share: true
       related: true
+      header:
+       image: /assets/images/didecentral.png
+      sidebar:
+        nav: "didnav"
+      toc: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      header:
+       image: /assets/images/didecentral.png
       sidebar:
         nav: "didnav"
       toc: true
@@ -323,7 +341,7 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
   # _blockchain
@@ -339,7 +357,7 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _multi-media
@@ -355,7 +373,7 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _organizations
@@ -371,7 +389,7 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _private-sector
@@ -387,7 +405,7 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _public-sector
@@ -403,7 +421,7 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _resources
@@ -419,7 +437,7 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _tech
@@ -435,6 +453,6 @@ defaults:
         nav: "didnav"
       classes: wide
       header:
-       image: #/images/Source-Crypto-banner.png
+       image: /assets/images/did-header.png
        teaser: # /images/source-crypto-gh-og.png
        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
