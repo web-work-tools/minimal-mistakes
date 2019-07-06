@@ -31,8 +31,9 @@ This is another guide, while I'm doing it, may as well record all of the steps, 
 
 I made a considerable effort to copy all of the links that are on the Decentralized-id.com website into our new [discord server](https://discord.gg/eYm2XvZ). The idea is the replicate what I already did for a much broader subject, in [SourceCrypto](https://sourcecrypto.pub/blog/research-index/.
 
-So now, lets see about publishing this archive. 
+The site as it is now is a demonstration of a basic initial setup. Consider this site to be your personal playground!
 
+Want to learn some web-publishing skills? Awesome! There's not much you can break here that couldn't be fixed trivially. You don't need to get this technical, but if you are interested in contributing on github, this guide will show you where everything is set up.
 
 ## Discord Chat Exporter
 
@@ -539,6 +540,22 @@ share: true
 ```
 
 Soon we can make feature images for each channel, and a header image for each page so that grid view is a little more inviting.
+
+### Collections Frontmatter - Categories
+
+We only have up to 9 collections, but within those collections we can add directories, categories, and tags for further individiation:
+
+[_tech/specs/dpki.html](https://github.com/didecentral/didecentral.github.io/blob/master/_tech/specs/dpki.html)
+
+```
+---
+title: "DIDisco - Tech/Specs - dpki"
+categories: ["specs", "web-tech"]
+---
+
+```
+
+As it stands I made a quick attempt. But I'm hoping to come up with a limited number of categories that will serve the posts, pages, and collections of this, and perhaps other, websites.
 
 ## That's all for now
 
