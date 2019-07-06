@@ -48,7 +48,7 @@ This is what makes all of this a real joy. It would not be so simple for me to m
     * [Ubuntu](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Linux-usage-instructions#ubuntu-18)
   * [Docker Usage Instructions](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Docker-usage-instructions)
 
-## Token and Channel IDs
+### Token and Channel IDs
 
 Your token id is private, and gives full control of your account. Be careful, don't hand it out, or publish it.
 
@@ -80,7 +80,7 @@ How to get DM Channel ID
 > * Type window.location.href and press Enter
 > * Copy the first long sequence of numbers
 
-## Export Scheduling
+### Export Scheduling
   * [Windows](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Scheduling-exports-on-Windows)
   * [macOS](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Scheduling-exports-on-macOS)
   * [Linux](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Scheduling-Exports-with-Mono-&-Crontab)
