@@ -19,7 +19,7 @@ didnav:
         url: /website-configuration/
       - title: Discord Archive Walktrhu
         url: /discord-archive-howto/
-  - title: DIDisco Archives
+  - title: Discord Archive Index
     url: /didisco/
     children:
       - title: Resources
@@ -38,3 +38,56 @@ didnav:
         url: /didisco/tech/
       - title: Application
         url: /didisco/application
+  - title: DIDisco - Resources
+    url: /didisco/resources/
+    children:
+      - title: "Self Sovereign Identity"
+        url: /didisco/resources/self-sovereign-identity/
+      - title: "History"
+        url: /didisco/resources/history-did/
+      - title: "Resources"
+        url: /didisco/resources/resources/
+      - title: "101"
+        url: "/didisco/resources/101/"
+      - title: "Gen-ID"
+        url: /didisco/resources/gen-id/
+      - title: "Aml-Kyc"
+        url: /didisco/resources/aml-kyc/
+      - title: "Concerns"
+        url: /didisco/resources/concerns/
+      - title: "Data Breaches"
+        url: /didisco/resources/data-breaches/
+      - title: "GDPR"
+        url: /didisco/resources/gdpr/
+      - title: "Humanitarian"
+        url: /didisco/resources/humanitarian/
+      - title: "People"
+        url: /didisco/resources/people/
+      - title: "Personal Data"
+        url: /didisco/resources/personal-data/
+      - title: "Privacy"
+        url: /didisco/resources/privacy/
+  - title: DIDisco - Multi-Media
+    url: /didisco/multi-media/
+    children:
+      - title: "Assorted Media"
+        url: /didisco/multi-media/assorted-media/
+      - title: "Blog Feeds"
+        url: /didisco/multi-media/blog-feeds/
+      - title: "Literature"
+        url: /didisco/multi-media/literature/
+      - title: "Memes"
+        url: "/didisco/multi-media/memes/"
+      - title: "Podcasts"
+        url: /didisco/multi-media/podcasts/
+      - title: "Presentations"
+        url: /didisco/multi-media/presentations/
+      - title: "Reports"
+        url: /didisco/multi-media/reports/
+      - title: "Video"
+        url: /didisco/multi-media/video/
+  - title: DIDisco - Specifications
+    url: /didisco/specs-cgs/
+    children:
+      - title: "Assorted Media"
+        url: /didisco/specs-cgs/assorted-media/
