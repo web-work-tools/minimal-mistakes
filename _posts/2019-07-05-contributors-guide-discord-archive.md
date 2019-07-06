@@ -17,7 +17,6 @@ tags:
   - Web-Pub
   - How-To
 toc_sticky: false
-classes: wide
 #authors: 
 #  - "<a href='https://infominer.id'>Infominer</a>"
 #  - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
