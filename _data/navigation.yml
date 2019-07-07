@@ -13,6 +13,18 @@ main:
 # DID Nav
 
 didnav:
+  - title: Related Resources
+    children:
+      - title: "Decentralized-id.com"
+        url: https://decentralized-id.com
+      - title: "RWoT Papers Index"
+        url: https://didecentral.com/rwot-dir
+      - title: "Decentralized Web Histories"
+        url: https://sourcecrypto.pub/decentralized-web/
+      - title: "Static Sites for an IndieWeb"
+        url: https://web-work.tools/indieweb
+      - title: "Identity Commons on Github"
+        url: "https://github.com/identitywoman/identity-commons"
   - title: Contributors Guides
     children:
       - title: "Minimal-Mistakes - Configuration"
@@ -224,4 +236,10 @@ didnav:
         url: /didisco/blockchain/hyperledger/fabric/
       - title: Aries
         url: /didisco/blockchain/hyperledger/aries/
+  - title: Feature
+    children:
+      - title: "#indieweb-dev on IIW RWoT and DID's -FreeNode"
+        url: "https://web-work.tools/indieweb/indieweb-dev-on-did/"
+      - title: "Practical Public Key Crypto"
+        url: "https://infominer.id/bitcoin-history/pgp-and-me/"
 
