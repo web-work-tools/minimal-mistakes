@@ -625,6 +625,75 @@ This is the code that makes social share and donation button on each page. The B
 </section>
 ```
 
+## Author vs Authors
+
+There are two variables that must always be considered.
+
+Author, is for the initial or primary author.
+Authors is for all the people who have contributed to that document.
+
+So if you make a new post be sure to set both in your front-matter
+
+```yaml
+---
+title: "Your Awesome Post"
+author: "AwesomeYou"
+authors: ["AwesomeYou"]
+---
+```
+
+Then if I came and touched up your post, I would add myself to the authors:
+
+```yaml
+---
+title: "Your Awesome Post"
+author: "AwesomeYou"
+authors: ["AwesomeYou","infominer33"]
+---
+```
+
+Every post and page should have these, but I'm used to being the only author, so that will require some work, or maybe will leave old articles alone... not sure
+
+### Authors Code
+
+This was really crudely hacked together from the other lists in this section.
+
+[_includes/authors-list.html](https://github.com/infominer33/infominer33.github.io/blob/master/_includes/authors-list.html)
+
+```html
+
+<p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-users" aria-hidden="true"></i> Authors:</strong>
+    {% assign authorCount = page.authors | size %}
+    {% if authorCount == 0 %}
+        No author
+    {% elsif authorCount == 1 %}
+        {{ page.authors | first }}
+    {% else %}
+        {% for author in page.authors %}
+            {% if forloop.first %}
+            <a href="{{ author.url }}" rel="author">{{ author }}</a>
+            {% elsif forloop.last %}
+                and <a href="{{ author.url }}" rel="author">{{ author }}</a>
+            {% else %}
+                , <a href="{{ author.url }}" rel="author">{{ author }}</a>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+</p>
+
+```
+
+[/_includes/page__taxonomy.html](https://github.com/infominer33/infominer33.github.io/blob/master/_includes/page__taxonomy.html)
+
+Also, I added this line to the page taxonomy:
+
+```html
+{% if page.authors %}
+  {% include authors-list.html %}
+{% endif %}
+```
+
 ## To be continued....
 
 There are a number of tweaks that I make to minimal-mistakes sites. All will be explained :D
