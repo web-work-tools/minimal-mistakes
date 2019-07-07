@@ -28,7 +28,7 @@ masthead_title           : For Decentralized Sovereign Identification Online
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v3"
+  provider               : "staticman_v2"
 staticman:
   allowedFields          : ["name", "email", "url", "message"]
   branch                 : "master"
@@ -45,7 +45,7 @@ staticman:
       type: "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://dev.staticman.net/v3/entry/github/didecentral/didecentral.github.io/master/comments
+  endpoint               : https://dev.staticman.net/v3/entry/github/didecentral/didecentral.github.io/master/
   reCaptcha:               
     enabled: true
     siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
