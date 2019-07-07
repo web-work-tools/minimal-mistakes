@@ -45,11 +45,13 @@ staticman:
       type: "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://infostatic.herokuapp.com/  #v3/entry/github/didecentral/didecentral.github.io
-  reCaptcha: 
-    enabled: false
+  endpoint               : https://dev.staticman.net/v3/entry/github/didecentral/didecentral.github.io/master/comments
+  reCaptcha:               
+    enabled: true
     siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
-    secret: "6LfHeawUAAAAAFLOO5bcAIBXkVn0iZD8wZtx60jj"
+    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+    # For more information, https://staticman.net/docs/encryption
+    secret: S9ieXREDwDG5VCPt9Zpxqi4hezsB3MQN3Ye/5WCqZdP2L4jWNltkt7gaifsPGHUwUR7f9GPoeoORrfrCO4aeb4IgPUr3++n3qR461WVm+fkwHQrFqM10m9hkgdscR1zu6B1YL7SkT1jUAKTND8e75Gy+8HqbAd4xnEfuFTtSGoQ=
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
