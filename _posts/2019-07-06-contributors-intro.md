@@ -68,11 +68,11 @@ Over time we will introduce more fine grained guides on how to do this in a way 
 
 ### "Edit This Page" 
 
-![](https://imgur.com/t0Si4aE.png)
+![](https://imgur.com/Fv7L2yC.png)
 
-Nearly every page, on each of the sites I operate has a section like this, where you can share or edit on GitHub.
+Nearly every page has a section like this, where you can share socially, or edit\view on GitHub.
 
-Clicking that button takes you to the raw, unformatted version of the page on GitHub. When you are logged in to GitHub, that puts you one click away from editing this page: look for the pencil icon on the right side, just above where the line-numbered raw file begins.
+Clicking that button takes you to the unformatted version of the page on GitHub. When you are logged in to GitHub, that puts you one click away from editing this page: look for the pencil icon on the right side, just above where the line-numbered raw file begins.
 
 ![](https://imgur.com/vb59ogs.png)
 
@@ -88,16 +88,13 @@ If you would export me a copy of your bookmarks.... that would be great! After a
 
 ## @ mention on twitter
 
-You can simply @ mention @didecentral, @sourcecrypto @LCT-curator and any other accounts we've created for a particular niche, on twitter. Soon, each organization within the InfoHub will have it's own Twitter account, and the history of each of those accounts will be preserved and republished on their respective websites in keeping with [indieweb](https://web-work.tools/indieweb/) principles.
+You can simply @ mention @didecentral, and it's activity will be preserved, soon to by syndicated here on this website, via [indieweb](https://web-work.tools/indieweb/) features.
 
 ## Contributing Via Discord
 
 Discord is, hands down, my favorite way to collaborate with contributors informally. If you've never used it before, Discord is a powerful, free-to-use, closed-source communication/collaboration platform like Slack or Telegram, originally designed for the gaming community but since popular with opensource projects and startups. 
 
-You can see if you read around in the snapshot I recently published here of the contents of the [SourceCrypto Discord Server](https://SourceCrypto.pub/discolog/) that I use Discord as a kind of open and social blotter for ideas, links, and resources. 
-
 ![](https://imgur.com/zfLWXVSl.png){: .align-left}
-Throughout the day, I share posts to the channels of various discord servers I operate, throughout my day, on the fly ... mostly on smoke breaks. 
 
 A number of others have contributed over the past year, and now it is starting to pick up steam. Its also possible to leave comments, and questions inline with the links. Any that have substance, and are on-topic, will be re-published in the eventual discord export to web-page.
 
@@ -106,8 +103,6 @@ I'll by adding more details to this page, like tips and tricks for each mode of 
 ### Discord Mobile Share 
 
 I have an iPhone, and will have to discover how to do this with Android. However, I hope it's rather intuitive, once you think of it. 
-
-Here I'm visiting [Dev.to](https://dev.to) on my smoke break, and find some useful content, almost always.
 
 I had to enable sharing to discord, and you might have to do the same type of thing with android. Once you've set up the sharing integration, then it's simple to do, on the go.
 
