@@ -3,11 +3,11 @@ title: "Minimal-Mistakes-Jekyll - Setup and Configuration"
 description: "Contributing to the websites of DIDecentral via GitHub, Jekyll and Minimal Mistakes."
 excerpt: >
   This is to help anyone to understand how we're using Minimal Mistakes to publish this and other web-sites. For contributors, or your own use, outside of this organization.
-#header:
-#  image: assets/img/minimal-mistakes-quickstart-header.png
-#  teaser: assets/img/minimal-mistakes-teaser.png
-#  og_image: assets/img/minimal-mistakes-teaser.png
-#  caption: "Minimal Mistakes Setup and [Quick-Start](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)."
+header:
+  image: /assets/images/minimal-mistakes-quickstart-header.png
+  teaser: /assets/images/minimal-mistakes-teaser.png
+  og_image: /assets/images/minimal-mistakes-teaser.png
+  caption: "Minimal Mistakes Setup and [Quick-Start](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)."
 tags: 
   - Configuration
   - Minimal-Mistakes
@@ -16,9 +16,9 @@ tags:
   - How-To
 toc_sticky: true
 #classes: wide
-#authors: 
-#  - "<a href='https://infominer.id'>Infominer</a>"
-#  - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
+authors: 
+  - "<a href='https://infominer.id'>Infominer</a>"
+  - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: website-configuration/
 categories: [Contributors-Guide]
 published: true

@@ -3,11 +3,10 @@ title: "Publishing Discord Server Archives via Minimal Mistakes"
 description: "Publishing Discord server archives with Minimal Mistakes Jekyll via Github Pages."
 excerpt: >
   This is to help anyone to understand how we're using Discord to organize information and track contributions, and publishing that content using Minimal Mistakes on this and other websites.
-#header:
-#  image: assets/img/minimal-mistakes-quickstart-header.png
-#  teaser: assets/img/minimal-mistakes-teaser.png
-#  og_image: assets/img/minimal-mistakes-teaser.png
-#  caption: "Minimal Mistakes Setup and [Quick-Start](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)."
+header:
+  image: /assets/images/didecentral-discord-archive.png
+  teaser: /assets/img/discord-archive-thumb.png
+  og_image: /assets/img/discord-archive-thumb.png
 tags: 
   - Discord
   - Archives
