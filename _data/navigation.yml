@@ -8,6 +8,8 @@ main:
     url: https://sourcecrypto.pub/decentralized-web/
   - title: "Static Sites for an IndieWeb"
     url: https://web-work.tools/indieweb
+  - title: "GitHub Pages Starter Pack"
+    url: https://web-work.tools/github-pages-starter-pack/
   
 
 # DID Nav
