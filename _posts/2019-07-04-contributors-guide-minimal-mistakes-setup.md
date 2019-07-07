@@ -658,7 +658,7 @@ Every post and page should have these, but I'm used to being the only author, so
 
 This was really crudely hacked together from the other lists in this section.
 
-[_includes/authors-list.html](https://github.com/infominer33/infominer33.github.io/blob/master/_includes/authors-list.html)
+[_includes/authors-list.html](https://github.com/infominer33/didecentral.github.io/blob/master/_includes/authors-list.html)
 
 ```html
 

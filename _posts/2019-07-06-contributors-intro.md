@@ -18,7 +18,7 @@ toc_sticky: true
 categories: [Contributors-Guide]
 published: true
 last_modified_at: 2019-07-06T11:22:33-23:00
-author: infominer
+author: Infominer
 authors: 
   - "<a href='https://infominer.id'>Infominer</a>"
   - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
