@@ -45,7 +45,7 @@ staticman:
       type: "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://dev.staticman.net/v3/entry/github/
+  endpoint               : https://api.staticman.net/v3/entry/github/
   reCaptcha:               
     enabled: false
     siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
