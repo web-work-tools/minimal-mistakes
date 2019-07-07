@@ -367,6 +367,9 @@ footer:
 
 ```
 
+I just went to [fontawesome.com](https://fontawesome.com) and it's pretty simple to try and match above formula without thinking too deeply on the matter.
+
+
 ### _config.yml - Frontmatter Defaults
 
 You can over-ride these defaults on a page-by-page basis.

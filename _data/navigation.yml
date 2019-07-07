@@ -6,8 +6,12 @@ main:
     url: https://didecentral.com/rwot-dir
   - title: "Decentralized Web Histories"
     url: https://sourcecrypto.pub/decentralized-web/
+  - title: "Bitcoin History"
+    url: https://sourcecrypto.pub/bitcoin-history/
   - title: "Static Sites for an IndieWeb"
     url: https://web-work.tools/indieweb
+  - title: "Agoric Records"
+    url: https://agoric-records.xyz/
   - title: "GitHub Pages Starter Pack"
     url: https://web-work.tools/github-pages-starter-pack/
   
@@ -17,6 +21,8 @@ main:
 didnav:
   - title: Contributors Guides
     children:
+      - title: "DIDecentral: Contributors Intro"
+        url: /contributors-intro/
       - title: "Minimal-Mistakes - Configuration"
         url: /website-configuration/
       - title: Discord Archive Walktrhu
@@ -246,4 +252,6 @@ didnav:
         url: "https://web-work.tools/indieweb/indieweb-dev-on-did/"
       - title: "Practical Public Key Crypto"
         url: "https://infominer.id/bitcoin-history/pgp-and-me/"
+      - title: "Agoric Records"
+        url: https://agoric-records.xyz/
 
