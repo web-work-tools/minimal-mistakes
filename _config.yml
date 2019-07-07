@@ -47,7 +47,7 @@ staticman:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : https://dev.staticman.net/v3/entry/github/didecentral/didecentral.github.io/master/
   reCaptcha:               
-    enabled: true
+    enabled: false
     siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
