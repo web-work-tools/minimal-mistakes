@@ -37,7 +37,7 @@ staticman:
   format                 : "yml"
   moderation             : true
   path                   : "/_data/comments/{options.slug}"
-  requiredFields         : ['name', 'message']
+  requiredFields         : ['message']
   transforms:
     email                : "md5"
   generatedFields:
@@ -45,9 +45,9 @@ staticman:
       type: "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://infostatic.herokuapp.com/v3/entry/github/didecentral/didecentral.github.io
+  endpoint               : https://infostatic.herokuapp.com/  #v3/entry/github/didecentral/didecentral.github.io
   reCaptcha: 
-    enabled: true
+    enabled: false
     siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
     secret: "6LfHeawUAAAAAFLOO5bcAIBXkVn0iZD8wZtx60jj"
 atom_feed:
