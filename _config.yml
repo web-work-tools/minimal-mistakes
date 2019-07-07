@@ -304,7 +304,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       header:
@@ -321,7 +321,7 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       header:
@@ -341,6 +341,7 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      comments: true
       disco: true
       header:
         image: /assets/images/did-header.png
@@ -356,6 +357,7 @@ defaults:
       share: true
       related: true
       disco: true
+      comments: true
       sidebar:
         nav: "didnav"
       classes: wide
@@ -372,6 +374,7 @@ defaults:
       layout: single
       share: true
       disco: true
+      comments: true
       related: true
       sidebar:
         nav: "didnav"
@@ -389,6 +392,7 @@ defaults:
       layout: single
       share: true
       related: true
+      comments: true
       disco: true
       sidebar:
         nav: "didnav"
@@ -407,6 +411,7 @@ defaults:
       share: true
       related: true
       disco: true
+      comments: true
       sidebar:
         nav: "didnav"
       classes: wide
@@ -426,6 +431,7 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      comments: true
       disco: true
       header:
         image: /assets/images/did-header.png
@@ -444,6 +450,7 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      comments: true
       header:
         image: /assets/images/did-header.png
         og_image: /assets/images/did-og.png
@@ -461,6 +468,7 @@ defaults:
       sidebar:
         nav: "didnav"
       classes: wide
+      comments: true
       header:
         image: /assets/images/did-header.png
         og_image: /assets/images/did-og.png
