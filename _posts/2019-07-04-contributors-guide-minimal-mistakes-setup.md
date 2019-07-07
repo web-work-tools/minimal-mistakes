@@ -625,6 +625,32 @@ This is the code that makes social share and donation button on each page. The B
 </section>
 ```
 
+**Reddit Button**
+
+[_sass/minimal-mistakes/_buttons.scss](https://github.com/didecentral/didecentral.github.io/blob/master/_sass/minimal-mistakes/_buttons.scss)
+
+If you copy that part to get the reddit button included with the others, you might find that you are missing the actual button.
+
+just head over to buttons.css :rofl: (idk why that's so funny to me)
+
+```
+  /* button colors */
+  $buttoncolors:
+  (primary, $primary-color),
+  (inverse, #fff),
+  (light-outline, transparent),
+  (success, $success-color),
+  (warning, $warning-color),
+  (danger, $danger-color),
+  (info, $info-color),
+  (facebook, $facebook-color),
+  (twitter, $twitter-color),
+  (linkedin, $linkedin-color),
+  (reddit, $reddit-color);
+```
+
+Because the Reddit Color is already defined in [_variables.scss](https://github.com/didecentral/didecentral.github.io/blob/master/_sass/minimal-mistakes/_variables.scss), all you need to do is reference it here.
+
 ## Author vs Authors
 
 There are two variables that must always be considered.

@@ -43,8 +43,9 @@ A number of repositories which will be good sources for content creation have be
   * [didecentral/decentralized-id.com](https://github.com/didecentral/decentralized-id.com)
   * [didecentral/didecentral.github.io](https://github.com/didecentral/didecentral.github.io)
   * [didecentral/rwot-dir](https://github.com/didecentral/rwot-dir)
-  * [Identitywoman/identity-commons](https://github.com/Identitywoman/identity-commons) - It would be nice to help with this.
+  * [Identitywoman/identity-commons](https://github.com/Identitywoman/identity-commons) - It would be nice to help with this, also.
 
+Besides these, there are a couple other copies of the RWoT Directory project published through different site generators.
 
 ## GitHub Issues
 
