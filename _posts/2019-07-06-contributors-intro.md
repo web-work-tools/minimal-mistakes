@@ -27,10 +27,13 @@ published: true
 last_modified_at: 2019-06-26T11:22:33-23:00
 ---
 
-We are happy for contributions from anyone, regardless of technical skills, or pre-existing knowledge. The intention is also to enable anyone to become more familiar with web-publishing, in a low stakes environment, while pursuing a passion for Sovereign Identity.
+We are happy for contributions from anyone, regardless of technical skills, or pre-existing knowledge. The intention for this website is also to enable anyone to become more familiar with web-publishing, in a low stakes environment, while pursuing a passion for Sovereign Identity.
 
-## On GitHub
-I welcome any issues or pull requests for question, comments, or contributions of any type. 
+## GitHub is Designed for Collaboration
+
+We welcome issues or pull requests for question, comments, or contributions of every type. While some may feel intimidated to get started with GitHub, we assure you it's just like any other social platform with user profiles, content, forms and buttons.
+
+If you have questions, other people probably want to know the answer also.
 
 
 {% include figure image_path="/assets/images/didecentral-github.png" alt="github.com/didecentral" caption="[github.com/didecentral](https://github.com/didecentral)" %}

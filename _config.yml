@@ -28,39 +28,28 @@ masthead_title           : For Decentralized Sovereign Identification Online
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+  provider               : "staticman_v2"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ["name", "email", "url", "message"]
+  branch                 : "master"
+  commitMessage          : "New comment by {fields.name}"
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}"
+  requiredFields         : ['name', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type: "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
-reCaptcha:
-  siteKey                :
-  secret                 :
+        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : https://infostatic.herokuapp.com/v3/entry/github/didecentral/didecentral.github.io
+  reCaptcha: 
+    enabled: true
+    siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
+    secret: "6LfHeawUAAAAAFLOO5bcAIBXkVn0iZD8wZtx60jj"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)

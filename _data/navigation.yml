@@ -4,14 +4,16 @@ main:
     url: https://decentralized-id.com
   - title: "RWoT Papers Index"
     url: https://didecentral.com/rwot-dir
+  - title: "IDCommons - Identity History Timeline"
+    url: "https://identitywoman.github.io/identity-commons/ID-History"
   - title: "Decentralized Web Histories"
     url: https://sourcecrypto.pub/decentralized-web/
   - title: "Bitcoin History"
     url: https://sourcecrypto.pub/bitcoin-history/
-  - title: "Static Sites for an IndieWeb"
-    url: https://web-work.tools/indieweb
   - title: "Agoric Records"
     url: https://agoric-records.xyz/
+  - title: "Static Sites for an IndieWeb"
+    url: https://web-work.tools/indieweb
   - title: "GitHub Pages Starter Pack"
     url: https://web-work.tools/github-pages-starter-pack/
   
@@ -25,7 +27,7 @@ didnav:
         url: /contributors-intro/
       - title: "Minimal-Mistakes - Configuration"
         url: /website-configuration/
-      - title: Discord Archive Walktrhu
+      - title: "Discord Archive Walktrhu"
         url: /discord-archive-howto/
   - title: Related Resources
     children:
@@ -33,8 +35,8 @@ didnav:
         url: https://decentralized-id.com
       - title: "RWoT Archive"
         url: https://didecentral.com/rwot-dir
-      - title: "Identity Commons on Github"
-        url: "https://github.com/identitywoman/identity-commons"
+      - title: "IDCommons - Identity History Timeline"
+        url: "https://identitywoman.github.io/identity-commons/ID-History"
   - title: Discord Archive Index
     url: /didisco/
     children:
