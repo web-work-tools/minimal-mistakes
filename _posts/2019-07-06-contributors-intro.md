@@ -84,21 +84,34 @@ Whether it's an actual improvement, fully functioning with proper markup, or sim
 
 ![](https://infominer.id/bookmark-donations/that-would-be-great.jpg)
 
-If you would export me a copy of your bookmarks.... that would be great! After a while I'll make a few fine grained how-to. This is one of the simplest ways that nearly anyone could make a significant contribution. I want to create detailed guides, to ensure that everyone is able.
+If you would export me a copy of your bookmarks.... that would be great! After a while I'll make a few fine grained how-to. This is one of the simplest ways that nearly anyone could make a significant contribution. I will create detailed guides, to ensure that everyone is able.
 
-## @ mention on twitter
+## Twitter @ Mention and Hash Tags
 
-You can simply @ mention @didecentral, and it's activity will be preserved, soon to by syndicated here on this website, via [indieweb](https://web-work.tools/indieweb/) features.
+You can simply @ mention @didecentral, and it's activity will be preserved, soon to by syndicated here on this website, via [indieweb](https://web-work.tools/indieweb/) design. I will also follow related hash-tags and see about re-publishing them here, somehow. 
+
+I will track #decentralizedidentity, #selfsovereignidentity, and #didecentral. The final one is similar to @mention, that you definitely want us to see, but not as "urgent" as the mention.
+
 
 ## Contributing Via Discord
 
-Discord is, hands down, my favorite way to collaborate with contributors informally. If you've never used it before, Discord is a powerful, free-to-use, closed-source communication/collaboration platform like Slack or Telegram, originally designed for the gaming community but since popular with opensource projects and startups. 
+Discord is, hands down, my favorite way to organize information on the fly. It's also quite useful for collaboration. 
+
+If you've never used it before, Discord is a powerful, free-to-use, closed-source communication/collaboration platform like Slack or Telegram, originally designed for the gaming community but since popular with opensource projects and startups. 
 
 ![](https://imgur.com/zfLWXVSl.png){: .align-left}
 
-A number of others have contributed over the past year, and now it is starting to pick up steam. Its also possible to leave comments, and questions inline with the links. Any that have substance, and are on-topic, will be re-published in the eventual discord export to web-page.
+There are a couple simple ways of sharing to discord that have made it quite convenient for keeping track of information.
 
-I'll by adding more details to this page, like tips and tricks for each mode of contribution, in the coming weeks.
+Its also possible to leave comments, and questions inline with the links. Any that have substance, and are on-topic, will be re-published in the periodic export of discord to this web-site.
+
+### Discord Desktop
+
+Desktop is much nicer than Moble, for my purposes. Once opened to the Discord App, hit `ctrl + k` and begin typing the name of the channel where you'd like to go.
+
+![](https://imgur.com/LBIoqR7.png)
+
+Even if you don't remember the channel name, it's usually simple enough, even dropping it in the #library-submissions or #general will suffice on the fly, and later the link can be dropped in its appropirate channel.
 
 ### Discord Mobile Share 
 
@@ -113,3 +126,7 @@ I had to enable sharing to discord, and you might have to do the same type of th
 
 
 ## Thanks for Visiting!
+
+As I hope is clear, we are committed to making this resource as accessible for collaboration as possible. To eventually include how-tos for everything from the simple to the big picture.
+
+Feel free to visit [Web-work.tools](https://web-work.tools) for an array of entry-level web-work how-tos.
