@@ -89,42 +89,6 @@ didnav:
   - title: DIDisco - Tech
     url: /didisco/tech/
     children:
-      - title: "Specs - General"
-        url: /didisco/tech/specs/specs-standards/
-      - title: "Specs - XDI"
-        url: /didisco/tech/specs/xdi/
-      - title: "Specs - WebAuthN"
-        url: /didisco/tech/specs/webauthn/
-      - title: "Specs - Verifiable Claims"
-        url: /didisco/tech/specs/verifiable-claims/
-      - title: "Specs - Uniresolver"
-        url: /didisco/tech/specs/uniresolver/
-      - title: "Specs - Open-ID"
-        url: /didisco/tech/specs/open-id/
-      - title: "Specs - Open-Creds"
-        url: /didisco/tech/specs/open-creds/
-      - title: "Specs - Oath"
-        url: /didisco/tech/specs/oath/
-      - title: "Specs - Oasis"
-        url: /didisco/tech/specs/oasis/
-      - title: "Specs - Linked Data"
-        url: /didisco/tech/specs/linked-data/
-      - title: "Specs - IndieAuth"
-        url: /didisco/tech/specs/indieauth/
-      - title: "Specs - Identity Hubs"
-        url: /didisco/tech/specs/identity-hubs/
-      - title: "Specs - Fido"
-        url: /didisco/tech/specs/fido/
-      - title: "Specs - DPKI"
-        url: /didisco/tech/specs/dpki/
-      - title: "Specs - Digital Verification CG"
-        url: /didisco/tech/specs/digital-verification-cg/
-      - title: "Specs - DIDAuth"
-        url: /didisco/tech/specs/did-auth/
-      - title: "Specs - DID"
-        url: /didisco/tech/specs/did/
-      - title: "Specs - Credentials"
-        url: /didisco/tech/specs/credentials/
       - title: "Zero Knowledge Proof"
         url: /didisco/tech/zkp/
       - title: "Time Stamping"
@@ -151,4 +115,113 @@ didnav:
         url: /didisco/tech/crypto/
       - title: "Certificate Authorities"
         url: /didisco/tech/certificate-authorities/
+  - title: DIDisco - Specs
+    children:
+      - title: "General"
+        url: /didisco/tech/specs/specs-standards/
+      - title: "XDI"
+        url: /didisco/tech/specs/xdi/
+      - title: "WebAuthN"
+        url: /didisco/tech/specs/webauthn/
+      - title: "Verifiable Claims"
+        url: /didisco/tech/specs/verifiable-claims/
+      - title: "Uniresolver"
+        url: /didisco/tech/specs/uniresolver/
+      - title: "Open-ID"
+        url: /didisco/tech/specs/open-id/
+      - title: "Open-Creds"
+        url: /didisco/tech/specs/open-creds/
+      - title: "Oath"
+        url: /didisco/tech/specs/oath/
+      - title: "Oasis"
+        url: /didisco/tech/specs/oasis/
+      - title: "Linked Data"
+        url: /didisco/tech/specs/linked-data/
+      - title: "IndieAuth"
+        url: /didisco/tech/specs/indieauth/
+      - title: "Identity Hubs"
+        url: /didisco/tech/specs/identity-hubs/
+      - title: "Fido"
+        url: /didisco/tech/specs/fido/
+      - title: "DPKI"
+        url: /didisco/tech/specs/dpki/
+      - title: "Digital Verification CG"
+        url: /didisco/tech/specs/digital-verification-cg/
+      - title: "DIDAuth"
+        url: /didisco/tech/specs/did-auth/
+      - title: "DID"
+        url: /didisco/tech/specs/did/
+      - title: "Credentials"
+        url: /didisco/tech/specs/credentials/
+  - title: DIDisco - Blockchain
+    url: /didisco/blockchain/
+    children:
+      - title: "General"
+        url: /didisco/blockchain/gen-blockchain/
+      - title: "BigChainDB"
+        url: /didisco/blockchain/bigchaindb/
+      - title: "Blockpass"
+        url: /didisco/blockchain/blockpass/
+      - title: "Blockstack"
+        url: /didisco/blockchain/blockstack/
+      - title: "Consensus"
+        url: /didisco/blockchain/consensus/
+      - title: "Democracy Earth"
+        url: /didisco/blockchain/democracy-earth/
+      - title: "Corda"
+        url: /didisco/blockchain/corda/
+      - title: "Fermat"
+        url: /didisco/blockchain/fermat/
+      - title: "Handshake"
+        url: /didisco/blockchain/handshake/
+      - title: "IOTA"
+        url: /didisco/blockchain/iota/
+      - title: "Namecoin"
+        url: /didisco/blockchain/namecoin/
+      - title: "Ockam"
+        url: /didisco/blockchain/ockam/
+      - title: "Ontology"
+        url: /didisco/blockchain/ontology/
+      - title: "Signatures"
+        url: /didisco/blockchain/signatures/
+      - title: "Stellar"
+        url: /didisco/blockchain/stellar/
+      - title: "Veres One"
+        url: /didisco/blockchain/veres-one/
+  - title: DIDisco - Bitcoin
+    children:
+      - title: Bitcoin
+        url: /didisco/blockchain/bitcoin/bitcoin/
+      - title: ION
+        url: /didisco/blockchain/bitcoin/ion/
+      - title: Bitcoin
+        url: /didisco/blockchain/bitcoin/spidchain/
+  - title: DIDisco - Ethereum
+    children:
+      - title: Specs
+        url: /didisco/blockchain/ethereum/ethereum-specs/
+      - title: Eth-ID
+        url: /didisco/blockchain/ethereum/gen-eth-id/
+      - title: Eth Apps
+        url: /didisco/blockchain/ethereum/gen-eth-apps/
+      - title: EntEth Alliance
+        url: /didisco/blockchain/ethereum/ethentalliance/
+      - title: uPort
+        url: /didisco/blockchain/ethereum/uport/
+      - title: Self Key
+        url: /didisco/blockchain/ethereum/self-key/
+      - title: Cryptonomica
+        url: /didisco/blockchain/ethereum/cryptonomica/
+      - title: Civic
+        url: /didisco/blockchain/ethereum/civic/
+  - title: DIDisco - Hyperledger
+    children:
+      - title: Indy
+        url: /didisco/blockchain/hyperledger/indy/
+      - title: Ursa
+        url: /didisco/blockchain/hyperledger/ursa/
+      - title: Fabric
+        url: /didisco/blockchain/hyperledger/fabric/
+      - title: Aries
+        url: /didisco/blockchain/hyperledger/aries/
 
