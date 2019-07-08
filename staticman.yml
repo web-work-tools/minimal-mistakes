@@ -103,20 +103,3 @@ comments:
     # For more information, https://staticman.net/docs/encryption
     secret: "a3+mYX/KtQfEZRs0g9+pU41VUq3oC8OU5eRIe2Gf7te7i9c4/JW8QqXZCQ05ajHIr656ltZmCpKb4WqYGpiRD3wVJyYAsOHTExD//IJMGWpjImXDqOlcn1Bvia4WfpHR/2Vup2Keitm2sh28k6JMJepuXaFSlj9Pnazqd6oirarEmFPzgQ0o4Pm/K+gXP8Zla+2vqiNE/30g9E1tv8fzh9dUgMKgSxRme+bHNPGiO6L8J7wGCOcIsCaDDW8BFaNKACJVpmgW8SsUWxXZaMZbt3GZe+cR6tts3Y+DE+3KW+fcjhB9drYXtoPXwPli7iY0SKJRO43BJHtMAywUI1bkIA=="
 
-  generatedFields:
-    authType:
-      type: user
-      options:
-        property: "type"
-    email:
-      type: user
-      options:
-        property: "email"
-    username:
-      type: user
-      options:
-        property: "username"
-    name:
-      type: user
-      options:
-        property: "name"
