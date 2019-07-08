@@ -45,8 +45,8 @@ staticman:
       type: "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://infostatic.herokuapp.com/v3/entry/github/
-  reCaptcha:               
+  endpoint               : https://staticman3.herokuapp.com/v3/entry/github/
+  reCaptcha:    
     enabled: true
     siteKey: "mN5e3yixkZsua3R0fj58b4jgZCvirxIACJFZhDVoqAmG3QYfLQdLQFk8M30lM3HafP+4gDtKRgFcKEdC51CA+/qcAR2ciBJSMiiLR/T47BixPBp4QYTvyVbITF/yz3NDTM180ZK3PkeW/gDdqmbXMuKKr578689Dv/KgFtGsApCT8VTehX5+t6MF36G7AcMrMs+f9BRm7GoJcVUy3eTez/BC0lcGn1LWoFg57m6akreyfXaRVrqXmIBV3biuo/TxQSdOzsdypo1Q5/PBjrMt7N3bmvdqMKjVWZoiG65aedGuDc4C9vWBsyCaIN8hQh2Vn3NNvd3NPwUvITHCiAcrnA=="
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
