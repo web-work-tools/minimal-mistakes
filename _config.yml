@@ -48,10 +48,10 @@ staticman:
   endpoint               : https://infostatic.herokuapp.com/v3/entry/github/
   reCaptcha:               
     enabled: true
-    siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
+    siteKey: "mN5e3yixkZsua3R0fj58b4jgZCvirxIACJFZhDVoqAmG3QYfLQdLQFk8M30lM3HafP+4gDtKRgFcKEdC51CA+/qcAR2ciBJSMiiLR/T47BixPBp4QYTvyVbITF/yz3NDTM180ZK3PkeW/gDdqmbXMuKKr578689Dv/KgFtGsApCT8VTehX5+t6MF36G7AcMrMs+f9BRm7GoJcVUy3eTez/BC0lcGn1LWoFg57m6akreyfXaRVrqXmIBV3biuo/TxQSdOzsdypo1Q5/PBjrMt7N3bmvdqMKjVWZoiG65aedGuDc4C9vWBsyCaIN8hQh2Vn3NNvd3NPwUvITHCiAcrnA=="
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: TpwmnYkd/QI9GDb0bLWjOAi8ckk0FtlLWmrszuD0jtYOzgbDEIW6phv28S8yWkXaAH2ZLjh9nvucOhTAknuhjiXLMbpfGdpitxIGlvzxoGHBjdVSoiJ/U64jomIWDDa2Ft9mKyBE4klIpWH2Hf8vmWZUcvqhY9tuowzqMaMjOSeVE6ymF2/H11yDmi8t5zYaby5I77H7DgMVeN09q9dvyhHrL6OKNIkfkVgMPfVFUtH1ibGM7mpyUsy95TxDrkxSZjGh1nocZwDQ7aEG/zmINr6QORyLxKwXljgW4riuePspo+2kqvgaGzcFJ/0eaQTNCEkXXweTdNyPAkhfOFl2Zw==
+    secret: "TpwmnYkd/QI9GDb0bLWjOAi8ckk0FtlLWmrszuD0jtYOzgbDEIW6phv28S8yWkXaAH2ZLjh9nvucOhTAknuhjiXLMbpfGdpitxIGlvzxoGHBjdVSoiJ/U64jomIWDDa2Ft9mKyBE4klIpWH2Hf8vmWZUcvqhY9tuowzqMaMjOSeVE6ymF2/H11yDmi8t5zYaby5I77H7DgMVeN09q9dvyhHrL6OKNIkfkVgMPfVFUtH1ibGM7mpyUsy95TxDrkxSZjGh1nocZwDQ7aEG/zmINr6QORyLxKwXljgW4riuePspo+2kqvgaGzcFJ/0eaQTNCEkXXweTdNyPAkhfOFl2Zw=="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
