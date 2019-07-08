@@ -98,10 +98,10 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:               
     enabled: true
-    siteKey: QoHfWqEG7iZzmBniAyKV/pOo0gm5mJfgYs9hPnktMzSgxfJ9V2X2W7x6wZqy39hQOw5s1niUksiKk74nCogA6yrozVDugQDjhH7f8bTvY7zzoyqkIYltw/OAjy50Gv1BvSR2k+bfWLe49LbiCHXiJ6xiimT2anVud9stfUEyahkd86ypcT0m2ytozjpKzXGbwNecJJAO9mDxt8w+PyTHUmh2UnW45WGFvpVufDhd8Xgan/X2JSb+t1ECFKAZ1fDMbczLGi7jT4JEITQy9+oy/60uUfIoSCkbnYq+AKPRVXYKbmp+tWhmmmyCRJlRmMEuedOviIj1m7k2uDFbd8VBPA==
+    siteKey: "6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: a3+mYX/KtQfEZRs0g9+pU41VUq3oC8OU5eRIe2Gf7te7i9c4/JW8QqXZCQ05ajHIr656ltZmCpKb4WqYGpiRD3wVJyYAsOHTExD//IJMGWpjImXDqOlcn1Bvia4WfpHR/2Vup2Keitm2sh28k6JMJepuXaFSlj9Pnazqd6oirarEmFPzgQ0o4Pm/K+gXP8Zla+2vqiNE/30g9E1tv8fzh9dUgMKgSxRme+bHNPGiO6L8J7wGCOcIsCaDDW8BFaNKACJVpmgW8SsUWxXZaMZbt3GZe+cR6tts3Y+DE+3KW+fcjhB9drYXtoPXwPli7iY0SKJRO43BJHtMAywUI1bkIA==
+    secret: "a3+mYX/KtQfEZRs0g9+pU41VUq3oC8OU5eRIe2Gf7te7i9c4/JW8QqXZCQ05ajHIr656ltZmCpKb4WqYGpiRD3wVJyYAsOHTExD//IJMGWpjImXDqOlcn1Bvia4WfpHR/2Vup2Keitm2sh28k6JMJepuXaFSlj9Pnazqd6oirarEmFPzgQ0o4Pm/K+gXP8Zla+2vqiNE/30g9E1tv8fzh9dUgMKgSxRme+bHNPGiO6L8J7wGCOcIsCaDDW8BFaNKACJVpmgW8SsUWxXZaMZbt3GZe+cR6tts3Y+DE+3KW+fcjhB9drYXtoPXwPli7iY0SKJRO43BJHtMAywUI1bkIA=="
 
   generatedFields:
     authType:
