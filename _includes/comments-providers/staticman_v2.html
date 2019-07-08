@@ -1,12 +1,16 @@
-{% if site.repository and site.staticman.branch %}
+{% if site.staticman.repository and site.staticman.branch %}
+  <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+  <script>
+    if (typeof jQuery == 'undefined') {
+      document.write('<script src="{{ "/js/jquery-1.11.2.min.js" | relative_url }}"></scr' + 'ipt>');
+    }
+  </script>
   <script>
     (function ($) {
+    var $comments = $('.js-comments');
     $('#new_comment').submit(function () {
       var form = this;
-
       $(form).addClass('disabled');
-      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> {{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}');
-
       $.ajax({
         type: $(this).attr('method'),
         url: $(this).attr('action'),
@@ -27,10 +31,8 @@
           $(form).removeClass('disabled');
         }
       });
-
       return false;
     });
-
     function showAlert(message) {
       $('.page__comments-form .js-notice').removeClass('hidden');
       $('.page__comments-form .js-notice-text').html(message);
