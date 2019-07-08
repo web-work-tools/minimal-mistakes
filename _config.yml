@@ -48,11 +48,11 @@ staticman:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : https://staticman3.herokuapp.com/v3/entry/github/
   reCaptcha:               
-    enabled: true
-    siteKey: 6LfHeawUAAAAAATc0Sckhl9FJLGog3m7qLrYA8V0
+    enabled: false
+    siteKey: ""
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: a3+mYX/KtQfEZRs0g9+pU41VUq3oC8OU5eRIe2Gf7te7i9c4/JW8QqXZCQ05ajHIr656ltZmCpKb4WqYGpiRD3wVJyYAsOHTExD//IJMGWpjImXDqOlcn1Bvia4WfpHR/2Vup2Keitm2sh28k6JMJepuXaFSlj9Pnazqd6oirarEmFPzgQ0o4Pm/K+gXP8Zla+2vqiNE/30g9E1tv8fzh9dUgMKgSxRme+bHNPGiO6L8J7wGCOcIsCaDDW8BFaNKACJVpmgW8SsUWxXZaMZbt3GZe+cR6tts3Y+DE+3KW+fcjhB9drYXtoPXwPli7iY0SKJRO43BJHtMAywUI1bkIA==
+    secret: ""
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
