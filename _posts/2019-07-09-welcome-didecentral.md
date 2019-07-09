@@ -29,11 +29,11 @@ last_modified_at: 2019-07-09T11:22:33-23:00
 
 You may find yourself scratching your head, and wondering why DIDecentral has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com) that began as [an awesome list on GitHub](https://github.com/infominer33/awesome-decentralized-id).
 
-This article will go over the various projects associated with @DIDecentral, and point out where to find more information on it all.
+This article will go over the various projects associated with @DIDecentral, and point out where to find more information.
 
 ## DIDecentral - Community Website
 
-This website will be the home base for anyone interested in participating with this assortment of public-domain informational resources. Here will live the guides for *everything* in the DIDecentral universe, in addition to any specific guides you will find on the other web-sites (as they are not all set up exactly the same).
+This website will be the home base for anyone interested in participating with this assortment of public-domain informational resources. Here will live the guides for *everything* in the DIDecentral universe, in addition to any specific guides you will find on our other web-sites (as they are not all set up exactly the same).
 
 ## Contributors Guides
 
@@ -94,7 +94,7 @@ Here we'll try to keep track of all the essential organizations, related codebas
 1. This market can move very quickly, as we've discovered over the past few months.
   * This is a good reason to track links in the channels of discord and on twitter via #hashtag and @mentions. This way, content may be syndicated, here, to our community site, more quickly than the resources we are building can be updated.
 2. Those who have the time and availability, are the least likely to be qualified, so the resources may grow only as quickly as our skill-sets and incentives align.
-3. It's sometimes necessary to find paying work, so focus is always diverted among potential opportunities, these sites developed as time becomes available.
+3. It's sometimes necessary to find paying work, so focus is always diverted among potential opportunities, these sites developed as time is made available.
 
 * [Decentralized-id.com](https://decentralized-id.com)
 
