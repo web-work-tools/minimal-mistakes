@@ -20,7 +20,7 @@ authors:
   - "<a href='https://infominer.id'>Infominer</a>"
   - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: website-configuration/
-categories: [Contributors-Guide]
+categories: [Contributors-Guide, DIDecentral]
 published: true
 last_modified_at: 2019-07-05T11:22:33-23:00
 ---

@@ -15,7 +15,7 @@ tags:
   - Web-Pub
   - How-To
 toc_sticky: true
-categories: [Contributors-Guide]
+categories: [Contributors-Guide, DIDecentral]
 published: true
 last_modified_at: 2019-07-06T11:22:33-23:00
 author: Infominer
@@ -29,6 +29,19 @@ last_modified_at: 2019-06-26T11:22:33-23:00
 
 We are happy for contributions from anyone, regardless of technical skills, or pre-existing knowledge. The intention for this Community Website is to focus on detailing a variety of ways to contribute, and to enable anyone to become more familiar with web-publishing, in a low stakes environment, while pursuing a passion for Sovereign Identity.
 
+## Comments!!!!
+
+Yay! Because of the static nature of webpages hosted from GitHub, its required to make an integration of some sort. Some active agent online must recieve the comment, and leave a properly formatted pull-request.  
+
+It would be simple enough to use a third party comments system. However, I really wanted to use @Staticman which is an open source application that I could independently run on a pi, or even a free heroku instance. It's a portable solution, that enables complete operator control over its implementation.
+
+![](https://imgur.com/4x0dN7k.png)
+
+It took quite a bit of effort, searching through github issues, and following all trails, but I finally figured out a good build and got it properly set up.
+
+
+Soon, you will be able to leave a comment on any page in the DIDecentral ecosystem. Making it simple for **anyone** to note ideas, share links, suggestions, and typos as you browse.
+
 ## GitHub is Designed for Collaboration
 
 We welcome issues or pull requests for question, comments, or contributions of every type. While some may feel intimidated to get started with GitHub, we assure you it's just like any other social platform with user profiles, content, text fields and buttons.
@@ -38,7 +51,7 @@ If you have questions, other people probably want to know the answer also. Its n
 However, over time, through the process of collaborative editing, crowdsourcing ideas, and learning together, to discover and extract value from various datasets.
 
 
-{% include figure image_path="/assets/images/didecentral-github.png" alt="github.com/didecentral" caption="[github.com/didecentral](https://github.com/didecentral)" %}
+{% include figure image_path="https://imgur.com/WJVcyXT.png" alt="github.com/didecentral" caption="[github.com/didecentral](https://github.com/didecentral)" %}
 
 ### DIDecentral - Repositories
 
@@ -59,6 +72,8 @@ Besides these, @infominer33 commonly forks repositories into the organization th
 * [didecentral/rwot-dir/issues](https://github.com/didecentral/rwot-dir/issues)
 
 Generally speaking, this is a good place if you have a link or two to contribute, a question, ideas, want to point out a broken feature, or even just to say Hello :D
+
+Github issues are just like the comments feature, except it lets you note where exactly in the source there is a problem, or you have a suggestion. We're open to feedback and collaboration in whichever venue you prefer.
 
 ## Pull-Requests
 
@@ -83,7 +98,9 @@ Clicking that button takes you to the unformatted version of the page on GitHub.
 
 Clicking it will reload an take you to an editable version of the page, which proposes an update through github.  The monitor icon will open an editable change-proposal of the file.  This allows you to contribute through a familiar interface (your web-browser), without having to understand anything about GitHub.
 
-Whether it's an actual improvement, fully functioning with proper markup, or simply a note intended for me to read, but not include on the page, it will be read and appreciated! Even if your change isn't perfect: I'll try to accept it and include your "commits", which are github's way of recording your contribution. I'm not a "GitHub professional", but I take this seriously and work on these pages this day in and day out.
+Whether it's an actual improvement, fully functioning with proper markup, or simply a note, it will be read and appreciated! Even if your change isn't perfect: We'll try to accept it and include your "commits", which are Git's way of recording contributions that GitHub has built a web-interface over. 
+
+None of us are necessarily professional or experts with git or web-publishing. However, we do wish to learn and grow our digital skillset.
 
 ## If you all could just..
 
@@ -103,15 +120,15 @@ I will track #decentralizedidentity, #selfsovereignidentity, and #didecentral. T
 
 ## Contributing Via Discord
 
-Discord is, hands down, my favorite way to organize information on the fly. It's also quite useful for collaboration. 
+>Discord is, hands down, my favorite way to organize information on the fly. It's also quite useful for collaboration. -@infominer33
 
 If you've never used it before, Discord is a powerful, free-to-use, closed-source communication/collaboration platform like Slack or Telegram, originally designed for the gaming community but since popular with opensource projects and startups. 
 
-![](https://imgur.com/zfLWXVSl.png){: .align-left}
+![](/assets/images/share-button.png){: .align-right}
 
 There are a couple simple ways of sharing to discord that have made it quite convenient for keeping track of information.
 
-Its also possible to leave comments, and questions inline with the links. Any that have substance, and are on-topic, will be re-published in the periodic export of discord to this web-site.
+Its also possible to leave comments, and questions inline with the links. Any that have substance, and are on-topic for the channel they are in, will be re-published in the periodic export of discord to this web-site.
 
 One of the great things about Discord is that they have made it a very welcoming space for developers. There are a multitude of open source bots already made for discord, and plenty of people learn to develop by building them. (leaving a wide open door for future integrations)
 
