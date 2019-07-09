@@ -1,6 +1,6 @@
 ---
 title: "DIDecentral: Contributors Intro"
-description: "Getting started contributing to DIDecentrail via Twitter, Discord Chat, and GitHub."
+description: "Getting started contributing to DIDecentral via Twitter, Discord Chat, and GitHub."
 excerpt: >
   A variety of ways to contribute to DIDecentral with a minimal barriar to entry. Starting from Twitter, Discord Chat, and GitHub.
 header:

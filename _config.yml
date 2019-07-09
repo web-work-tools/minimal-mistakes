@@ -115,9 +115,6 @@ author:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/eYm2XvZ"
-    #- label: "Telegram" 
-      icon: "fab fa-fw fa-telegram"  # 
-      url: "https://t.me/InfoMiner33"
 # https://fontawesome.com/icons/telegram?style=brands
 # Just go to fontawesome.com and add whatever social sites you need here.
 
