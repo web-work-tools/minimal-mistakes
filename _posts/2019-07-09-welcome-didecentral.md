@@ -29,44 +29,28 @@ last_modified_at: 2019-07-09T11:22:33-23:00
 
 You may find yourself scratching your head, and wondering why DIDecentral has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com). 
 
-This article will go over the various projects associated with @DIDecentral, and point out where to find more information.
+This website will be the home base for information on all of the projects we're involved with, the ways that you can get involved. and (as usual) where to find more information.
 
 ## DIDecentral - Community Website
 
 ![](https://imgur.com/mWR3qCf.png)
 
-This website will be the home base for anyone interested in participating with this assortment of public-domain informational resources. Here will live the guides for *everything* in the DIDecentral universe, in addition to any specific guides you will find on our other web-sites (as they are not all set up exactly the same).
+This website will be the home base for anyone interested in *active participation* with this assortment of public-domain informational resources. 
 
-## Contributors Guides
+Here will live the guides for *everything* in the DIDecentral universe, in addition to any specific guides you will find on our other web-sites (as they are not all set up exactly the same).
 
-These two guides should be plenty ot get you started learning about how things work around here. There aren't rules or established ways of doing anything, as much as "this is how it's currently done."
+Over time, there will also be an increasing variety of starting points, and ways to connect with us and the work we're doing.
+
+### Contributors Guides
+
+The first two guides should be plenty ot get you started learning about how things work around here. There aren't rules or established ways of doing anything, as much as "this is how it's currently done."
 
 * [DIDecentral: Contributors Intro](/contributors-intro/)
 * [Minimal-Mistakes - Configuration](/website-configuration/)
+* [GitHub Pages: Starter Pack](https://web-work.tools/github-pages-starter-pack/) - This is more general info on getting started with GitHub pages, beyond this organization.
 
-As a community grows, the need for fine grained codes of conduct grows also. However, some of the best communities online with the best community guidelines are classically bad at living up to their own standards.
 
-Its not entirely certain that "community" scales. 
-
-* [Run your own social](https://runyourown.social/) - How to run a small social network site for your friends.
-* [The Dark Forest Theory of the Internet – OneZero](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1) - Why the dark forests of the internet — podcasts, newsletters, and other private channels — are growing, and why might that pose a problem
-
-These documents capture two opposing sides of the same issue.
-
-1. Community works better in small groups between 50-100 people.
-2. If we flee "popular" platforms for social expression, the exact culture we're seeking to avoid is able to grow stronger.
-
-"I've seen a lot of human attempts at decentralized, consensus-based, governance. Centralization works much more consistently." -@infominer33
-
-The most successful communities tend to have some type of benevolant dictator, who generally avoids intervening in the affairs of others under their care. These individuals tend to be leaders because of resources they are able to share with others for the purpose of creating community, and likely also because they are passionately working towards an end that is easy for others to rally around.
-
-We want decentralization, but we underestimate how ineffective it can actually be. Decentralization is not a pursuit for those with a low time-preference.
-
-Ideally, the resources created via DIDecentral will be replicated and iterated upon innumerably. My favorite solutions involve direct action. If there's something you don't like or think you could do better, feel free to contact us, send a pull-request, or fork the project (and we hope to make all those options as frictionless as possible).
-
-Within or without this organization, the doers have final say. (read: the best suggestions come with a demo).
-
-## Discord Archive
+### Discord Archive
 
 ![](https://imgur.com/6kSmrVQ.png)
 
@@ -96,7 +80,7 @@ All of the content from Decentralized-id.com and from the ID channels of SourceC
 
 ![](https://didecentral.com/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg)
 
-This project began from some spirited email threads, discussion in chat, and a few false starts. The idea is that the repositories of each RWoT workshop is full of valuable content, that could be made more accessible to the research community that has collectively contributed that content, along with others who may be new to decentralized identity and the related technologoes.
+This project began from some spirited email threads, discussion in chat, and a few false starts. The idea is that the repositories of each RWoT workshop is full of valuable content that could be made more accessible to the research community that has collectively contributed it, along with others who are trying to catch up.
 
 * [didecentral.com/rwot-dir](https://didecentral.com/rwot-dir/)
 
@@ -126,12 +110,33 @@ Here we'll try to keep track of all the essential organizations, related codebas
 
 1. This market can move very quickly, as we've discovered over the past few months.
   * This is a good reason to track links in the channels of discord and on twitter via #hashtag and @mentions. This way, content may be syndicated, here, to our community site, more quickly than the resources we are building can be updated.
-2. Those who have the time and availability, are the least likely to be qualified, so the resources may grow only as quickly as our skill-sets and incentives align.
+2. Those who have the time and availability, are the least likely to be qualified, so the resources may grow only as quickly as our skill-sets and incentives are aligned.
 3. It's sometimes necessary to find paying work, so focus is always diverted among potential opportunities, these sites developed as time is made available.
 
 * [Decentralized-id.com](https://decentralized-id.com)
 
-## Be Back Soon
+## Community
 
+As a community grows, the need for fine grained codes of conduct grows also. However, some of the best communities online with the best community guidelines are classically bad at living up to their own standards.
 
-This is a published draft. There will be a twitter post when its closer to complete.
+Its not entirely certain that "community" scales. 
+
+* [Run your own social](https://runyourown.social/) - How to run a small social network site for your friends.
+* [The Dark Forest Theory of the Internet – OneZero](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1) - Why the dark forests of the internet — podcasts, newsletters, and other private channels — are growing, and why might that pose a problem
+
+These sources capture two opposing sides of the same issue.
+
+1. Community works better in small groups between 50-100 people.
+2. If we flee "popular" platforms for social expression, the type of culture we're seeking to avoid is given ground to flourish.
+
+Fortunately github accounts, organizations, and web-hosting are all free, and forking is built right into it. So it's a lot simpler to reclaim a project that's gone astray (or even split into equally valid factions) than irl where physical resources and space are limited.
+
+Ideally, the resources created via DIDecentral will be replicated and iterated upon endlessly. Our favorite solutions involve direct action. If there's something you see that could be better, feel free to contact us, send a pull-request, or fork the project (and we hope to make all those options as frictionless as possible).
+
+Within or without this organization, the doers have final say. (read: the best suggestions come with a demo).
+
+Perhaps with deeper thought, further study, and time we'll tell how these matters should be arranged.
+
+## Coming Soon!!!
+
+The next step, is to rebuild Decentralized-id.com, and come back here later today or tomorrow with some "to do" lists that will make it easy for anyone interested in helping to know what's on our plate, at the moment, and a few ways to get involved.
