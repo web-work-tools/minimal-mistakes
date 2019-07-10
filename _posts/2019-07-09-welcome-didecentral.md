@@ -1,8 +1,8 @@
 ---
 title: "Welcome to DIDecentral - Community Website"
-description: "DIDecentral is a Community Effort towards creating quality Educational Materials surrounding Decentralized Identity: Specs, Apps and Initiatives."
+description: "DIDecentral is a collaborative curation initiative aiming to create quality educational content related to Decentralized Identity: Principles, Specs, Code and Initiatives."
 excerpt: >
-  This post will offer a high-level overview of DIDecentral, its projects, and their general state of development.
+  A high-level overview of our organization, its projects, and their general state of development.
 header:
   image: /assets/images/didecentral-community-header.png
   teaser: /assets/images/didecentral-community-teaser.png
@@ -22,7 +22,7 @@ authors:
   - #"<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: welcome-didecentral/
 published: true
-last_modified_at: 2019-07-09T11:22:33-23:00
+last_modified_at: 2019-07-10T11:22:33-23:00
 ---
 
 ## Welcome!

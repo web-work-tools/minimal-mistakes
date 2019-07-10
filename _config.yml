@@ -17,7 +17,7 @@ locale                   : "en-US"
 title                    : "DIDecentral"
 title_separator          : "-"
 name                     : "DIDecentral"
-description              : "A collaborative curation initiative that aims to create quality educational content related to Decentralized Identity: Principles, Specs, Code and Initiatives."
+description              : "A collaborative curation initiative aiming to create quality educational content related to Sovereign Identity: Principles, Specs, Code and Initiatives."
 url                      : "https://didecentral.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : didecentral/didecentral.github.io
