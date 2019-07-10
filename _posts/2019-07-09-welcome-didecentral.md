@@ -27,20 +27,48 @@ last_modified_at: 2019-07-09T11:22:33-23:00
 
 ## Welcome!
 
-You may find yourself scratching your head, and wondering why DIDecentral has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com) that began as [an awesome list on GitHub](https://github.com/infominer33/awesome-decentralized-id).
+You may find yourself scratching your head, and wondering why DIDecentral has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com). 
 
 This article will go over the various projects associated with @DIDecentral, and point out where to find more information.
 
 ## DIDecentral - Community Website
 
+![](https://imgur.com/mWR3qCf.png)
+
 This website will be the home base for anyone interested in participating with this assortment of public-domain informational resources. Here will live the guides for *everything* in the DIDecentral universe, in addition to any specific guides you will find on our other web-sites (as they are not all set up exactly the same).
 
 ## Contributors Guides
 
+These two guides should be plenty ot get you started learning about how things work around here. There aren't rules or established ways of doing anything, as much as "this is how it's currently done."
+
 * [DIDecentral: Contributors Intro](/contributors-intro/)
 * [Minimal-Mistakes - Configuration](/website-configuration/)
 
+As a community grows, the need for fine grained codes of conduct grows also. However, some of the best communities online with the best community guidelines are classically bad at living up to their own standards.
+
+Its not entirely certain that "community" scales. 
+
+* [Run your own social](https://runyourown.social/) - How to run a small social network site for your friends.
+* [The Dark Forest Theory of the Internet – OneZero](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1) - Why the dark forests of the internet — podcasts, newsletters, and other private channels — are growing, and why might that pose a problem
+
+These documents capture two opposing sides of the same issue.
+
+1. Community works better in small groups between 50-100 people.
+2. If we flee "popular" platforms for social expression, the exact culture we're seeking to avoid is able to grow stronger.
+
+"I've seen a lot of human attempts at decentralized, consensus-based, governance. Centralization works much more consistently." -@infominer33
+
+The most successful communities tend to have some type of benevolant dictator, who generally avoids intervening in the affairs of others under their care. These individuals tend to be leaders because of resources they are able to share with others for the purpose of creating community, and likely also because they are passionately working towards an end that is easy for others to rally around.
+
+We want decentralization, but we underestimate how ineffective it can actually be. Decentralization is not a pursuit for those with a low time-preference.
+
+Ideally, the resources created via DIDecentral will be replicated and iterated upon innumerably. My favorite solutions involve direct action. If there's something you don't like or think you could do better, feel free to contact us, send a pull-request, or fork the project (and we hope to make all those options as frictionless as possible).
+
+Within or without this organization, the doers have final say. (read: the best suggestions come with a demo).
+
 ## Discord Archive
+
+![](https://imgur.com/6kSmrVQ.png)
 
 After seeing how nice it was to use discord exports to archive the [SourceCrypto](https://sourcecrypto.pub) Discord server, which has 170+ channels of information organized by topic, it was easy to imagine what could be done for the Decentralized ID resources.
 
@@ -49,8 +77,6 @@ Partly, it's not possible to always websites up to date. However, when saving li
 A small core of contributors is beginning to develop, and it will be simple to build, organize, and grow the body of knowledge we have available.
 
 All of the content from Decentralized-id.com and from the ID channels of SourceCrypto has been arranged in the discord server, according to a system that is under development, and will evolve as channels and categories are created to serve specific types of information.
-
-![](https://imgur.com/6kSmrVQ.png)
 
 [![](https://imgur.com/Kej8Wye.png)](https://discord.gg/eYm2XvZ)
 
@@ -87,6 +113,8 @@ This solution offers increased modularity, and distribution of responsibility fo
 
 ## Decentralized-id.com
 
+[![](https://decentralized-id.com/images/identity-decentralized.png)](https://decentralized-id.com)
+
 Here we'll try to keep track of all the essential organizations, related codebases, specs and regulations. There are a variety of challenges to be faced in this task:
 
 **Challenges**
@@ -98,12 +126,7 @@ Here we'll try to keep track of all the essential organizations, related codebas
 
 * [Decentralized-id.com](https://decentralized-id.com)
 
-## Follow us On Twitter
-
-
-* [Twitter.com/DIDecentral](https://twitter.com/didecentral)
-
 ## Be Back Soon
 
 
-This is a published draft. There will be a twitter post, tomorrow, once its closer to complete.
+This is a published draft. There will be a twitter post when its closer to complete.
