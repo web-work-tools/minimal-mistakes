@@ -14,7 +14,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
                                   
 # Site Settings
 locale                   : "en-US"
-title                    : "DIDecentral"
+title                    : "DIDecentral - Community Site"
 title_separator          : "-"
 name                     : "DIDecentral"
 description              : "A collaborative curation initiative aiming to create quality educational content related to Sovereign Identity: Principles, Specs, Code and Initiatives."
