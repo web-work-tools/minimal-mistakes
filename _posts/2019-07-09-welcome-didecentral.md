@@ -94,6 +94,8 @@ All of the content from Decentralized-id.com and from the ID channels of SourceC
 
 ## Rebooting Web of Trust - Archive
 
+![](https://didecentral.com/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg)
+
 This project began from some spirited email threads, discussion in chat, and a few false starts. The idea is that the repositories of each RWoT workshop is full of valuable content, that could be made more accessible to the research community that has collectively contributed that content, along with others who may be new to decentralized identity and the related technologoes.
 
 * [didecentral.com/rwot-dir](https://didecentral.com/rwot-dir/)
@@ -104,12 +106,15 @@ The ultimate goal is to be able to filter by author, tag, and keyword, have inte
 
 ## IDCommons - Identity History Timeline
 
+![](https://imgur.com/0sAr1Wn.png)
+
 We are working to figure out how to organize an ever increasing volume and variety of information. It seems good to merge all of the ID-History content from Decentralized-id.com, and combine it with the ongoing efforts of IDCommons. 
 
 This solution offers increased modularity, and distribution of responsibility for caretaking this wealth of knowledge.
 
 * [identitywoman.github.io/identity-commons/ID-History](https://identitywoman.github.io/identity-commons/ID-History)
   * [identitywoman/identity-commons](https://github.com/identitywoman/identity-commons/)
+
 
 ## Decentralized-id.com
 
