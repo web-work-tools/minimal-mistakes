@@ -4,9 +4,9 @@ description: "DIDecentral is a Community Effort towards creating quality Educati
 excerpt: >
   This post will offer a high-level overview of DIDecentral, its projects, and their general state of development.
 header:
-  image: #https://infominer.id/assets/img/infohub-contributors-intro.png
-  teaser: #https://infominer.id/assets/img/infohub-contributors-thumb.png
-  caption: #"Quickstart for [GitHub](https://github.com/didecentral), [Twitter](https://twitter.com/didecentral), and [Discord](https://discord.gg/eYm2XvZ) Participation."
+  image: /assets/images/didecentral-community-header.png
+  teaser: /assets/images/didecentral-community-teaser.png
+  caption: ""
 tags: 
   - "Decentralized Identity"
   - "Web of Trust"
