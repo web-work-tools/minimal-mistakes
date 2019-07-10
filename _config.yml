@@ -217,6 +217,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-mentions
+
+  
+jekyll-mentions:
+  base_url: https://twitter.com
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -226,6 +231,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-mentions
 
 
 # Archives
