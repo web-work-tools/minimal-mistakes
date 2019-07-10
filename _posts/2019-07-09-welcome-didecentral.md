@@ -1,8 +1,8 @@
 ---
-title: "DIDecentral - Community Website"
+title: "Welcome to DIDecentral - Community Website"
 description: "DIDecentral is a Community Effort towards creating quality Educational Materials surrounding Decentralized Identity: Specs, Apps and Initiatives."
 excerpt: >
-  This post will offer a high-level overview of DIDecentral, its projects, and their state of development.
+  This post will offer a high-level overview of DIDecentral, its projects, and their general state of development.
 header:
   image: #https://infominer.id/assets/img/infohub-contributors-intro.png
   teaser: #https://infominer.id/assets/img/infohub-contributors-thumb.png
