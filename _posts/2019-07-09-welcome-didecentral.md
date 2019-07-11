@@ -23,6 +23,18 @@ authors:
 permalink: welcome-didecentral/
 published: true
 last_modified_at: 2019-07-10T11:22:33-23:00
+feature:
+  - image_path: https://imgur.com/Se04SGx.png
+    alt: "Own Your Social Feature Image"
+    title: "Run your own social"
+    excerpt: "How to run a small social network site for your friends. - Darius Kazemi, July 8, 2019"
+    url: "https://runyourown.social/"
+  - image_path: https://imgur.com/z1hlt4p.png
+    alt: "Dark Forest Feature Image"
+    title: "The Dark Forest Theory of the Internet"
+    excerpt: "This is also what the internet is becoming: a dark forest. - Yancey Strickler in OneZero"
+    url: "https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1"
+
 ---
 
 If you're wondering why DIDecentral now has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com), you're in the right place.
@@ -120,11 +132,17 @@ As a community grows, the need for fine grained codes of conduct grows also. How
 Its not entirely certain that "community" scales. I'll share these two links as food for thought.
 
 * [Run your own social](https://runyourown.social/) - How to run a small social network site for your friends.
+
+[![](https://imgur.com/2VkekcG.png)](https://runyourown.social/)
+
 * [The Dark Forest Theory of the Internet – OneZero](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1) - Why the dark forests of the internet — podcasts, newsletters, and other private channels — are growing, and why might that pose a problem
 
-These capture two sides of the same issue:
+[![](https://imgur.com/53XxT59.png)](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1)
 
-1. Community works better in small groups between 50-100 people.
+
+**These capture two sides of the same issue**:
+
+1. Community seems to work better in small groups between 50-100 people.
 2. If we flee "popular" platforms for social expression, the type of culture we're seeking to avoid is given ground to flourish.
 
 Fortunately github accounts, organizations, and web-hosting are all free, and forking is built right into it. So it's a lot simpler to reclaim a project that's gone astray (or even split into equally valid factions) than irl where physical resources and space are limited.
