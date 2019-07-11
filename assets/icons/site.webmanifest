@@ -1,5 +1,5 @@
 {
-    "name": "DIDecentral - Community Hub",
+    "name": "DIDecentral",
     "short_name": "DIDecentral",
     "icons": [
         {
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ededee",
-    "background_color": "#ededee",
+    "theme_color": "#c8d1de",
+    "background_color": "#c8d1de",
     "display": "standalone"
 }
