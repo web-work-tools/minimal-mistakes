@@ -20,7 +20,10 @@ author: Infominer
 authors: 
   - #"<a href='https://infominer.id'>Infominer</a>"
   - #"<a href='https://www.caballerojuan.com'>JuanSC</a>"
-permalink: welcome-didecentral/
+permalink: welcome/
+redirect_from:
+  - welcome-didecentral/
+  - welcome
 published: true
 last_modified_at: 2019-07-10T11:22:33-23:00
 feature:
