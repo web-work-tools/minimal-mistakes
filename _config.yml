@@ -14,17 +14,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
                                   
 # Site Settings
 locale                   : "en-US"
-title                    : "DIDecentral - Community Site"
-title_separator          : "-"
+title                    : "DIDecentral"
+title_separator          : "|"
 name                     : "DIDecentral"
-description              : "A collaborative curation initiative aiming to create quality educational content related to Sovereign Identity: Principles, Specs, Code and Initiatives."
+description              : "Detailed guides on how we are creating educational content related to Sovereign Identity: Principles, Specs, Code and Initiatives."
 url                      : "https://didecentral.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : didecentral/didecentral.github.io
-github: [metadata] #enables access to your github metadata
+github                   : [metadata] #enables access to your github metadata
 teaser                   : /assets/images/didecentral-community-teaser.png
 logo                     : https://decentralized-id.com/images/DID.png
-masthead_title           : For Sovereign, Decentralized-ID Online
+masthead_title           : Sovereign Co-Education
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
