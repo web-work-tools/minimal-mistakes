@@ -24,6 +24,7 @@ permalink: welcome/
 redirect_from:
   - welcome-didecentral/
   - welcome
+  - welcome-didecentral
 published: true
 last_modified_at: 2019-07-10T11:22:33-23:00
 feature:
