@@ -35,11 +35,11 @@ gem 'html-proofer'
 
 Then you must type `bundle install` from the root of your local copy.
 
-### Use
+### Test run on Decentralized-id.com
 
 Once installed, you can run Html Proofer as a command-line app. 
 
-There's [a lot of other ways](https://github.com/gjtorikian/html-proofer) to use it, but here's a simle example that gives us actionalbe results:
+There's [a lot of other ways](https://github.com/gjtorikian/html-proofer) to use it, but here's a simle example that gives us some actionable results:
 
 `htmlproofer --disable_external --directory_index_file index.html --empty_alt_ignore ./_site`
 
