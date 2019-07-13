@@ -258,6 +258,7 @@ gem "jekyll-gist"
 gem "jekyll-feed"
 gem "jemoji"
 gem "jekyll-include-cache"
+gem 'html-proofer'
 ```
 
 Every plugin listed in your _config.yml should be also listed in your gem-file, if you want it to work locally, and if your features depend on some of these plugins, then its best to put them in the gemfile as well.

@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the community website for DIDecentral"
+title: "Welcome to DIDecentral Community Site and Social Archive"
 description: "DIDecentral is a collaborative curation initiative aiming to create quality educational content related to Decentralized Identity: Principles, Specs, Code and Initiatives."
 excerpt: >
   A high-level overview of our organization, its projects, and their general state of development.
