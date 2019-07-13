@@ -282,7 +282,7 @@ In the mean-time, this is plenty to get you started learning about how things wo
 
 ### _config.yml
 
-I will keep this page updated with whatever is the most recent configuration, with notes of explanation, when necessary.
+We'll aim to keep this page updated with whatever is the most recent configuration, with notes of explanation when necessary.
 
 
 ```yaml
@@ -303,7 +303,8 @@ logo                     : https://decentralized-id.com/images/DID.png
 masthead_title           : For Decentralized Sovereign Identification Online
 words_per_minute         : 200
 ```
-I'm not set up for comments, yet. It's something I'll figure out, but lately I haven't had the time, and wasn't sucessful previously.
+
+We just got set up with comments, and will add info here soon.
 
 ```yaml
 # Social Sharing
