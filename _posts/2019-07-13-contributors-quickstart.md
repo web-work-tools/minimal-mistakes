@@ -155,6 +155,7 @@ Name your post starting with the date, and then the title, with `-` dashes inste
 
 
 ```
+
 {% raw %}
 ---
 title:  "Hi I'm info-bot!"
@@ -169,6 +170,7 @@ I'm an account that @infominer33 uses for experimenting with various features.
 This post was written during the creation of {{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.
 
 {% endraw %}
+
 ```
 
 ![](https://imgur.com/EMiBZzQ.png)
@@ -180,11 +182,13 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 ## Raw Tags Demo
 
 ```
+
 {% raw %}
 {% raw %}
 {% include someliquid %}
 {% endraw %}
 {% endraw %}
+
 ```
 use raw tags, as demonstrated above if you ever want to create a post explaining the source of some creation of yours that involves  the liquid.
 
