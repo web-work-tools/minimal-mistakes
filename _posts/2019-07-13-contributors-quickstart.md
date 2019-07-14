@@ -184,6 +184,7 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 
 ```html
 {% raw %}
+
 ```html
 {% raw %}
 
@@ -192,6 +193,7 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 {% endraw %}
 ```
 {% endraw %}
+
 ```
 
 use raw tags, as demonstrated above if you ever want to create a post explaining the source of some creation of yours that involves  the liquid.
