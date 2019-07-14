@@ -1,5 +1,6 @@
 ---
 title: Contributors Quickstart (A Gentle Introduction to GitHub)
+excerpt: "Get started with the 'Edit this Page' button: revise content, add a few links, or submit a blog-post."
 header:
   image: /assets/images/contributors-quickstart-header.png
   teaser: /assets/images/contributors-quickstart-teaser.png
@@ -17,7 +18,7 @@ So far, we've covered quite a lot of ground in our contributors guides!
 * [Website Configuration](/website-configuration/) - 'Everything' about how this site is configured.
 * [Discord Archive HowTo](/discord-archive-howto/) - How to export discord history and integrate with Minimal Mistakes Jekyll.
 
-What is needed is a quickstart guide, so that you don't need to worry about reading all of that just revise content or add a few links to our web-sites.
+What is needed is a quickstart guide, so that you don't have to read all of that just to get started revise content, add a few links to our web-sites, or submit a blog-post.
 
 
 All that's required to follow this guide is a web-browser and a GitHub account. If you don't already have one, go ahead and [sign up](https://github.com/join) so you can follow along. 
@@ -209,7 +210,9 @@ Name your post starting with the date, and then the title, with `-` dashes inste
 ---
 title:  "Hi I'm info-bot!"
 author: Infobot
+permalink: test/
 ---
+
 
 **Hello world**, this is my first Jekyll blog post.
 
@@ -217,7 +220,7 @@ I hope you like it!
 
 I'm an account that @infominer33 uses for experimenting with various features.
 
-This post was written during the creation of {{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.
+This post was written during the creation of our [Contributors Quickstart](/contributors-quickstart/) guide.
 
 {% endraw %}
 
