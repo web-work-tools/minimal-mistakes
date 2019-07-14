@@ -20,7 +20,7 @@ All that's required to follow this guide is a web-browser and a GitHub account. 
 {: .notice--primary}
 
 
-If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with "[raw tags](#raw-tags-demo)". As a result, a significant portion of the value was lost to any early readers.
+If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with "raw tags" (see source for details). As a result, a significant portion of the value was lost to any early readers.
 {: .notice--warning}
 
 
@@ -173,34 +173,10 @@ This post was written during the creation of {{ site.baseurl }}{% post_url 2019-
 
 ```
 
-<div class="note info">
-  <p>If you are using a language that contains curly braces, you will likely need to place <code>{&#37; raw &#37;}</code> and <code>{&#37; endraw &#37;}</code> tags around your code.</p>
-</div>
-
 
 ![](https://imgur.com/EMiBZzQ.png)
 
 For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll detail how to create (and merging back in) a new working branch, to leave the master branch in sync with its source while you work. 
-
-
-
-## Liquid Templating Language
-
-## Raw Tags Demo
-
-
-```html
-
-{% raw %}
-```html
-{% raw %}
-{% include someliquid %}
-{% endraw %}
-```{% endraw %}
-
-```
-
-use raw tags, as demonstrated above if you ever want to create a post explaining the source of some creation of yours that involves  the liquid.
 
 
 ### More Info on Posts
