@@ -1,6 +1,6 @@
 ---
-title: Contributors Quickstart (A Gentle Introduction to GitHub)
-excerpt: "Get started with the 'Edit this Page' button: revise content, add a few links, or submit a blog-post."
+title: "Contributors Quickstart (A Gentle Introduction to GitHub)"
+excerpt: "Learn how to revise/add content to a page, or submit your first blog-post via web-browser."
 header:
   image: /assets/images/contributors-quickstart-header.png
   teaser: /assets/images/contributors-quickstart-teaser.png
@@ -18,7 +18,7 @@ So far, we've covered quite a lot of ground in our contributors guides!
 * [Website Configuration](/website-configuration/) - 'Everything' about how this site is configured.
 * [Discord Archive HowTo](/discord-archive-howto/) - How to export discord history and integrate with Minimal Mistakes Jekyll.
 
-What is needed is a quickstart guide, so that you don't have to read all of that just to get started revise content, add a few links to our web-sites, or submit a blog-post.
+What is needed is a quickstart guide, so that you don't have to read all of that to revise \ add a few links to a page, or even submit your first blog-post.
 
 
 All that's required to follow this guide is a web-browser and a GitHub account. If you don't already have one, go ahead and [sign up](https://github.com/join) so you can follow along. 
