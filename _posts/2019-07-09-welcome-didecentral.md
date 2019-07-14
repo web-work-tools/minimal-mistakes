@@ -28,6 +28,8 @@ published: true
 last_modified_at: 2019-07-10T11:22:33-23:00
 ---
 
+<!--this comment is for demonstration purposes https://didecentral.com/contributors-quickstart/ -->
+
 If you're wondering why DIDecentral now has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com), you're in the right place.
 
 This website will be the home base for information on all of the projects we're involved with, the ways that you can get involved. and (as usual) where to find more information.
