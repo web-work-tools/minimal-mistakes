@@ -1,9 +1,13 @@
 ---
 title: Contributors Quickstart (A Gentle Introduction to GitHub)
+header:
+  image: /assets/images/contributors-quickstart-header.png
+  teaser: /assets/images/contributors-quickstart-teaser.png
+  og_image: /assets/images/contributors-quickstart-teaser.png
 permalink: contributors-quickstart/
 categories: ["Contributors Guide", "DIDecentral"]
 tags: ["Quickstart","Tools", "GitHub Pages", "Minimal Mistakes"]
-publsihed: true
+author: Infominer
 ---
 
 So far, we've covered quite a lot of ground in our contributors guides!
@@ -65,7 +69,7 @@ tags:
   - Archive
   - How-To
 categories: ["DIDecentral", "Welcome"]
-author: Infominer
+author: Infominer  
 
 #If you are making some revisions to existing content you can use the following example that will add a contributors section at the bottom of the page near tags and categories (be sure to uncomment and edit those lines to fit the situation of whatever page you are on).
 authors: 
@@ -144,6 +148,51 @@ The idea is to be as welcoming as possible, and encourage people to try it out. 
 
 You don't have to be very technical to get started. If you start with the simple things, after a while, you'll find that you're getting to know the lay of the land. It's possible to build from there to learn any number of technical skills, as @infominer33 has been discovering.
 
+## authors.yml
+
+If you're submitting a new post, or planning to make any contributions, why not add yourself to the [authors.yml](https://github.com/didecentral/didecentral.github.io/edit/master/_data/authors.yml)? 
+
+This way an "author profile" will be shown next to your posts. Later, we can modify the author profile template to include info about all of your contributions to the site, and eventually each author will have their own page made with user-generated Jekyll data.
+
+![](https://imgur.com/9tXkp0t.png)
+
+
+```yaml
+
+Infobot:
+  name        : "Info-bot"
+  bio         : "Digital Helper"
+  avatar      : "https://imgur.com/LPDefso.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:infominer@protonmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://infominer.id"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/info-bot/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/infominer33"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/29mZwPQ"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/InfoMiner33"
+
+```
+
+Simply copy-paste this example, removing any social networks you don't use, and if you don't see your preferred social networks listed, go to [fontawesome.com](https://fontawesome.com/icons/telegram?style=brands) to see how your favorite social site is labeled (mostly you can just use it's name and copy the format shown above).
+
+Save your addition to `authors.yml`, and we'll cover pull-requests after submitting our post.
+
+## Create New File
+
+Now that you've added your info into the author data file, you are ready to create your first blog-post with DIDecentral.
+
 ![](https://imgur.com/lIn4hRm.png)
 
 
@@ -159,6 +208,7 @@ Name your post starting with the date, and then the title, with `-` dashes inste
 
 ---
 title:  "Hi I'm info-bot!"
+author: Infobot
 ---
 
 **Hello world**, this is my first Jekyll blog post.
@@ -173,10 +223,9 @@ This post was written during the creation of {{ site.baseurl }}{% post_url 2019-
 
 ```
 
-
 ![](https://imgur.com/EMiBZzQ.png)
 
-For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll detail how to create (and merging back in) a new working branch, to leave the master branch in sync with its source while you work. 
+For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll detail how to create (and merge back in) a new working branch, to leave the master branch in sync with its source while you work (especially helpful for bigger changes that might take a while). 
 
 ## Submit a Pull Request
 
@@ -190,14 +239,70 @@ Now that we've saved the file in our personal copy of the repository, lets creat
 
 ![](https://imgur.com/qWHet5w.png)
 
+Any time you are creating a pull-request, remember, the `base repository` is wherever you're trying to send the suggested changes, and the `head repository` is wherever you've made the changes.
+
 [![](https://imgur.com/PqpNCuRl.png)](https://imgur.com/PqpNCuR.png)
 
-### More Info on Posts
+Once you're sure that you've included only changes you intended, and that you are making changes where you meant to, go ahead and "Create pull-request"
 
-The theme we are using, Minimal Mistakes, is built on Jekyll, you can learn more about how Jekyll uses posts, here:
+![](https://imgur.com/hZSoJVM.png)
+
+Enter some comment and click "Create a pull-request" on this page: 
+
+![](https://imgur.com/FMAUa8L.png)
+
+Now the project collaborators will recieve a notice that a pull-request has been submitted, and within a day or so (hopefully sooner) you're pull-request will have been accepted, or at least commented on.
+
+Should it take longer than you'd expect, visit [DIDecentral Discord Chat](https://discord.gg/eYm2XvZ) and check to see if anyone has seen your pull-request.
+
+## Changes After Request is Submitted
+
+After you submit a pull-request, you can continue to change the branch or repository where your pull-request originated, and any additional updates will be included in the request.
+{ .notice}
+
+Head over to [didecentral/didecentral.github.io/pulls](https://github.com/didecentral/didecentral.github.io/pulls) and you can see the active pull-requests.
+
+Whether you were working from a personal copy of the site, or a patch automatically created by GitHub after clicking the "edit this page" button, you can get there from this page:
+
+![](https://imgur.com/nCA1zfl.png)
+
+Clicking [info-bot:patch-2](https://github.com/info-bot/didecentral.github.io/tree/patch-2) leads me to the patch that was created and I can edit to my hearts content, here, if I'd like those edits to be included in the same pull-request.
+
+## Site Structure:
+
+```
+/_application
+/_blockchain
+/_multi-media
+/_organizations
+/_private-sector
+/_public-sector
+/_tech
+/_resources # This line and above are "categories" as explained in discord archive post
+/_data      # Data files including authors.yml, and navigation.yml
+/assets     # images javascript and css live here.
+/bookmark-donations  # Upload your bookmarks export file here.
+/example-site  # Find example posts here.
+/_includes  # Partials used to inject modularized html blocks into pages
+/_layouts   # These are large partials defining the layout of different page types
+/_pages     # These don't require a dated filename, or get added to the blog feed.
+/_posts     # This is where you'll be submitting a blog post
+/_sass
+/_site       # This is the latest local build of the site, not the live version.
+/_config.yml # Site Configuration
+/Gemfile     # Local Site Configuration
+/CNAME       # Site url
+/index.html  
+/favicon.ico
+/README.md
+```
+
+## That's all for now
+
+**Let us know in the comments if you have any questions!**
+
+### More Info
 
 * [jekyllrb.com/docs/posts](https://jekyllrb.com/docs/posts/)
-
-### That's not All
-
-I'm just publishing this to see how it looks, but I'm not really finished.
+* [What is the JAMstack?](https://jamstack.org/)
+  >You may have already seen or worked on a JAMstack site! They do not have to include all attributes of JavaScript, APIs, and Markup. They might be built using by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another static site generator... 
