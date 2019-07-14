@@ -24,7 +24,7 @@ repository               : didecentral/didecentral.github.io
 github                   : [metadata] #enables access to your github metadata
 teaser                   : /assets/images/didecentral-community-teaser.png
 logo                     : https://decentralized-id.com/images/DID.png
-masthead_title           : Sovereign Co-Education
+masthead_title           : Learning Collaborative 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
