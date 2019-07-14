@@ -178,6 +178,19 @@ This post was written during the creation of {{ site.baseurl }}{% post_url 2019-
 
 For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll detail how to create (and merging back in) a new working branch, to leave the master branch in sync with its source while you work. 
 
+## Submit a Pull Request
+
+Now that we've saved the file in our personal copy of the repository, lets create a pull-request and get it published. 
+
+**Click the "Pull-Requests" tab on the upper left below your repository name:**
+
+![](https://imgur.com/xlLx8s1.png)
+
+**Then click the "New Pull Request" Button**
+
+![](https://imgur.com/qWHet5w.png)
+
+[![](https://imgur.com/PqpNCuRl.png)](https://imgur.com/PqpNCuR.png)
 
 ### More Info on Posts
 
