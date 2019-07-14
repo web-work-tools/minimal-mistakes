@@ -160,7 +160,7 @@ I hope you like it!
 
 I'm an account that @infominer33 uses for experimenting with various features.
 
-This post was written during the creation of {{% raw %}{{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.{% endraw %}
+This post was written during the creation of {% raw %}{{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.{% endraw %}
 
 ```
 
