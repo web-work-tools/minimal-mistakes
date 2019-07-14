@@ -19,8 +19,9 @@ All that's required to follow this guide is a web-browser and a GitHub account. 
 {: .notice--primary}
 
 
-If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with {% raw %}{% raw %}{% endraw %}{% endraw %}. As a result, a significant portion of the value was lost to any early readers.  
+If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with "[raw tags](#raw-tags-demo)". As a result, a significant portion of the value was lost to any early readers.
 {: .notice--warning}
+
 
 ## Edit This Page
 
@@ -167,8 +168,26 @@ I'm an account that @infominer33 uses for experimenting with various features.
 
 This post was written during the creation of {{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.
 
-{% endraw %
+{% endraw %}
 ```
+
+![](https://imgur.com/EMiBZzQ.png)
+
+For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll cover creating (and merging back in) a new working branch, to leave the master branch in synch with its source. T
+
+## Liquid Templating Language
+
+## Raw Tags Demo
+
+```
+{% raw %}
+{% raw %}
+{% include someliquid %}
+{% endraw %}
+{% endraw %}
+```
+use raw tags, as demonstrated above if you ever want to create a post explaining the source of some creation of yours that involves  the liquid.
+
 
 ### More Info on Posts
 
