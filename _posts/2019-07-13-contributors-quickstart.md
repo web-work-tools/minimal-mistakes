@@ -15,6 +15,7 @@ So far, we've covered quite a lot of ground in our contributors guides!
 
 What is needed is a quickstart guide, so that you don't need to worry about reading all of that just revise content or add a few links to our web-sites.
 
+
 All that's required to follow this guide is a web-browser and a GitHub account. If you don't already have one, go ahead and [sign up](https://github.com/join) so you can follow along. 
 {: .notice--primary}
 
@@ -45,7 +46,6 @@ If you click the little pencil icon (red circle in above image), you will find a
 This is where configuration on the page level happens.   
 
 ```yaml
----
 ---
 title: "Welcome to DIDecentral Community Site and Social Archive"
 description: "DIDecentral is a collaborative curation initiative aiming to create quality educational content related to Decentralized Identity: Principles, Specs, Code and Initiatives."
@@ -154,9 +154,10 @@ Name your post starting with the date, and then the title, with `-` dashes inste
 `YEAR-MONTH-DAY-title.md`
 
 
-```
+```liquid
 
 {% raw %}
+
 ---
 title:  "Hi I'm info-bot!"
 ---
@@ -181,17 +182,21 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 
 ## Raw Tags Demo
 
-```
+
+```liquid
 
 {% raw %}
 
 {% raw %}
+
 {% include someliquid %}
+
 {% endraw %}
 
 {% endraw %}
 
 ```
+
 use raw tags, as demonstrated above if you ever want to create a post explaining the source of some creation of yours that involves  the liquid.
 
 
