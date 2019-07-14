@@ -19,7 +19,7 @@ All that's required to follow this guide is a web-browser and a GitHub account. 
 {: .notice--primary}
 
 
-If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with `{% raw %}{% raw %}{% endraw %}{% endraw %}`. As a result, a significant portion of the value was lost to any early readers.  
+If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with {% raw %}{% raw %}{% endraw %}{% endraw %}. As a result, a significant portion of the value was lost to any early readers.  
 {: .notice--warning}
 
 ## Edit This Page
