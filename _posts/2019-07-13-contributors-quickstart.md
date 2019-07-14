@@ -9,6 +9,7 @@ permalink: contributors-quickstart/
 categories: ["Contributors Guide", "DIDecentral"]
 tags: ["Quickstart","Tools", "GitHub Pages", "Minimal Mistakes"]
 author: Infominer
+toc_sticky: true
 ---
 
 So far, we've covered quite a lot of ground in our contributors guides!

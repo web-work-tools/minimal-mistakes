@@ -372,6 +372,27 @@ footer:
 
 I just went to [fontawesome.com](https://fontawesome.com) and it's pretty simple to try and match above formula without thinking too deeply on the matter.
 
+### _config.yml - Permalink Defaults
+
+
+The permalink default defines permalinks, in the case that they are not defined within a post.
+
+```yaml
+
+# Outputting
+permalink: /:categories/:slug/  # https://jekyllrb.com/docs/permalinks/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+```
+
 
 ### _config.yml - Frontmatter Defaults
 
