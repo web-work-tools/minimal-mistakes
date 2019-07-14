@@ -12,10 +12,9 @@ tags:
   - Archives
   - GitHub
   - Twitter
-  - Web-Pub
   - How-To
 toc_sticky: true
-categories: [Contributors-Guide, DIDecentral]
+categories: ["Contributors Guide", "DIDecentral"]
 published: true
 last_modified_at: 2019-07-06T11:22:33-23:00
 author: Infominer

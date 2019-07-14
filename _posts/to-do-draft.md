@@ -2,6 +2,8 @@
 published: false
 ---
 
-* Simplified Getting Started Website Local Deploy
 * add gitlink \ authors \ contributors to rwot-dir pages
-* make todoo list
+* make todo post
+* add comments to decentralized-id.com
+* make separate post for all tools
+* list of essential blog-posts

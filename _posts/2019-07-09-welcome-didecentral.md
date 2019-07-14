@@ -11,11 +11,10 @@ tags:
   - "Decentralized Identity"
   - "Web of Trust"
   - "Self Sovereign Identity"
-  - "Web-Work"
   - Archive
   - How-To
 toc_sticky: true
-categories: [DIDecentral, Welcome]
+categories: ["DIDecentral", "Welcome"]
 author: Infominer
 authors: 
   - #"<a href='https://infominer.id'>Infominer</a>"
