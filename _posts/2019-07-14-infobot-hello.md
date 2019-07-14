@@ -5,7 +5,10 @@ authors:
   - Infobot
   - "<a href='https://infominer.id'>Infominer</a>"
 toc: false
-categories: ["test"]
+permalink: test/infobot-hello/
+categories: ["test","Contributors Guide","DIDecentral"]
+last_modified_at: 2019-07-14T11:22:33-23:00
+
 ---
 
 

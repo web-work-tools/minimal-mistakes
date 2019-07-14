@@ -5,11 +5,12 @@ header:
   image: /assets/images/contributors-quickstart-header.png
   teaser: /assets/images/contributors-quickstart-teaser.png
   og_image: /assets/images/contributors-quickstart-teaser.png
-permalink: contributors-quickstart/
 categories: ["Contributors Guide", "DIDecentral"]
 tags: ["Quickstart","Tools", "GitHub Pages", "Minimal Mistakes"]
 author: Infominer
 toc_sticky: true
+permalink: contributors-guide/quickstart/
+last_modified_at: 2019-07-14T11:22:33-23:00
 ---
 
 So far, we've covered quite a lot of ground in our contributors guides!

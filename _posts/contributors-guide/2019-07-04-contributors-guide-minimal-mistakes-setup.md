@@ -17,10 +17,10 @@ toc_sticky: true
 authors: 
   - "<a href='https://infominer.id'>Infominer</a>"
   - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
-permalink: website-configuration/
+permalink: contributors-guide/site-config/
 categories: ["Contributors Guide","DIDecentral"]
 published: true
-last_modified_at: 2019-07-05T11:22:33-23:00
+last_modified_at: 2019-07-14T11:22:33-23:00
 ---
 
 I'm creating this resource while I do the initial setup so that DIDecentral, the Organization, has a guide to how its websites work. This will compliment [decentralized-id.com](https://decentralized-id.com), and support its co-creation.
