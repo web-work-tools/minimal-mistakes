@@ -40,8 +40,8 @@ permalink: # choose/yourown/permalink/
 ---
 ```
 
-this front-matter results in the following url being generated: `didecentral.com/test/slug-from-filename/`
+this front-matter results in the following url being generated: `didecentral.com/test/slug-from-filename/`.
 
-if your post isn't a test post, but a blog post, or falls under some other category, the category determines the permalink.
+if your post isn't a test post, but a blog post, or falls under some other category, the your permalink would differ, accordingly.
 
 You can also define your own permalink in the front-matter, by uncommenting the permalink variable, and customizing it to your preference. However, in general, the categories method is convenient for the end-user / discovery.
