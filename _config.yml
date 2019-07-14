@@ -297,7 +297,6 @@ collections:
     output: true
     permalink: /didisco/:collection/:path/
 
-
 # Defaults
 defaults:
   # _posts

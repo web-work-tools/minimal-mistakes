@@ -26,18 +26,6 @@ redirect_from:
   - welcome-didecentral
 published: true
 last_modified_at: 2019-07-10T11:22:33-23:00
-feature:
-  - image_path: https://imgur.com/Se04SGx.png
-    alt: "Own Your Social Feature Image"
-    title: "Run your own social"
-    excerpt: "How to run a small social network site for your friends. - Darius Kazemi, July 8, 2019"
-    url: "https://runyourown.social/"
-  - image_path: https://imgur.com/z1hlt4p.png
-    alt: "Dark Forest Feature Image"
-    title: "The Dark Forest Theory of the Internet"
-    excerpt: "This is also what the internet is becoming: a dark forest. - Yancey Strickler in OneZero"
-    url: "https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1"
-
 ---
 
 If you're wondering why DIDecentral now has it's own community site, separate from [Decentralized-id.com](https://decentralized-id.com), you're in the right place.
