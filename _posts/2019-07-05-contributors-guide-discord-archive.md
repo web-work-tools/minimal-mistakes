@@ -88,6 +88,7 @@ How to get DM Channel ID
 The command I ran looked something like this, and the app is now turning all the channels into complete webpages.:
 
 ```
+{% raw %}
 ./DiscordChatExporter.Cli.exe exportguild -t "MzMxNDFSdddY0MDI0MzMyMjg4.XR9-pA.7i50GNyuDc5y8IB1oKg" -g 590057677523255296 -f HtmlLight
 
 Exporting channel [101]... 100.0 %
@@ -114,6 +115,8 @@ Exporting channel [bitcoin-gen]... 100.0 %
                                    Completed ✓
 Exporting channel [blockcerts]... 100.0 %
 ....
+{% endraw %}
+
 ```
 
 ![](https://imgur.com/wunMbrQ.png)
@@ -427,19 +430,24 @@ Thanks to [gist-it.appspot.com](https://gist-it.appspot.com), you can see that I
 In the [default layout](https://github.com/didecentral/didecentral.github.io/blob/master/_layouts/default.html) I've modified where it calls this custom include:
 
 ```
+{% raw %}
   <head>
     {% include head.html %}
     {% if page.disco %}
       {% include head/custom.html %}
     {% endif %}
   </head>
+{% endraw %}
 
 ```
 
 Back in our frontmatter defaults for the didiscolog, you may remember this line:
 
 ```
+{% raw %}
       disco: true
+{% endraw %}
+
 ```
 
 That default setting is what triggers the default layout to include our custom stylings.
@@ -562,4 +570,4 @@ As it stands I made a quick attempt. But I'm hoping we can come up with a limite
 
 I think that's all. You should be pretty well set up to duplicate or contribute to this archival process.
 
-I still have to set up navigation for each channel, and cover how that's done, over in the minimal mistakes setup.
+### Reach out in the comments if you have any questions!

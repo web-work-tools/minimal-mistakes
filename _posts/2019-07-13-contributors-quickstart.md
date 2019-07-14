@@ -127,4 +127,48 @@ Now you'll have a copy of the repository in your account.
 
 ![](https://imgur.com/8lNavU8.png)
 
-## Upload a Blog Post
+## Write a Blog Post
+
+Since you have full permissions to this repository, you can upload files or create them right in your browser!
+
+This site is for the community. Anyone is welcome to sumbit a post. This should be a low-stakes environment where anyone could learn to use GitHub and GitHub Pages for the first time. 
+
+Even if you just want to write about what brings you to DIDecentral, share what project you are working on. If you aren't currently working on anything identity related, that's fine, share what you'd like, use your imagination.
+
+The idea is to be as welcoming as possible, and encourage people to try it out. Editing text files on GitHub is a gateway to digital transformation. 
+
+You don't have to be very technical to get started. If you start with the simple things, after a while, you'll find that you're getting to know the lay of the land. It's possible to build from there to learn any number of technical skills, as @infominer33 has been discovering.
+
+![](https://imgur.com/lIn4hRm.png)
+
+
+Click "Create new file" where the hand pointer is in the illustration, above the file listing, below the "watch" icon.
+
+Name your post starting with the date, and then the title, with `-` dashes instead of spaces.
+
+`YEAR-MONTH-DAY-title.md`
+
+
+```
+---
+title:  "Hi I'm info-bot!"
+---
+
+**Hello world**, this is my first Jekyll blog post.
+
+I hope you like it!
+
+I'm an account that @infominer33 uses for experimenting with various features.
+
+This post was written during the creation of {{% raw %}{{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.{% endraw %}
+
+```
+
+
+
+### More Info on Posts
+
+The theme we are using, Minimal Mistakes, is built on Jekyll, you can learn more about how Jekyll uses posts, here:
+
+* [jekyllrb.com/docs/posts](https://jekyllrb.com/docs/posts/)
+

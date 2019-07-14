@@ -177,6 +177,7 @@ There are a number of other variables, you may find by following the link. These
 >So what you can do is add any overriding/new CSS after the @import minimal-mistakes;, in your case:
 
 ```
+{% raw %}
 
 @import "minimal-mistakes";
 
@@ -195,6 +196,8 @@ html {
     font-size: 22px; // change to whatever
   }
 }
+{% endraw %}
+
 ```
 
 Because this theme is entirely responsive, if you want to change the font-size, you should do it like so.
@@ -693,7 +696,7 @@ This was really crudely hacked together from the other lists in this section.
 [_includes/authors-list.html](https://github.com/infominer33/didecentral.github.io/blob/master/_includes/authors-list.html)
 
 ```html
-
+{% raw %}
 <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-users" aria-hidden="true"></i> Authors:</strong>
     {% assign authorCount = page.authors | size %}
@@ -713,6 +716,7 @@ This was really crudely hacked together from the other lists in this section.
         {% endfor %}
     {% endif %}
 </p>
+{% endraw %}
 
 ```
 
@@ -721,12 +725,15 @@ This was really crudely hacked together from the other lists in this section.
 Also, I added this line to the page taxonomy:
 
 ```html
+{% raw %}
 {% if page.authors %}
   {% include authors-list.html %}
 {% endif %}
+{% endraw %}
 ```
 
 ## To be continued....
 
 There are a number of tweaks that I make to minimal-mistakes sites. All will be explained :D
 
+### Reach out in the comments if you have any questions!
