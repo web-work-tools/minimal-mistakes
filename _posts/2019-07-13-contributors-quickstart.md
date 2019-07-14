@@ -3,7 +3,7 @@ title: Contributors Quickstart (A Gentle Introduction to GitHub)
 permalink: contributors-quickstart/
 categories: ["Contributors Guide", "DIDecentral"]
 tags: ["Quickstart","Tools", "GitHub Pages", "Minimal Mistakes"]
-publsihed: false
+publsihed: true
 ---
 
 So far, we've covered quite a lot of ground in our contributors guides!
@@ -17,6 +17,10 @@ What is needed is a quickstart guide, so that you don't need to worry about read
 
 All that's required to follow this guide is a web-browser and a GitHub account. If you don't already have one, go ahead and [sign up](https://github.com/join) so you can follow along. 
 {: .notice--primary}
+
+
+If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with `{% raw %}{% raw %}{% endraw %}{% endraw %}`. As a result, a significant portion of the value was lost to any early readers.  
+{: .notice--warning}
 
 ## Edit This Page
 
@@ -150,6 +154,7 @@ Name your post starting with the date, and then the title, with `-` dashes inste
 
 
 ```
+{% raw %}
 ---
 title:  "Hi I'm info-bot!"
 ---
@@ -160,11 +165,10 @@ I hope you like it!
 
 I'm an account that @infominer33 uses for experimenting with various features.
 
-This post was written during the creation of {% raw %}{{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.{% endraw %}
+This post was written during the creation of {{ site.baseurl }}{% post_url 2019-07-13-contributors-quickstart.md %}.
 
+{% endraw %
 ```
-
-
 
 ### More Info on Posts
 
@@ -172,3 +176,6 @@ The theme we are using, Minimal Mistakes, is built on Jekyll, you can learn more
 
 * [jekyllrb.com/docs/posts](https://jekyllrb.com/docs/posts/)
 
+### That's not All
+
+I'm just publishing this to see how it looks, but I'm not really finished.
