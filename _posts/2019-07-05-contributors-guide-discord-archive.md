@@ -461,6 +461,7 @@ Besides each file generated for our collection, we require a page to list them a
 This is the code that creates the above page.
 
 ```html
+{% raw %}
 ---
 layout: archive
 title: "DIDecentral Social Archive"
@@ -514,7 +515,7 @@ share: true
 
   <a href="https://www.reddit.com/submit?url={{ page.url | relative_url }}&title={{ page.title }}" class="btn btn--reddit" title="{{ site.data.ui-text[site.locale].share_on_label }} Reddit"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
 </section>
-
+{% endraw %}
 ```
 
 ### [application.md](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/application.md)
