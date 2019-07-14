@@ -173,9 +173,16 @@ This post was written during the creation of {{ site.baseurl }}{% post_url 2019-
 
 ```
 
+<div class="note info">
+  <p>If you are using a language that contains curly braces, you will likely need to place <code>{&#37; raw &#37;}</code> and <code>{&#37; endraw &#37;}</code> tags around your code.</p>
+</div>
+
+
 ![](https://imgur.com/EMiBZzQ.png)
 
-For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll cover creating (and merging back in) a new working branch, to leave the master branch in synch with its source. T
+For now we'll just commit to the master branch, and submit a pull-request. However, in the future, we'll detail how to create (and merging back in) a new working branch, to leave the master branch in sync with its source while you work. 
+
+
 
 ## Liquid Templating Language
 
@@ -183,16 +190,13 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 
 
 ```html
-{% raw %}
-
-```html
-{% raw %}
-
-{% include someliquid %}
-
-{% endraw %}
-```
-{% endraw %}
+  {% raw %}
+    ```html
+    {% raw %}
+    {% include someliquid %}
+    {% endraw %}
+    ```
+  {% endraw %}
 
 ```
 
