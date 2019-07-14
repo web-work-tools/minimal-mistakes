@@ -16,14 +16,13 @@ tags:
 toc_sticky: true
 categories: ["Contributors Guide", "DIDecentral"]
 published: true
-last_modified_at: 2019-07-06T11:22:33-23:00
-author: Infominer
+author_profile: false
 authors: 
   - "<a href='https://infominer.id'>Infominer</a>"
   - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: contributors-intro/
 published: true
-last_modified_at: 2019-06-26T11:22:33-23:00
+last_modified_at: 2019-07-14T11:22:33-23:00
 ---
 
 We are happy for contributions from anyone, regardless of technical skills, or pre-existing knowledge. The intention for this Community Website is to focus on detailing a variety of ways to contribute, and to enable anyone to become more familiar with web-publishing, in a low stakes environment, while pursuing a passion for Sovereign Identity.

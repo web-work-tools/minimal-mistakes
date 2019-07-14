@@ -22,7 +22,8 @@ permalink: discord-archive-howto/
 categories: ["Contributors Guide", "DIDecentral"]
 published: true
 last_modified_at: 2019-07-06T11:22:33-23:00
-author: infominer
+author: Infominer
+author_profile: true
 ---
 
 This is another guide, while I'm doing it, may as well record all of the steps, so others can re-produce and or improve upon these methods.
