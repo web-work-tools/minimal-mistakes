@@ -592,6 +592,7 @@ This is the code that makes social share and donation button on each page. The B
 [_includes/social-share.html](https://github.com/didecentral/didecentral.github.io/blob/master/_includes/social-share.html)
 
 ```html
+{% raw %}
 <section class="page__share">
   <h4>ON GITHUB</h4>
   <p><a href="https://github.com/didecentral/didecentral.github.io/blob/master/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></p>
@@ -627,6 +628,7 @@ This is the code that makes social share and donation button on each page. The B
     </tbody>
   </table>  
 </section>
+{% endraw %}
 ```
 
 **Reddit Button**
