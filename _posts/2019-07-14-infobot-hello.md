@@ -5,6 +5,7 @@ authors:
   - Infobot
   - "<a href='https://infominer.id'>Infominer</a>"
 toc: false
+categories: ["test"]
 ---
 
 
