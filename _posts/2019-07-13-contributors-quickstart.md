@@ -154,8 +154,7 @@ Name your post starting with the date, and then the title, with `-` dashes inste
 `YEAR-MONTH-DAY-title.md`
 
 
-```liquid
-
+```html
 {% raw %}
 
 ---
@@ -183,18 +182,16 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 ## Raw Tags Demo
 
 
-```liquid
-
+```html
 {% raw %}
-
+```html
 {% raw %}
 
 {% include someliquid %}
 
 {% endraw %}
-
+```
 {% endraw %}
-
 ```
 
 use raw tags, as demonstrated above if you ever want to create a post explaining the source of some creation of yours that involves  the liquid.
