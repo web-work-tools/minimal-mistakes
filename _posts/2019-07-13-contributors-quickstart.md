@@ -190,13 +190,13 @@ For now we'll just commit to the master branch, and submit a pull-request. Howev
 
 
 ```html
-  {% raw %}
-    ```html
-    {% raw %}
-    {% include someliquid %}
-    {% endraw %}
-    ```
-  {% endraw %}
+
+{% raw %}
+```html
+{% raw %}
+{% include someliquid %}
+{% endraw %}
+```{% endraw %}
 
 ```
 
