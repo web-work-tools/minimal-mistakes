@@ -9,3 +9,4 @@ gem "jemoji"
 gem "jekyll-include-cache"
 gem "jekyll-mentions"
 gem 'html-proofer'
+gem "jekyll-redirect-from"

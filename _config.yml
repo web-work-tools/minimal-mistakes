@@ -232,6 +232,7 @@ whitelist:
   - jemoji
   - jekyll-include-cache
   - jekyll-mentions
+  - jekyll-redirect-from
 
 
 # Archives
