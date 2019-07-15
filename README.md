@@ -16,6 +16,15 @@ Once a core group of at least 5 active members forms, we can discuss amongst eac
 
 For now, most guides will be HowTos not rules and regulations.
 
+## Contributors Guides
+
+* [Intro](https://didecentral.com/contributors-guide/intro/)
+* [Quickstart](https://didecentral.com/contributors-guide/quickstart/)
+  * [Infobot Hello](https://didecentral.com/test/infobot-hello/) - Teplate for your first community blogpost.
+* [Site Setup and Configuration](https://didecentral.com/contributors-guide/site-config/)
+* [Social Curation Archive](https://didecentral.com/contributors-guide/discord-archive-howto/)
+
+
 ## Community Blog
 
 That's right! This is a perfect space for a community blog, where anyone can contribute. This site can even offer a gentle segue from interacting soley via browser tab, to a more nuanced experience of these resources. It could even be a hobby whereby you turn your passion for decentralized identity into web-work skills (I heard those are in demand).
