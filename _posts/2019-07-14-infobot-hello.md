@@ -1,6 +1,8 @@
 ---
 title:  "Hi I'm info-bot!"
 author: Infobot
+header:
+  teaser: https://decentralized-id.com/images/infobot-test.png
 authors:
   - Infobot
   - "<a href='https://infominer.id'>Infominer</a>"
