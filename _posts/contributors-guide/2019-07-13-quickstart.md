@@ -15,10 +15,12 @@ last_modified_at: 2019-07-14T11:22:33-23:00
 
 So far, we've covered quite a lot of ground in our contributors guides!
 
-* [Welcome DIDecentral](/welcome/) - A high level overview of the projects we're working on.
-* [Contributors Intro](/contributors-intro/) - The easiest ways to participate with DIDecentral.
-* [Website Configuration](/website-configuration/) - 'Everything' about how this site is configured.
-* [Discord Archive HowTo](/discord-archive-howto/) - How to export discord history and integrate with Minimal Mistakes Jekyll.
+* [Welcome DIDecentral](https://didecentral.com/welcome/) - A high level overview of the projects we're working on.
+* [Intro](https://didecentral.com/contributors-guide/intro/)
+* [Quickstart](https://didecentral.com/contributors-guide/quickstart/) - The easiest ways to participate with DIDecentral.
+  * [Infobot Hello](https://didecentral.com/test/infobot-hello/) - Teplate for your first community blogpost.
+* [Site Setup and Configuration](https://didecentral.com/contributors-guide/site-config/) - 'Everything' about how this site is configured. 
+* [Social Curation Archive](https://didecentral.com/contributors-guide/discord-archive-howto/) - How to export discord history and integrate with Minimal Mistakes Jekyll.
 
 What is needed is a quickstart guide, so that you don't have to read all of that to revise \ add a few links to a page, or even submit your first blog-post.
 
