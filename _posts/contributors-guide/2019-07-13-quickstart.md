@@ -52,7 +52,8 @@ If you click the little pencil icon (red circle in above image), you will find a
 
 This is where configuration on the page level happens.   
 
-```yaml
+```markdown
+{% raw %}
 ---
 title: "Welcome to DIDecentral Community Site and Social Archive"
 description: "DIDecentral is a collaborative curation initiative aiming to create quality educational content related to Decentralized Identity: Principles, Specs, Code and Initiatives."
@@ -90,6 +91,7 @@ published: true
 last_modified_at: 2019-07-10T11:22:33-23:00
 #Be sure to change the modified date. I create my own custom made-up time, with the actual date. You can simply ignore the time, and update the date, or use whatever you'd like for the time. Later, the most recently modified content will be featured.
 ---
+{% endraw %}
 ```
 
 In yaml documents, and the yaml front-matter of posts, the #hashtag is used for comments. Hopefully with the commented front-matter above, it's reasonably clear how the configuration of a page works. There are other page settings, but this covers all the essentials.
