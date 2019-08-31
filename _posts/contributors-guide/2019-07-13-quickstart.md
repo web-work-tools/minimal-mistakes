@@ -157,7 +157,7 @@ You don't have to be very technical to get started. If you start with the simple
 
 ## authors.yml
 
-If you're submitting a new post, or planning to make any contributions, why not add yourself to the [authors.yml](https://github.com/didecentral/didecentral.github.io/edit/master/_data/authors.yml)? 
+If you're submitting a new post, or planning to make any contributions, why not add yourself to the [authors.yml](https://github.com/didecentral/community-website/edit/master/_data/authors.yml)? 
 
 This way an "author profile" will be shown next to your posts. Later, we can modify the author profile template to include info about all of your contributions to the site, and eventually each author will have their own page made with user-generated Jekyll data.
 
@@ -269,7 +269,7 @@ Should it take longer than you'd expect, visit [DIDecentral Discord Chat](https:
 After you submit a pull-request, you can continue to change the branch or repository where your pull-request originated, and any additional updates will be included in the request.
 { .notice}
 
-Head over to [didecentral/didecentral.github.io/pulls](https://github.com/didecentral/didecentral.github.io/pulls) and you can see the active pull-requests.
+Head over to [didecentral/community-website/pulls](https://github.com/didecentral/community-website/pulls) and you can see the active pull-requests.
 
 Whether you were working from a personal copy of the site, or a patch automatically created by GitHub after clicking the "edit this page" button, you can get there from this page:
 

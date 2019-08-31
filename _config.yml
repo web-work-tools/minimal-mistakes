@@ -20,7 +20,7 @@ name                     : "DIDecentral"
 description              : "Detailed guides on how we are creating educational content related to Sovereign Identity: Principles, Specs, Code and Initiatives."
 url                      : "https://didecentral.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : didecentral/didecentral.github.io
+repository               : didecentral/community-website
 github                   : [metadata] #enables access to your github metadata
 teaser                   : /assets/images/didecentral-community-teaser.png
 logo                     : https://decentralized-id.com/images/DID.png
@@ -31,7 +31,7 @@ comments:
   provider               : "staticman_v2"
 staticman:
   allowedFields          : ["name", "email", "url", "message"]
-  repository             : didecentral/didecentral.github.io 
+  repository             : didecentral/community-website 
   branch                 : "master"
   commitMessage          : "New comment by {fields.name}"
   filename               : comment-{@timestamp}
@@ -57,9 +57,9 @@ atom_feed:
 search                   : true
 search_provider          : lunr # algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : c13cba62bb6b3d951fe09e66052e81d9 # YOUR_APPLICATION_ID
+  index_name             : didecentral # YOUR_INDEX_NAME
+  search_only_api_key    : c13cba62bb6b3d951fe09e66052e81d9 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID

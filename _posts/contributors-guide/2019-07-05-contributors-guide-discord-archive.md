@@ -221,7 +221,7 @@ Now I've sorted all of those files into their individual folders
 
 ### _config.yml - Collections
 
-You can go look in our [_config.yml](https://github.com/didecentral/didecentral.github.io/blob/master/_config.yml) to see where I've placed this down near the bottom, but it doesn't really matter.. as long as its indented properly.
+You can go look in our [_config.yml](https://github.com/didecentral/community-website/blob/master/_config.yml) to see where I've placed this down near the bottom, but it doesn't really matter.. as long as its indented properly.
 
 These are named the same as our folders without the underscore. I explicitely define folders when the collection name has a dash, otherwise there are problems.
 
@@ -425,10 +425,10 @@ Since I removed the stylings, those pages aren't pretty to look at. There are a 
 
 Thanks to [gist-it.appspot.com](https://gist-it.appspot.com), you can see that I have added the stylings into this custom head include. The only thing I changed is that I commented out the body color (white), so that the stylings are made over our "dirt" theme background.
 
-<script src="https://gist-it.appspot.com/https://github.com/didecentral/didecentral.github.io/raw/master/_includes/head/custom.html"></script>
+<script src="https://gist-it.appspot.com/https://github.com/didecentral/community-website/raw/master/_includes/head/custom.html"></script>
 
 
-In the [default layout](https://github.com/didecentral/didecentral.github.io/blob/master/_layouts/default.html) I've modified where it calls this custom include:
+In the [default layout](https://github.com/didecentral/community-website/blob/master/_layouts/default.html) I've modified where it calls this custom include:
 
 ```
 {% raw %}
@@ -457,11 +457,11 @@ That default setting is what triggers the default layout to include our custom s
 
 Besides each file generated for our collection, we require a page to list them all, a page for each individual collection, and eventually, pages that distinguish between the categories in each collection as well.
 
-### [_pages/didisco](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/)
+### [_pages/didisco](https://github.com/didecentral/community-website/blob/master/_pages/didisco/)
 
 ![](https://imgur.com/SaYlNP3.png)
 
-### [index.html](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/index.html)
+### [index.html](https://github.com/didecentral/community-website/blob/master/_pages/didisco/index.html)
 
 * 
 
@@ -527,7 +527,7 @@ share: true
 {% endraw %}
 ```
 
-### [application.md](https://github.com/didecentral/didecentral.github.io/blob/master/_pages/didisco/application.md)
+### [application.md](https://github.com/didecentral/community-website/blob/master/_pages/didisco/application.md)
 
 ![](https://imgur.com/7dACheO.png)
 
@@ -553,7 +553,7 @@ For now there are "placeholder" teaser and og_images. Soon we can make custom fe
 
 We only have up to 9 collections, but within those collections we can add directories, categories, and tags for further individiation:
 
-[_tech/specs/dpki.html](https://github.com/didecentral/didecentral.github.io/blob/master/_tech/specs/dpki.html)
+[_tech/specs/dpki.html](https://github.com/didecentral/community-website/blob/master/_tech/specs/dpki.html)
 
 ```
 ---

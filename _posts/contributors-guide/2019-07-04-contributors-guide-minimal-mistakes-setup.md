@@ -52,7 +52,7 @@ You shouldn't need the above for our imediate purposes, but will likely find the
 
 * [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/)
 * [didecentral/decentralized-id.com](https://github.com/didecentral/decentralized-id.com)
-* [didecentral/didecentral.github.io](https://github.com/didecenral/didecentral.github.io)
+* [didecentral/community-website](https://github.com/didecenral/didecentral.github.io)
 
 
 ### Pre-requisites
@@ -297,7 +297,7 @@ name                     : "DIDecentral"
 description              : "Community operations and social syndication archive for decentralized-id.com."
 url                      : "https://didecentral.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : didecentral/didecentral.github.io
+repository               : didecentral/community-website
 github: [metadata] #enables access to your github metadata
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : https://decentralized-id.com/images/DID.png
@@ -561,7 +561,7 @@ defaults:
 
 ## Navigation
 
-[_data/navigation.yml](https://github.com/didecentral/didecentral.github.io/blob/master/_data/navigation.yml)
+[_data/navigation.yml](https://github.com/didecentral/community-website/blob/master/_data/navigation.yml)
 
 Then if you look up there in the front-matter defaults, you'll see where the navigation is called as a part of the sidebar class.
 
@@ -612,7 +612,7 @@ didnav:
 
 This is the code that makes social share and donation button on each page. The Bitcoin, Tippin.me, and DOGE addresses are specific for DIDecentral, and currently under @infominer33's control.
 
-[_includes/social-share.html](https://github.com/didecentral/didecentral.github.io/blob/master/_includes/social-share.html)
+[_includes/social-share.html](https://github.com/didecentral/community-website/blob/master/_includes/social-share.html)
 
 ```html
 {% raw %}
@@ -652,7 +652,7 @@ This is the code that makes social share and donation button on each page. The B
 
 **Reddit Button**
 
-[_sass/minimal-mistakes/_buttons.scss](https://github.com/didecentral/didecentral.github.io/blob/master/_sass/minimal-mistakes/_buttons.scss)
+[_sass/minimal-mistakes/_buttons.scss](https://github.com/didecentral/community-website/blob/master/_sass/minimal-mistakes/_buttons.scss)
 
 If you copy that part to get the reddit button included with the others, you might find that you are missing the actual button.
 
@@ -674,7 +674,7 @@ just head over to buttons.css :rofl: (idk why that's so funny to me)
   (reddit, $reddit-color);
 ```
 
-Because the Reddit Color is already defined in [_variables.scss](https://github.com/didecentral/didecentral.github.io/blob/master/_sass/minimal-mistakes/_variables.scss), all you need to do is reference it here.
+Because the Reddit Color is already defined in [_variables.scss](https://github.com/didecentral/community-website/blob/master/_sass/minimal-mistakes/_variables.scss), all you need to do is reference it here.
 
 ## Author vs Authors
 
