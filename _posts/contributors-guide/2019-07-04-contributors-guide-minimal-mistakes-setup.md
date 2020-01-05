@@ -18,6 +18,8 @@ authors:
   - "<a href='https://infominer.id'>Infominer</a>"
   - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: contributors-guide/site-config/
+redirect_to: /how-to-contribute/website-config-minimal-mistakes/
+canonical_url: 'https://decentralized-id.com/how-to-contribute/website-config-minimal-mistakes/'
 categories: ["Contributors Guide","DIDecentral"]
 published: true
 last_modified_at: 2019-07-14T11:22:33-23:00
@@ -407,7 +409,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
