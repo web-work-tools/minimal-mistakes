@@ -1,259 +1,52 @@
 # main links
 main:
-  - title: "Decentralized-id.com"
-    url: https://decentralized-id.com
-  - title: "RWoT Papers Index"
-    url: https://didecentral.com/rwot-dir
-  - title: "IDCommons - Identity History Timeline"
-    url: "https://identitywoman.github.io/identity-commons/ID-History"
-  - title: "Decentralized Web Histories"
-    url: https://sourcecrypto.pub/decentralized-web/
-  - title: "Bitcoin History"
-    url: https://sourcecrypto.pub/bitcoin-history/
-  - title: "Agoric Records"
-    url: https://agoric-records.xyz/
-  - title: "Static Sites for an IndieWeb"
-    url: https://web-work.tools/indieweb
-  - title: "GitHub Pages Starter Pack"
-    url: https://web-work.tools/github-pages-starter-pack/
-  
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Web-Work.Tools"
+    url: https://web-work.tools
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
 
-# DID Nav
-
-didnav:
-  - title: Contributors Guides
+webwork:
+  - title: "Web-Work.Tools"
+    url: https://web-work.tools/
+  - title: Content Creation
+    children: 
+      - title: Content Creation
+        url: "https://web-work.tools/content-creation/"
+      - title: "HTML, CSS, + Markdown" 
+        url: "https://web-work.tools/jamstack/html-css/"
+      - title: "Exploring Twitter Data"
+        url: "https://web-work.tools/content-creation/twitter-export-csv/"
+      - title: "Learn SEO"
+        url: "https://web-work.tools/seo/learn/"
+      - title: "SEO Tools"
+        url: "https://web-work.tools/seo/tools/"
+      - title: "Getting started with Keyword Planner"
+        url: "https://web-work.tools/seo/getting-started-adwords-keyword-planner/"
+  - title: Technical Starters
     children:
-      - title: "DIDecentral: Contributors Intro"
-        url: /contributors-intro/
-      - title: "Minimal-Mistakes - Configuration"
-        url: /website-configuration/
-      - title: "Discord Archive Walktrhu"
-        url: /discord-archive-howto/
-  - title: Related Resources
+      - title: "Git Starter Pack" 
+        url: "https://web-work.tools/git-starter-pack/"
+      - title: "Ubuntu Linux Starter Pack" 
+        url: "https://web-work.tools/linux/"
+      - title: "RSS Info"
+        url: 'https://web-work.tools/rss/'        
+  - title: "JamStack"
     children:
-      - title: "Decentralized-id.com"
-        url: https://decentralized-id.com
-      - title: "RWoT Archive"
-        url: https://didecentral.com/rwot-dir
-      - title: "IDCommons - Identity History Timeline"
-        url: "https://identitywoman.github.io/identity-commons/ID-History"
-  - title: Discord Archive Index
-    url: /didisco/
-    children:
-      - title: Resources
-        url: /didisco/resources/
-      - title: Multi-Media
-        url: /didisco/multi-media/
-      - title: Blockchain
-        url: /didisco/blockchain/
-      - title: Organizations
-        url: /didisco/organizations/
-      - title: Public Sector
-        url: /didisco/public-sector/
-      - title: Private Sector
-        url: /didisco/private-sector/
-      - title: Tech
-        url: /didisco/tech/
-      - title: Application
-        url: /didisco/application
-  - title: DIDisco - Resources
-    url: /didisco/resources/
-    children:
-      - title: "Self Sovereign Identity"
-        url: /didisco/resources/self-sovereign-identity/
-      - title: "History"
-        url: /didisco/resources/history-did/
-      - title: "Resources"
-        url: /didisco/resources/resources/
-      - title: "101"
-        url: "/didisco/resources/101/"
-      - title: "Gen-ID"
-        url: /didisco/resources/gen-id/
-      - title: "Aml-Kyc"
-        url: /didisco/resources/aml-kyc/
-      - title: "Concerns"
-        url: /didisco/resources/concerns/
-      - title: "Data Breaches"
-        url: /didisco/resources/data-breaches/
-      - title: "GDPR"
-        url: /didisco/resources/gdpr/
-      - title: "Humanitarian"
-        url: /didisco/resources/humanitarian/
-      - title: "People"
-        url: /didisco/resources/people/
-      - title: "Personal Data"
-        url: /didisco/resources/personal-data/
-      - title: "Privacy"
-        url: /didisco/resources/privacy/
-  - title: DIDisco - Multi-Media
-    url: /didisco/multi-media/
-    children:
-      - title: "Assorted Media"
-        url: /didisco/multi-media/assorted-media/
-      - title: "Blog Feeds"
-        url: /didisco/multi-media/blog-feeds/
-      - title: "Literature"
-        url: /didisco/multi-media/literature/
-      - title: "Memes"
-        url: "/didisco/multi-media/memes/"
-      - title: "Podcasts"
-        url: /didisco/multi-media/podcasts/
-      - title: "Presentations"
-        url: /didisco/multi-media/presentations/
-      - title: "Reports"
-        url: /didisco/multi-media/reports/
-      - title: "Video"
-        url: /didisco/multi-media/video/
-  - title: DIDisco - Tech
-    url: /didisco/tech/
-    children:
-      - title: "Zero Knowledge Proof"
-        url: /didisco/tech/zkp/
-      - title: "Time Stamping"
-        url: /didisco/tech/time-stamp/
-      - title: "Semantic Web"
-        url: /didisco/tech/semantic-web/
-      - title: "Security"
-        url: /didisco/tech/security/
-      - title: "IPFS"
-        url: /didisco/tech/ipfs/
-      - title: "Internet Protocols"
-        url: /didisco/tech/internet-protocols/
-      - title: "Game Theory"
-        url: /didisco/tech/game-theory/
-      - title: "DNS"
-        url: /didisco/tech/dns/
-      - title: "Development"
-        url: /didisco/tech/development/
-      - title: "Decentralization"
-        url: /didisco/tech/decentralization/
-      - title: "Cryptography"
-        url: /didisco/tech/cryptography/
-      - title: "Crypto"
-        url: /didisco/tech/crypto/
-      - title: "Certificate Authorities"
-        url: /didisco/tech/certificate-authorities/
-  - title: DIDisco - Specs
-    children:
-      - title: "General"
-        url: /didisco/tech/specs/specs-standards/
-      - title: "XDI"
-        url: /didisco/tech/specs/xdi/
-      - title: "WebAuthN"
-        url: /didisco/tech/specs/webauthn/
-      - title: "Verifiable Claims"
-        url: /didisco/tech/specs/verifiable-claims/
-      - title: "Uniresolver"
-        url: /didisco/tech/specs/uniresolver/
-      - title: "Open-ID"
-        url: /didisco/tech/specs/open-id/
-      - title: "Open-Creds"
-        url: /didisco/tech/specs/open-creds/
-      - title: "Oath"
-        url: /didisco/tech/specs/oath/
-      - title: "Oasis"
-        url: /didisco/tech/specs/oasis/
-      - title: "Linked Data"
-        url: /didisco/tech/specs/linked-data/
-      - title: "IndieAuth"
-        url: /didisco/tech/specs/indieauth/
-      - title: "Identity Hubs"
-        url: /didisco/tech/specs/identity-hubs/
-      - title: "Fido"
-        url: /didisco/tech/specs/fido/
-      - title: "DPKI"
-        url: /didisco/tech/specs/dpki/
-      - title: "Digital Verification CG"
-        url: /didisco/tech/specs/digital-verification-cg/
-      - title: "DIDAuth"
-        url: /didisco/tech/specs/did-auth/
-      - title: "DID"
-        url: /didisco/tech/specs/did/
-      - title: "Credentials"
-        url: /didisco/tech/specs/credentials/
-  - title: DIDisco - Blockchain
-    url: /didisco/blockchain/
-    children:
-      - title: "General"
-        url: /didisco/blockchain/gen-blockchain/
-      - title: "BigChainDB"
-        url: /didisco/blockchain/bigchaindb/
-      - title: "Blockpass"
-        url: /didisco/blockchain/blockpass/
-      - title: "Blockstack"
-        url: /didisco/blockchain/blockstack/
-      - title: "Consensus"
-        url: /didisco/blockchain/consensus/
-      - title: "Democracy Earth"
-        url: /didisco/blockchain/democracy-earth/
-      - title: "Corda"
-        url: /didisco/blockchain/corda/
-      - title: "Fermat"
-        url: /didisco/blockchain/fermat/
-      - title: "Handshake"
-        url: /didisco/blockchain/handshake/
-      - title: "IOTA"
-        url: /didisco/blockchain/iota/
-      - title: "Namecoin"
-        url: /didisco/blockchain/namecoin/
-      - title: "Ockam"
-        url: /didisco/blockchain/ockam/
-      - title: "Ontology"
-        url: /didisco/blockchain/ontology/
-      - title: "Signatures"
-        url: /didisco/blockchain/signatures/
-      - title: "Stellar"
-        url: /didisco/blockchain/stellar/
-      - title: "Veres One"
-        url: /didisco/blockchain/veres-one/
-  - title: DIDisco - Bitcoin
-    children:
-      - title: Bitcoin
-        url: /didisco/blockchain/bitcoin/bitcoin/
-      - title: ION
-        url: /didisco/blockchain/bitcoin/ion/
-      - title: Bitcoin
-        url: /didisco/blockchain/bitcoin/spidchain/
-  - title: DIDisco - Ethereum
-    children:
-      - title: Specs
-        url: /didisco/blockchain/ethereum/ethereum-specs/
-      - title: Eth-ID
-        url: /didisco/blockchain/ethereum/gen-eth-id/
-      - title: Eth Apps
-        url: /didisco/blockchain/ethereum/gen-eth-apps/
-      - title: EntEth Alliance
-        url: /didisco/blockchain/ethereum/ethentalliance/
-      - title: uPort
-        url: /didisco/blockchain/ethereum/uport/
-      - title: Self Key
-        url: /didisco/blockchain/ethereum/self-key/
-      - title: Cryptonomica
-        url: /didisco/blockchain/ethereum/cryptonomica/
-      - title: Civic
-        url: /didisco/blockchain/ethereum/civic/
-  - title: DIDisco - Hyperledger
-    children:
-      - title: Indy
-        url: /didisco/blockchain/hyperledger/indy/
-      - title: Ursa
-        url: /didisco/blockchain/hyperledger/ursa/
-      - title: Fabric
-        url: /didisco/blockchain/hyperledger/fabric/
-      - title: Aries
-        url: /didisco/blockchain/hyperledger/aries/
-  - title: Feature
-    children:
-      - title: "Decentralized Web Histories"
-        url: https://sourcecrypto.pub/decentralized-web/
-      - title: "Bitcoin History"
-        url: https://sourcecrypto.pub/bitcoin-history/
-      - title: "SSG4 -IndieWeb"
-        url: https://web-work.tools/indieweb
-      - title: "#indieweb-dev on IIW RWoT and DID's -FreeNode"
-        url: "https://web-work.tools/indieweb/indieweb-dev-on-did/"
-      - title: "Practical Public Key Crypto"
-        url: "https://infominer.id/bitcoin-history/pgp-and-me/"
-      - title: "Agoric Records"
-        url: https://agoric-records.xyz/
-
+      - title: "Static Site Generators"
+        url: "https://web-work.tools/jamstack/static-site-generators"
+      - title: "GitHub Pages Starter Pack"
+        url: "https://web-work.tools/jamstack/github-pages-starter-pack/"
+      - title: "GitHub Pages Extended Resources"
+        url: "https://web-work.tools/jamstack/github-pages-extended-resources/"
+      - title: "Hugo Starter Kit" 
+        url: "https://web-work.tools/jamstack/hugo-starter-kit/"
+      - title: "Jekyll HPSTR to HPSTR Hugo" 
+        url: "https://web-work.tools/jamstack/jekyll-hpstr-hugo-theme/"

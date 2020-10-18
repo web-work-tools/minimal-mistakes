@@ -10,60 +10,42 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-                                  
+
 # Site Settings
 locale                   : "en-US"
-title                    : "DIDecentral"
-title_separator          : "|"
-name                     : "DIDecentral"
-description              : "Detailed guides on how we are creating educational content related to Sovereign Identity: Principles, Specs, Code and Initiatives."
-url                      : "https://didecentral.com"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : didecentral/community-website
-github                   : [metadata] #enables access to your github metadata
-teaser                   : /assets/images/didecentral-community-teaser.png
-logo                     : https://decentralized-id.com/images/DID.png
-masthead_title           : Curators Collaborative 
+title                    : "Learning Minimal Mistakes"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Infominer"
+description              : "A collection of contributors guides I made for a website I'm not running anymore."
+url                      : https://web-work.tools
+baseurl                  : /minimal-mistakes
+repository               : web-work-tools/minimal-mistakes
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : https://web-work.tools/images/logo.png
+masthead_title           : Walkthroughs for a Community Webpage
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2"
-staticman:
-  allowedFields          : ["name", "email", "url", "message"]
-  repository             : didecentral/community-website 
-  branch                 : "master"
-  commitMessage          : "New comment by {fields.name}"
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ["name", "email", "message"]
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://staticman3.herokuapp.com/v3/entry/github/
-  reCaptcha:
-    siteKey:
-    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
-    # For more information, https://staticman.net/docs/encryption
-    secret: 
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true
-search_provider          : lunr # algolia, google
+search                   : # true, false (default)
+search_provider          : # lunr (default), algolia, google
 algolia:
-  application_id         : c13cba62bb6b3d951fe09e66052e81d9 # YOUR_APPLICATION_ID
-  index_name             : didecentral # YOUR_INDEX_NAME
-  search_only_api_key    : c13cba62bb6b3d951fe09e66052e81d9 # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -72,12 +54,12 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : didecentral
+  username               :
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : #/assets/images/didecentral-community-teaser.png
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -87,56 +69,47 @@ social:
 
 # Analytics
 analytics:
-  provider               : google
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-132558656-2
-    anonymize_ip         : true
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "DIDecentral"
-  avatar           : /assets/images/did-square.png
-  bio              : "Open Source, Public Domain, Educational Initiative"
-  location         : "Curating the Web"
+  name             : "Infominer"
+  avatar           : https://infominer.xyz/assets/img/infodark.png
+  bio              : "Skyscraper Curation and Independent Web-Work"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:identitydecentralized@gmail.com
+      url: "mailto:nfo@infominer.xyz"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://decentralized-id.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/didecentral"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/eYm2XvZ"
+      url: "https://infominer.xyz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/didecentral"
-# https://fontawesome.com/icons/telegram?style=brands
-# Just go to fontawesome.com and add whatever social sites you need here.
-
+      url: "https://twitter.com/infominer33"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/infominer33"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:identitydecentralized@gmail.com
+      url: "mailto:nfo@infominer.xyz"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://decentralized-id.com"
+      url: "https://infominer.xyz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/didecentral"
+      url: "https://twitter.com/infominer33"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/didecentral"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/eYm2XvZ"
+      url: "https://github.com/infominer33"
 
 
 # Reading Files
@@ -164,10 +137,11 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
-  - /example-site
+  - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
@@ -199,12 +173,12 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
-permalink: /:categories/:slug/  # https://jekyllrb.com/docs/permalinks/
-paginate: 7 # amount of posts to show
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -215,14 +189,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-  - jekyll-mentions
-  - jekyll-redirect-from
-
-  
-jekyll-mentions:
-  base_url: https://twitter.com
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -230,10 +197,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-  - jekyll-mentions
-  - jekyll-redirect-from
 
 
 # Archives
@@ -244,8 +208,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -266,216 +230,26 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
 
 
-collections:
-  application:
-    output: true
-    permalink: /didisco/:collection/:path/
-  blockchain:
-    output: true
-    permalink: /didisco/:collection/:path/
-  multi-media:
-    output: true
-    permalink: "/didisco/multi-media/:path/"
-  organizations:
-    output: true
-    permalink: /didisco/:collection/:path/
-  private-sector:
-    output: true
-    permalink: "/didisco/private-sector/:path/"
-  public-sector:
-    output: true
-    permalink: "/didisco/public-sector/:path/"
-  resources:
-    output: true
-    permalink: /didisco/:collection/:path/
-  tech:
-    output: true
-    permalink: /didisco/:collection/:path/
-
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
-      header:
-        image: /assets/images/didecentral.png
-        og_image: /assets/images/did-og.png
-      sidebar:
-        nav: "didnav"
       toc: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      header:
-        image: /assets/images/didecentral.png
-        og_image: /assets/images/did-og.png
       sidebar:
-        nav: "didnav"
-      toc: true
-  # _application
-  - scope:
-      path: "_application"
-      type: application
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      comments: true
-      disco: true
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-  # _blockchain
-  - scope:
-      path: "_blockchain"
-      type: blockchain
-    values:
-      layout: single
-      share: true
-      related: true
-      disco: true
-      comments: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _multi-media
-  - scope:
-      path: "_multi-media"
-      type: "multi-media"
-    values:
-      layout: single
-      share: true
-      disco: true
-      comments: true
-      related: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _organizations
-  - scope:
-      path: "_organizations"
-      type: organizations
-    values:
-      layout: single
-      share: true
-      related: true
-      comments: true
-      disco: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _private-sector
-  - scope:
-      path: "_private-sector"
-      type: "private-sector"
-    values:
-      layout: single
-      share: true
-      related: true
-      disco: true
-      comments: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _public-sector
-  - scope:
-      path: "_public-sector"
-      type: "public-sector"
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      comments: true
-      disco: true
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _resources
-  - scope:
-      path: "_resources"
-      type: resources
-    values:
-      layout: single
-      share: true
-      related: true
-      disco: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      comments: true
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _tech
-  - scope:
-      path: "_tech"
-      type: tech
-    values:
-      layout: single
-      share: true
-      related: true
-      disco: true
-      sidebar:
-        nav: "didnav"
-      classes: wide
-      comments: true
-      header:
-        image: /assets/images/did-header.png
-        og_image: /assets/images/did-og.png
-        teaser: # /images/source-crypto-gh-og.png
-        caption   : #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+        nav: webwork
