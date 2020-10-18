@@ -8,9 +8,9 @@ authors:
   - "<a href='https://infominer.id'>Infominer</a>"
 toc: false
 permalink: test/infobot-hello/
-categories: ["test","Contributors Guide","DIDecentral"]
+categories: ["test","Contributors Guide"]
 last_modified_at: 2019-07-14T11:22:33-23:00
-
+canonical_url: https://web-work.tools/minimal-mistakes/test/infobot-hello/
 ---
 
 
@@ -45,7 +45,7 @@ permalink: # choose/yourown/permalink/
 ---
 ```
 
-this front-matter results in the following url being generated: `didecentral.com/test/slug-from-filename/`.
+this front-matter results in the following url being generated: `your-site.com/test/slug-from-filename/`.
 
 if your post isn't a test post, but a blog post, or falls under some other category, the your permalink would differ, accordingly.
 

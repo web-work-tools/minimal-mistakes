@@ -5,32 +5,17 @@ header:
   image: /assets/images/contributors-quickstart-header.png
   teaser: /assets/images/contributors-quickstart-teaser.png
   og_image: /assets/images/contributors-quickstart-teaser.png
-categories: ["Contributors Guide", "DIDecentral"]
-tags: ["Quickstart","Tools", "GitHub Pages", "Minimal Mistakes"]
+categories: ["Contributors Guide"]
+tags: ["Quickstart","GitHub Pages"]
 author: Infominer
 toc_sticky: true
 permalink: contributors-guide/quickstart/
 last_modified_at: 2019-07-14T11:22:33-23:00
+canonical_url: https://web-work.tools/minimal-mistakes/contributors-guide/quickstart/
 ---
-
-So far, we've covered quite a lot of ground in our contributors guides!
-
-* [Welcome DIDecentral](https://didecentral.com/welcome/) - A high level overview of the projects we're working on.
-* [Intro](https://didecentral.com/contributors-guide/intro/) - The easiest ways to participate with DIDecentral.
-* [Quickstart](https://didecentral.com/contributors-guide/quickstart/) 
-  * [Infobot Hello](https://didecentral.com/test/infobot-hello/) - Teplate for your first community blogpost.
-* [Site Setup and Configuration](https://didecentral.com/contributors-guide/site-config/) - 'Everything' about how this site is configured. 
-* [Social Curation Archive](https://didecentral.com/contributors-guide/discord-archive-howto/) - How to export discord history and integrate with Minimal Mistakes Jekyll.
-
-What is needed is a quickstart guide, so that you don't have to read all of that to revise \ add a few links to a page, or even submit your first blog-post.
-
 
 All that's required to follow this guide is a web-browser and a GitHub account. If you don't already have one, go ahead and [sign up](https://github.com/join) so you can follow along. 
 {: .notice--primary}
-
-
-If you've been following along with these posts from the beginning, you'll want to go back and review, since I forgot to wrap any liquid templating that I was showing in codesnippets with "raw tags" (see source for details). As a result, a significant portion of the value was lost to any early readers.
-{: .notice--warning}
 
 
 ## Edit This Page
@@ -39,11 +24,11 @@ Feel free to submit test pull-requests while following along or exploring on Git
 
 ![](https://imgur.com/txuSpMs.png)
 
-Besides using social media, such as [twitter](https://didecentral.com/contributors-intro/#twitter--mention-and-hash-tags) or [discord](https://didecentral.com/contributors-intro/#contributing-via-discord), the simplest way to contribute to these web-sites is by clicking "Edit this page", which should be found at the bottom of every page run by DIDecentral.
+Besides using social media, such as [twitter](/contributors-intro/#twitter--mention-and-hash-tags) or [discord](/contributors-intro/#contributing-via-discord), the simplest way to contribute to these web-sites is by clicking "Edit this page", which should be found at the bottom of every page run by DIDecentral.
 
 If everything is properly set up on our side of things, you will find yourself transported from our website to that pages source file on GitHub.
 
-<img src="https://didecentral.com/assets/images/edit-this-page.png" alt="Pencil Edit Button on GitHub Source File">
+<img src="assets/images/edit-this-page.png" alt="Pencil Edit Button on GitHub Source File">
 
 If you click the little pencil icon (red circle in above image), you will find a basic text editor and the pages source. If you don't have commit access to the repository, a patch copy of that file will be created in your github account where you can edit, and propose changes.
 
@@ -74,7 +59,7 @@ tags:
   - "Self Sovereign Identity"
   - Archive
   - How-To
-categories: ["DIDecentral", "Welcome"]
+categories: ["Welcome"]
 author: Infominer  
 
 #If you are making some revisions to existing content you can use the following example that will add a contributors section at the bottom of the page near tags and categories (be sure to uncomment and edit those lines to fit the situation of whatever page you are on).
@@ -133,7 +118,7 @@ Since the account I used to create this guide doesn't follow anyone or have any 
 If you don't have time to get into GitHub, don't feel obliged to read any further. Above should be plenty to begin making simple contributions, as you browse, without getting too technical.
 {: .notice--primary}
 
-## Fork didecentral.github.io
+## Fork Repository
 
 One advantage of forking the repository is that you can make as many changes as you like, and take as long as you want in your local repository. Then submit a pull-request when you're satisfied.
 
@@ -165,7 +150,6 @@ This way an "author profile" will be shown next to your posts. Later, we can mod
 
 
 ```yaml
-
 Infobot:
   name        : "Info-bot"
   bio         : "Digital Helper"
@@ -173,19 +157,16 @@ Infobot:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:infominer@protonmail.com"
+      url: "mailto:nfo@infominer.xyz"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://infominer.id"
+      url: "https://infominer.xyz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/info-bot/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/infominer33"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/29mZwPQ"
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/InfoMiner33"
@@ -198,7 +179,7 @@ Save your addition to `authors.yml`, and we'll cover pull-requests after submitt
 
 ## Create New File
 
-Now that you've added your info into the author data file, you are ready to create your first blog-post with DIDecentral.
+Now that you've added your info into the author data file, you are ready to create your first blog-post.
 
 ![](https://imgur.com/lIn4hRm.png)
 
@@ -280,18 +261,9 @@ Clicking [info-bot:patch-2](https://github.com/info-bot/didecentral.github.io/tr
 ## Site Structure:
 
 ```
-/_application
-/_blockchain
-/_multi-media
-/_organizations
-/_private-sector
-/_public-sector
-/_tech
-/_resources # This line and above are "categories" as explained in discord archive post
+/_collections # Put collection posts here as explained in discord archive post
 /_data      # Data files including authors.yml, and navigation.yml
 /assets     # images javascript and css live here.
-/bookmark-donations  # Upload your bookmarks export file here.
-/example-site  # Find example posts here.
 /_includes  # Partials used to inject modularized html blocks into pages
 /_layouts   # These are large partials defining the layout of different page types
 /_pages     # These don't require a dated filename, or get added to the blog feed.
@@ -299,16 +271,17 @@ Clicking [info-bot:patch-2](https://github.com/info-bot/didecentral.github.io/tr
 /_sass
 /_site       # This is the latest local build of the site, not the live version.
 /_config.yml # Site Configuration
+
 /Gemfile     # Local Site Configuration
-/CNAME       # Site url
+/CNAME       # Site domain name
 /index.html  
 /favicon.ico
 /README.md
+/docs        # Example site with Minimal Mistakes Documentation
+/test        # Example site showing collections
 ```
 
 ## That's all for now
-
-**Let us know in the comments if you have any questions!**
 
 ### More Info
 

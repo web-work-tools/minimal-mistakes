@@ -3,11 +3,6 @@ title: "Minimal-Mistakes-Jekyll - Setup and Configuration"
 description: "Contributing to the websites of DIDecentral via GitHub, Jekyll and Minimal Mistakes."
 excerpt: >
   This is to help anyone to understand how we're using Minimal Mistakes to publish this and other web-sites. For contributors, or your own use, outside of this organization.
-header:
-  image: /assets/images/minimal-mistakes-quickstart-header.png
-  teaser: /assets/images/minimal-mistakes-teaser.png
-  og_image: /assets/images/minimal-mistakes-teaser.png
-  caption: "Minimal Mistakes Setup and [Quick-Start](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)."
 tags: 
   - Configuration
   - Minimal Mistakes
@@ -18,9 +13,8 @@ authors:
   - "<a href='https://infominer.id'>Infominer</a>"
   - "<a href='https://www.caballerojuan.com'>JuanSC</a>"
 permalink: contributors-guide/site-config/
-redirect_to: /how-to-contribute/website-config-minimal-mistakes/
-canonical_url: 'https://decentralized-id.com/how-to-contribute/website-config-minimal-mistakes/'
-categories: ["Contributors Guide","DIDecentral"]
+canonical_url: https://web-work.tools/minimal-mistakes/contributors-guide/site-config/
+categories: ["Contributors Guide"]
 published: true
 last_modified_at: 2019-07-14T11:22:33-23:00
 ---
@@ -297,42 +291,18 @@ title                    : "DIDecentral"
 title_separator          : "-"
 name                     : "DIDecentral"
 description              : "Community operations and social syndication archive for decentralized-id.com."
-url                      : "https://didecentral.com"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : didecentral/community-website
-github: [metadata] #enables access to your github metadata
+url                      : "https://web-work.tools"
+baseurl                  : /minimal-mistakes
+repository               : web-work-tools/minimal-mistakes
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : https://decentralized-id.com/images/DID.png
-masthead_title           : For Decentralized Sovereign Identification Online
+logo                     : https://web-work.tools/images/logo.png
+masthead_title           : Walkthroughs for a Community Webpage
 words_per_minute         : 200
 ```
 
 We just got set up with comments, and will add info here soon.
 
 ```yaml
-# Social Sharing
-twitter:
-  username               : didecentral
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider               : google
-  google:
-    tracking_id          : UA-132558656-3
-    anonymize_ip         : true
-
-
 # Site Author
 author:
   name             : "DIDecentral"
@@ -368,8 +338,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/didecentral"
-
-
 ```
 
 I just went to [fontawesome.com](https://fontawesome.com) and it's pretty simple to try and match above formula without thinking too deeply on the matter.
@@ -419,8 +387,8 @@ defaults:
        og_image: /assets/images/did-og.png #the image preview on twitter, discord, etc.
       sidebar:
         nav: "didnav"
-      toc: true
   # _pages
+      toc: true
   - scope:
       path: "_pages"
       type: pages
@@ -570,15 +538,18 @@ Then if you look up there in the front-matter defaults, you'll see where the nav
 ```yaml
 # main links
 main:
-  - title: "Decentralized-id.com"
-    url: https://decentralized-id.com
-  - title: "RWoT Papers Index"
-    url: https://didecentral.com/rwot-dir
-  - title: "Decentralized Web Histories"
-    url: https://sourcecrypto.pub/decentralized-web/
-  - title: "Static Sites for an IndieWeb"
-    url: https://web-work.tools/indieweb
-  
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Web-Work.Tools"
+    url: https://web-work.tools
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
 
 # DID Nav
 
@@ -589,25 +560,25 @@ didnav:
         url: /website-configuration/
       - title: Discord Archive Walktrhu
         url: /discord-archive-howto/
-  - title: DIDisco Archives
-    url: /didisco/
+  - title: Archives
+    url: /archives/
     children:
       - title: Resources
-        url: /didisco/resources/
+        url: /archives/resources/
       - title: Multi-Media
-        url: /didisco/multi-media/
+        url: /archives/multi-media/
       - title: Blockchain
-        url: /didisco/blockchain/
+        url: /archives/blockchain/
       - title: Organizations
-        url: /didisco/organizations/
+        url: /archives/organizations/
       - title: Public Sector
-        url: /didisco/public-sector/
+        url: /archives/public-sector/
       - title: Private Sector
-        url: /didisco/private-sector/
+        url: /archives/private-sector/
       - title: Tech
-        url: /didisco/tech/
+        url: /archives/tech/
       - title: Application
-        url: /didisco/application
+        url: /archives/application
 ```
 
 ## Social Share
