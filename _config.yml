@@ -20,13 +20,13 @@ title                    : "Learning Minimal Mistakes"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Infominer"
-description              : "A collection of contributors guides I made for a website I'm not running anymore."
+description              : "A collection of contributors guides I made for a website that I consolidated"
 url                      : https://web-work.tools
 baseurl                  : /minimal-mistakes
 repository               : web-work-tools/minimal-mistakes
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : https://web-work.tools/images/logo.png
-masthead_title           : Walkthroughs for a Community Webpage
+masthead_title           : Minimal Mistakes Walkthroughs 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:

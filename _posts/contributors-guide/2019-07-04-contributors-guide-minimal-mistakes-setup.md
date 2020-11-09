@@ -19,13 +19,9 @@ published: true
 last_modified_at: 2019-07-14T11:22:33-23:00
 ---
 
-I'm creating this resource while I do the initial setup so that DIDecentral, the Organization, has a guide to how its websites work. This will compliment [decentralized-id.com](https://decentralized-id.com), and support its co-creation.
+I was creating this with the idea of making it easier for people to contribute to the creation of [decentralized-id.com](https://decentralized-id.com). It didn't really work that way, but has been getting tons of trafic, which I decided to bring over to this web-work.tools domain, where I keep track of educational resources for deploying static sites, and beyond.
 
-This guide should make it easier for contributors to understand how this site works, or even for you to use this guide and create your own web-site!
-
-Granted, you don't *need* to know any of this to participate with and contribute to this resource. I'm sharing this here, for anyone who wants to see how this site works.
-
-Soon, there will other guides that simplify onboarding, so that anyone can contribute to this resource, via their preferred social platform.
+Some of the setup of this site may not be exactly as described here, because of that transition.
 
 ## Why Minimal Mistakes?
 
@@ -33,23 +29,16 @@ Generally speaking, I like to use and learn know a variety of [static site gener
 
 However, I've used Minimal Mistakes to publish large websites and small web-sites. It really works. It works well. Even before you know how to use all of it's features, its a really reliable framework.
 
-It supports an incredible variety of functions that simply work. So for building public-domain educational resources, it makes sense for me to stick with what's tried and true.  I've tried to find other themes that offer a comprable feature set, and it's not easy.
+It supports an incredible variety of functions that simply work. For building public-domain educational resources, it makes sense for me to stick with what's tried and true.  I've tried to find other themes that offer a comprable feature set, and it's not easy.
 
-Much respect to [Michael Rose](https://mademistakes.com/)!! 
-
-I've used a few of his themes; they are well put together, often ported to other SSGs besides Jekyll, and really a class of their own when it comes to Jekyll themes.
+Much appreciation to [Michael Rose](https://mademistakes.com/)!! 
 
 ## Getting Started
 
 * [Minimal-Mistakes Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+* [web-work-tools/minimal-mistakes](https://github.com/web-work-tools/minimal-mistakes) (source repository for this website)
 * [GitHub Pages Starter Pack](https://web-work.tools/github-pages-starter-pack)
-
-You shouldn't need the above for our imediate purposes, but will likely find them useful at some point.
-
 * [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/)
-* [didecentral/decentralized-id.com](https://github.com/didecentral/decentralized-id.com)
-* [didecentral/community-website](https://github.com/didecenral/didecentral.github.io)
-
 
 ### Pre-requisites
 
@@ -58,8 +47,6 @@ You must have installed [Git](https://web-work.tools/command-line-git-ssh/),` an
 I'll also recommend using [VSCode](https://web-work.tools/content-creation/), because it's fully integrated with `git`, so that you don't have to worrying about learning git commands.
 
 Also, I usually create a new repository on github, first. Then I clone it locally, again, avoiding the terminal. Meaning we can learn git in more depth, at our leisure.
-
-Feel free to [ask in chat](https://discord.gg/eYm2XvZ) if you have any questions.
 
 ### [Site Structure](https://mmistakes.github.io/minimal-mistakes/docs/structure/)
 
@@ -160,7 +147,7 @@ minimal-mistakes
 ```yaml
 $link-color: red;
 ```
-### [_variables.scss](https://github.com/infominer33/infominer33.github.io/blob/master/_sass/minimal-mistakes/_variables.scss)
+### [_variables.scss](https://github.com/web-work-tools/minimal-mistakes/blob/master/_sass/minimal-mistakes/_variables.scss)
 
 
 There are a number of other variables, you may find by following the link. These are the variables I have changed, so far. Before messing with CSS please check the variables, to be sure you aren't doing too much work!
@@ -233,9 +220,7 @@ I've moved /docs and /test to /example-site, and added .git, since we're cloning
 
 ![](https://imgur.com/FAXK5SK.png)
 
-I might delete some of the layouts and includes, later. test push I'm pretty sure all I need is a `gem-file` and `_config.yml`. The Gem Install means that GitHub will use a Ruby Gem Package that contains everything needed to run the website. You only need the files that you want to customize or configure somehow. For me, I usually need to change the head, and footer, as well as the social share, but I also change the home layout.. well you see it's easier to just have them all to begin with, and later remove a few that I don't need.
-
-Since I don't know hardly anything about CSS, some contributors might want to work on that, and I will learn eventually, so I want those.
+I might delete some of the layouts and includes, later. test push I'm pretty sure all I need is a `gem-file` and `_config.yml`. The Gem Install means that GitHub will use a Ruby Gem Package that contains everything needed to run the website. You only need the files that you want to customize or configure somehow. For me, I usually need to change the head, and footer, as well as the social share, but I also change the home layout. It's much easier to learn how the site works with all the files in one place.
 
 ### Gemfile
 
@@ -318,10 +303,10 @@ author:
       url: "https://decentralized-id.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/didecentral"
+      url: "https://twitter.com/decentralizeid"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/didecentral"
+      url: "https://github.com/decentralized-id"
 
 # Site Footer
 footer:
@@ -334,10 +319,10 @@ footer:
       url: "https://decentralized-id.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/didecentral"
+      url: "https://twitter.com/decentralizeid"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/didecentral"
+      url: "https://github.com/decentralized-id"
 ```
 
 I just went to [fontawesome.com](https://fontawesome.com) and it's pretty simple to try and match above formula without thinking too deeply on the matter.
@@ -531,7 +516,7 @@ defaults:
 
 ## Navigation
 
-[_data/navigation.yml](https://github.com/didecentral/community-website/blob/master/_data/navigation.yml)
+[_data/navigation.yml](https://github.com/web-work-tools/minimal-mistakes/blob/master/_data/navigation.yml)
 
 Then if you look up there in the front-matter defaults, you'll see where the navigation is called as a part of the sidebar class.
 
@@ -585,12 +570,12 @@ didnav:
 
 This is the code that makes social share and donation button on each page. The Bitcoin, Tippin.me, and DOGE addresses are specific for DIDecentral, and currently under @infominer33's control.
 
-[_includes/social-share.html](https://github.com/didecentral/community-website/blob/master/_includes/social-share.html)
+[_includes/social-share.html](https://github.com/web-work-tools/minimal-mistakes/blob/master/_includes/social-share.html)
 
 ```html
 {% raw %}
 <section class="page__share">
-<h2><a href="https://github.com/didecentral/decentralized-id.com/blob/master/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></h2>
+<h2><a href="https://github.com/web-work-tools/minimal-mistakes/blob/master/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></h2>
 <h3>Social Share</h3>
 <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
@@ -625,7 +610,7 @@ This is the code that makes social share and donation button on each page. The B
 
 **Reddit Button**
 
-[_sass/minimal-mistakes/_buttons.scss](https://github.com/didecentral/community-website/blob/master/_sass/minimal-mistakes/_buttons.scss)
+[_sass/minimal-mistakes/_buttons.scss](https://github.com/web-work-tools/minimal-mistakes/blob/master/_sass/minimal-mistakes/_buttons.scss)
 
 If you copy that part to get the reddit button included with the others, you might find that you are missing the actual button.
 
@@ -647,7 +632,7 @@ just head over to buttons.css :rofl: (idk why that's so funny to me)
   (reddit, $reddit-color);
 ```
 
-Because the Reddit Color is already defined in [_variables.scss](https://github.com/didecentral/community-website/blob/master/_sass/minimal-mistakes/_variables.scss), all you need to do is reference it here.
+Because the Reddit Color is already defined in [_variables.scss](https://github.com/web-work-tools/minimal-mistakes/blob/master/_sass/minimal-mistakes/_variables.scss), all you need to do is reference it here.
 
 ## Author vs Authors
 
@@ -682,7 +667,7 @@ Every post and page should have these, but I'm used to being the only author, so
 
 This was really crudely hacked together from the other lists in this section.
 
-[_includes/authors-list.html](https://github.com/infominer33/didecentral.github.io/blob/master/_includes/authors-list.html)
+[_includes/authors-list.html](https://github.com/web-work-tools/minimal-mistakes/blob/master/_includes/authors-list.html)
 
 ```html
 {% raw %}
@@ -709,7 +694,7 @@ This was really crudely hacked together from the other lists in this section.
 
 ```
 
-[/_includes/page__taxonomy.html](https://github.com/infominer33/infominer33.github.io/blob/master/_includes/page__taxonomy.html)
+[/_includes/page__taxonomy.html](https://github.com/web-work-tools/minimal-mistakes/blob/master/_includes/page__taxonomy.html)
 
 Also, I added this line to the page taxonomy:
 
